@@ -1,2 +1,3201 @@
--- This script was generated using the MoonVeil Obfuscator v1.4.5 [https://moonveil.cc]
-local I,ib,Vc,h,ia,Dd=getmetatable,bit32.bxor,type,pairs local mc,Je,a_,ka,Ab,Xe,ic,ac,j,ud,U,id,Ve,gd,wb,Yc,xf,fd,p,Pf,Ib,ee,yc,ja,Td,Id,ea,ge,zb,Df,Qd,Ub,ab,Wc,ma,gf,lb,gc,A,Te,Ke,ue,Ce,uf;ea=(getfenv());zb,j,ma=(string.char),(string.byte),(bit32 .bxor);Pf=function(dc,Lb)local Vd,Rf,pe,uc,X,Qb,cc,Ze;Vd,Rf={},function(sf,nb,dd)Vd[dd]=ib(sf,34212)-ib(nb,43201)return Vd[dd]end;Qb=Vd[31590]or Rf(22997,13051,31590)while Qb~=57977 do if Qb>54509 then if Qb<=54800 then Ze=Ze+cc;X=Ze if Ze~=Ze then Qb=Vd[-5752]or Rf(109344,51415,-5752)else Qb=Vd[12520]or Rf(106193,39322,12520)end else if(cc>=0 and Ze>uc)or((cc<0 or cc~=cc)and Ze<uc)then Qb=Vd[19049]or Rf(100400,38887,19049)else Qb=54509 end end elseif Qb<=52846 then if Qb<=35551 then if Qb<=16951 then pe='';uc,cc,Qb,Ze=(#dc-1)+200,1,35551,200 else X=Ze if uc~=uc then Qb=52846 else Qb=59930 end end else return pe end else pe,Qb=pe..zb(ma(j(dc,(X-200)+1),j(Lb,(X-200)%#Lb+1))),Vd[22888]or Rf(131042,3319,22888)end end end;lb=(select);Te=(function(...)return{[1]={...},[2]=lb('#',...)}end);fd=((function()local function fe(sc,Ka,u_)if Ka>u_ then return end return sc[Ka],fe(sc,Ka+1,u_)end return fe end)());ge,yc=(string.gsub),(string.char);Id=(function(Tc)Tc=ge(Tc,'[^ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=]','')return(Tc:gsub('.',function(zf)if(zf=='=')then return''end local _a,qa='',(('ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'):find(zf)-1)for qd=6,1,-1 do _a=_a..(qa%2^qd-qa%2^(qd-1)>0 and'1'or'0')end return _a end):gsub('%d%d%d?%d?%d?%d?%d?%d?',function(Ue)if(#Ue~=8)then return''end local pf=0 for Fe=1,8 do pf=pf+(Ue:sub(Fe,Fe)=='1'and 2^(8-Fe)or 0)end return yc(pf)end))end);Ib,A,ud,Xe,ue,a_,ac,ka=ea[Pf('r<\236h&\249','\1H\158')][Pf('\b\48[\28=@','}^+')],ea[Pf('+\179\181\49\169\160','X\199\199')][Pf('\131\133\146','\240')],ea[Pf('\174\15A\180\21T','\221{3')][Pf('\25\138\15\150','{\243')],ea[Pf('\165\52\179n\245','\199]')][Pf('\190\51o\187&s','\210@\a')],ea[Pf('\205N\219\20\157',"\175\'")][Pf('I\14\190R\27\162',';}\214')],ea[Pf("w\19aI\'",'\21z')][Pf('\f\227\0\230','n\130')],ea[Pf('$\178\50\191\53','P\211')][Pf('\196\173_\196\163E','\167\194\49')],{};Ke=(function(T)local Cd=ka[T]if Cd then return Cd end local Yd,hb,ve,Qa,b_=Xe(1,11),Xe(1,5),1,{},''while ve<=#T do local wd=ud(T,ve);ve=ve+1 for lc=194,(8)+193 do local Fc=nil if not(a_(wd,1)~=0)then if ve+1<=#T then local ke=Ib(Pf('$S(','\26'),T,ve);ve=ve+2 local x,Va=#b_-ue(ke,5),a_(ke,(hb-1))+3;Fc=A(b_,x,x+Va-1)end else if ve<=#T then Fc=A(T,ve,ve);ve=ve+1 end end wd=ue(wd,1)if Fc then Qa[#Qa+1]=Fc;b_=A(b_..Fc,-Yd)end end end local xe=ac(Qa);ka[T]=xe return xe end);gc=(function()local ga,Pb,ef,ae,hd,Oc,Db,ba,qc,rb,D,aa=ea[Pf('\146a\132;\194','\240\b')][Pf('h\22e\28','\nn')],ea[Pf('u\133c\223%','\23\236')][Pf('\208R\220W','\178\51')],ea[Pf('Z\vLQ\n','8b')][Pf('EHU',"\'")],ea[Pf('=\198+\156m','_\175')][Pf('W-iR8u',';^\1')],ea[Pf('E\172S\246\21',"\'\197")][Pf('=(>&=\"','O[V')],ea[Pf('N\167\aT\189\18','=\211u')][Pf('\131\133\146','\240')],ea[Pf('\14}H\20g]','}\t:')][Pf('\15:\28\48','\127[')],ea[Pf('\t.w\19\52b','zZ\5')][Pf('\171\160\202\191\173\209','\222\206\186')],ea[Pf('+\139\147\49\145\134','X\255\225')][Pf('\31\b\29','m')],ea[Pf('YpO}H','-\17')][Pf('ejv\96','\21\v')],ea[Pf('[\96MmJ','/\1')][Pf('\253>\21\233\51\14','\136Pe')],ea[Pf('dIrDu','\16(')][Pf('\225\227=\237\255:','\136\141N')]local function k(Hf,l_,Ld,Ea,od)local g,Mb,qe,yb=Hf[l_],Hf[Ld],Hf[Ea],Hf[od]local xd;g=Pb(g+Mb,4294967295);xd=ga(yb,g);yb=Pb(ef(ae(xd,16),hd(xd,16)),4294967295);qe=Pb(qe+yb,4294967295);xd=ga(Mb,qe);Mb=Pb(ef(ae(xd,12),hd(xd,20)),4294967295);g=Pb(g+Mb,4294967295);xd=ga(yb,g);yb=Pb(ef(ae(xd,8),hd(xd,24)),4294967295);qe=Pb(qe+yb,4294967295);xd=ga(Mb,qe);Mb=Pb(ef(ae(xd,7),hd(xd,25)),4294967295);Hf[l_],Hf[Ld],Hf[Ea],Hf[od]=g,Mb,qe,yb return Hf end local Sa,Ye={0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0},{0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0}local J=function(Ga,Gf,Qe)Sa[1],Sa[2],Sa[3],Sa[4]=1454375528,1056443181,2124550853,3574096613 for _e=150,(8)+149 do Sa[(_e-149)+4]=Ga[(_e-149)]end Sa[13]=Gf for ed=225,(3)+224 do Sa[(ed-224)+13]=Qe[(ed-224)]end for pd=91,(16)+90 do Ye[(pd-90)]=Sa[(pd-90)]end for ec=176,(10)+175 do k(Ye,1,5,9,13);k(Ye,2,6,10,14);k(Ye,3,7,11,15);k(Ye,4,8,12,16);k(Ye,1,6,11,16);k(Ye,2,7,12,13);k(Ye,3,8,9,14);k(Ye,4,5,10,15)end for Wd=98,(16)+97 do Sa[(Wd-97)]=Pb(Sa[(Wd-97)]+Ye[(Wd-97)],4294967295)end return Sa end local function s_(Ef,Rd,Ja,d_,vd)local Qc=#d_-vd+1 if not(Qc<64)then else local Ae=Oc(d_,vd);d_=Ae..qc(Pf('\242','\242'),64-Qc);vd=1 end ea[Pf('\203\136\195\207\137\196','\170\251\176')](#d_>=64)local Nd,fc=rb(ba(Pf('{\134\56\194V\130\205jZ\153\164\240\186@\239\175s\134\56\194V\130\205jZ\153\164\240\186@\239\175s','G\207\f\139b\203\249#n\208\144\185\142\t\219\230'),d_,vd)),J(Ef,Rd,Ja)for Ua=131,(16)+130 do Nd[(Ua-130)]=ga(Nd[(Ua-130)],fc[(Ua-130)])end local ta=Db(Pf(';\173\129F\164\139\146\0\127\132\19/M\204\163V3\173\129F\164\139\146\0\127\132\19/M\204\163V3',"\a\228\181\15\144\194\166IK\205\'fy\133\151\31"),D(Nd))if Qc<64 then ta=Oc(ta,1,Qc)end return ta end local function le(Kd)local Rb=''for Na=106,(#Kd)+105 do Rb=Rb..Kd[(Na-105)]end return Rb end local function xc(qf,Ff,vb,t_)local pb,W,jc,Ia=rb(ba(Pf('\179=\168\54>\207\151-\187=\168\54>\207\151-\187','\143t\156\127\n\134\163d'),qf)),rb(ba(Pf('MJ>87CE','q\3\n'),vb)),{},1 while Ia<=#t_ do aa(jc,s_(pb,Ff,W,t_,Ia));Ia=Ia+64;Ff=Ff+1 end return le(jc)end return function(we,Qf,ne)return xc(ne,0,Qf,we)end end)();ja=(function()local wa,Jd,O,_d,if_,E,Nb,r_,Ca,C,oe=ea[Pf('\154-\140w\202','\248D')][Pf('\235\130\230\152','\137\236')],ea[Pf('\251\22\237L\171','\153\127')][Pf('\136\205\133\199','\234\181')],ea[Pf('\137\159\159\197\217','\235\246')][Pf('\163e\137\184p\149','\209\22\225')],ea[Pf('7y!#g','U\16')][Pf('\244\248\6\241\237\26','\152\139n')],ea[Pf('$02jt','FY')][Pf('-\96!e','O\1')],ea[Pf('\30\135\b\221N','|\238')][Pf('\252\241\236','\158')],ea[Pf('\\\240J\253M','(\145')][Pf('\206y\156\194e\155','\167\23\239')],ea[Pf('\180\176\162\189\165','\192\209')][Pf('\165Zs\177Wh','\208\52\3')],ea[Pf('\208\229g\202\255r','\163\145\21')][Pf('\196\211\198','\182')],ea[Pf('\147Lv\137Vc','\224\56\4')][Pf('\134Z\132@','\229\50')],ea[Pf('3\239l)\245y','@\155\30')][Pf('v\139\96\151','\20\242')]local function Bc(Ha,Fd)local fa_,Bf=O(Ha,Fd),_d(Ha,32-Fd)return if_(E(fa_,Bf),4294967295)end local f_=function(cb)local Od={1116352408,1899447441,3049323471,3921009573,961987163,1508970993,2453635748,2870763221,3624381080,310598401,607225278,1426881987,1925078388,2162078206,2614888103,3248222580,3835390401,4022224774,264347078,604807628,770255983,1249150122,1555081692,1996064986,2554220882,2821834349,2952996808,3210313671,3336571891,3584528711,113926993,338241895,666307205,773529912,1294757372,1396182291,1695183700,1986661051,2177026350,2456956037,2730485921,2820302411,3259730800,3345764771,3516065817,3600352804,4094571909,275423344,430227734,506948616,659060556,883997877,958139571,1322822218,1537002063,1747873779,1955562222,2024104815,2227730452,2361852424,2428436474,2756734187,3204031479,3329325298}local function Fb(Le)local ha=#Le local Kf=ha*8;Le=Le..Pf('\227','c')local Ba=64-((ha+9)%64)if Ba~=64 then Le=Le..Ca(Pf(' ',' '),Ba)end Le=Le..C(if_(O(Kf,56),255),if_(O(Kf,48),255),if_(O(Kf,40),255),if_(O(Kf,32),255),if_(O(Kf,24),255),if_(O(Kf,16),255),if_(O(Kf,8),255),if_(Kf,255))return Le end local function K(tb)local td={}for Be=57,(#tb)+56,64 do Nb(td,tb[Pf('\168\174\185','\219')](tb,(Be-56),(Be-56)+63))end return td end local function he(Z,Pa)local Ma={}for Xb=201,(64)+200 do if not((Xb-200)<=16)then local Eb,Nc=Jd(Bc(Ma[(Xb-200)-15],7),Bc(Ma[(Xb-200)-15],18),O(Ma[(Xb-200)-15],3)),Jd(Bc(Ma[(Xb-200)-2],17),Bc(Ma[(Xb-200)-2],19),O(Ma[(Xb-200)-2],10));Ma[(Xb-200)]=if_(Ma[(Xb-200)-16]+Eb+Ma[(Xb-200)-7]+Nc,4294967295)else Ma[(Xb-200)]=E(_d(oe(Z,((Xb-200)-1)*4+1),24),_d(oe(Z,((Xb-200)-1)*4+2),16),_d(oe(Z,((Xb-200)-1)*4+3),8),oe(Z,((Xb-200)-1)*4+4))end end local Of,Cc,Gc,te,Zd,hc,Jc,c=r_(Pa)for me=99,(64)+98 do local sa,rd=Jd(Bc(Zd,6),Bc(Zd,11),Bc(Zd,25)),Jd(if_(Zd,hc),if_(wa(Zd),Jc))local xb,Kb,de=if_(c+sa+rd+Od[(me-98)]+Ma[(me-98)],4294967295),Jd(Bc(Of,2),Bc(Of,13),Bc(Of,22)),Jd(if_(Of,Cc),if_(Of,Gc),if_(Cc,Gc))local N=if_(Kb+de,4294967295);c=Jc;Jc=hc;hc=Zd;Zd=if_(te+xb,4294967295);te=Gc;Gc=Cc;Cc=Of;Of=if_(xb+N,4294967295)end return if_(Pa[1]+Of,4294967295),if_(Pa[2]+Cc,4294967295),if_(Pa[3]+Gc,4294967295),if_(Pa[4]+te,4294967295),if_(Pa[5]+Zd,4294967295),if_(Pa[6]+hc,4294967295),if_(Pa[7]+Jc,4294967295),if_(Pa[8]+c,4294967295)end cb=Fb(cb)local Sb,cd,Rc=K(cb),{1779033703,3144134277,1013904242,2773480762,1359893119,2600822924,528734635,1541459225},''for Ne,tc in ea[Pf('\163u\181\163w\167','\202\5\212')](Sb)do cd={he(tc,cd)}end for Ee,ad in ea[Pf("\'\163\194\'\161\208",'N\211\163')](cd)do Rc=Rc..C(if_(O(ad,24),255));Rc=Rc..C(if_(O(ad,16),255));Rc=Rc..C(if_(O(ad,8),255));Rc=Rc..C(if_(ad,255))end return Rc end return f_ end)()local zc,jf,Cb,H,Fa,v,Lc,Xd,re_,mf,Ec,lf,Ob,B,ze,G,M,Ge,be,S,sd,kc,Pc,_b,pa,da,Wb,Ra,q,kb=ea[Pf('\193X\197D','\181!')],ea[Pf('S_BPO','#<')],ea[Pf('P\tG\20G','5{')],ea[Pf('U\225\21\139L\236\30\140','!\142{\254')],ea[Pf('S\aEW\6B','2t6')],ea[Pf('\194\15\224\212\t\248','\177j\140')],ea[Pf('(\25\0\54j\173:\b\21\57c\188','[|t[\15\217')],ea[Pf('q\172\158k\182\139','\2\216\236')][Pf('\201\195\170\194\205\172','\175\172\216')],ea[Pf('N\155\96T\129u','=\239\18')][Pf('\185\218\235\173\215\240','\204\180\155')],ea[Pf('\30)Q\4\51D','m]#')][Pf('\236\234\253','\159')],ea[Pf('\157i\5\135s\16','\238\29w')][Pf('\135\218\145\198','\229\163')],ea[Pf('U\29\54O\a#','&iD')][Pf('\245\243\247\233','\150\155')],ea[Pf('j~|s{','\30\31')][Pf('\5#\30)','hL')],ea[Pf('\0k\22f\17','t\n')][Pf('\132p\151z','\244\17')],ea[Pf("\'U1X6",'S4')][Pf('*\172\224(\170\224','I\222\133')],ea[Pf('.\3\56\14?','Zb')][Pf('e\254\159i\226\152','\f\144\236')],ea[Pf('e\179s\190t','\17\210')][Pf('|\a\14|\t\20','\31h\96')],ea[Pf('\178\190\55k\164\165,j\180','\209\209E\4')][Pf('\n\215\154\b\209\154','i\165\255')],ea[Pf('\28K\1^\nP\26_\26','\127$s1')][Pf('\234H\246M\247','\147!')],ea[Pf('\141{\234\16\155\96\241\17\139','\238\20\152\127')][Pf('\96$eg,s','\18A\22')],ea[Pf('a\21\24?w\14\3>g','\2zjP')][Pf('\255a\243~\249','\156\r')],ea[Pf('\254\228\254\255\228\228\239','\153\129\138')],ea[Pf('}\175k\245-','\31\198')][Pf('0= ','R')],ea[Pf('\250\96\236:\170','\152\t')][Pf('\181\172\184\166','\215\212')],ea[Pf('\218\142\204\212\138','\184\231')][Pf('\15(\3-','mI')],ea[Pf('m2{h=','\15[')][Pf('\165^\162Y\179','\199*')],ea[Pf('E\181S\239\21',"\'\220")][Pf('\187\185\25\160\172\5','\201\202q')],ea[Pf('\27\177\r\235K','y\216')][Pf('\211\246\226\214\227\254','\191\133\138')],ea[Pf('E\133S\223\21',"\'\236")][Pf('\a_\235\16F\252\22',"b\'\159")],{[28347]={},[26641]={},[38102]={{2,7,false},{6,1,true},{2,6,true},{2,0,false},{7,0,true},{4,7,false},{2,4,false},{7,8,false},{7,8,true},{2,7,false},{9,7,false},{6,7,false},{2,7,false},{9,1,false},{6,8,false},{6,10,false},{4,1,false},{9,2,true},{1,2,false},{9,7,false},{4,8,false},{4,1,false},{2,7,false},{4,10,true},{2,6,false},{2,6,true},{9,7,false},{9,10,true},{2,4,false},{2,7,false},{2,7,false},{2,5,true},{2,4,false},{9,7,false},{9,7,false},{2,8,false},{1,7,false},{6,1,false},{4,7,true},{2,7,false},{6,6,true},{4,7,true},{6,7,false},{6,6,false},{2,7,false},{1,8,false},{7,6,true},{6,8,false},{2,7,false},{2,3,false},{7,10,false},{2,6,true},{6,1,true},{7,6,true},{1,3,true},{6,7,false},{9,7,false},{2,2,false},{2,6,false},{6,3,false},{1,2,false},{7,8,false},{9,7,false},{9,7,false},{7,10,true},{6,10,true},{2,4,false},{9,3,false},{4,10,true},{9,3,true},{4,10,true},{4,10,true},{4,6,true},{9,10,true},{2,6,true},{7,8,false},{2,7,false},{2,7,false},{2,1,false},{2,6,true},{6,10,false},{1,3,false},{9,6,false},{2,8,false},{4,0,true},{1,2,true},{7,10,false},{1,7,true},{6,10,false},{7,3,true},{2,7,true},{2,7,true},{6,5,false},{2,7,false},{6,3,false},{1,0,true},{9,7,true},{2,5,true},{9,5,false},{1,5,false},{9,7,false},{2,7,true},{2,7,false},{1,5,false},{2,7,false},{6,10,true},{4,7,false},{6,6,true},{7,3,false},{6,7,true},{7,10,false},{1,3,true},{2,6,true},{9,3,true},{2,7,true},{9,7,true},{7,6,false},{2,3,true},{1,7,true},{9,2,true},{4,2,true},{9,0,false},{1,7,true},{2,7,false},{9,7,false},{9,7,true},{2,0,false},{9,2,true},{9,5,false},{2,7,false},{7,8,true},{4,0,false},{1,6,true},{1,9,false},{1,1,true},{4,7,true},{2,7,false},{9,7,false},{7,5,false},{2,1,false},{6,10,true},{7,6,true},{1,10,true},{6,0,false},{9,10,true},{2,7,false},{9,3,true},{1,5,true},{1,1,false},{2,5,false},{6,7,false},{2,1,false},{1,7,false},{4,1,false},{2,6,true},{9,5,false},{1,1,true},{6,1,true},{9,3,true},{9,10,true},{1,2,false},{2,1,false},{9,10,true},{2,7,false},{9,7,true},{9,8,true},{2,7,false},{2,5,false},{1,10,true},{9,8,true},{9,3,true},{6,2,false},{9,7,false},{2,1,true},{1,7,true},{9,6,true},{7,7,false},{1,1,false},{2,7,false},{2,0,false},{4,1,true},{9,5,false},{4,10,false},{4,1,false},{1,7,false},{2,1,false},{4,1,false},{4,7,false},{2,7,false},{9,6,false},{4,6,true},{7,5,false},{2,1,false},{2,7,false},{4,5,false},{9,1,true},{2,7,false},{7,10,true},{7,8,false},{6,5,false},{2,1,true},{2,5,false},{4,6,true},{9,7,false},{7,1,false},{6,0,true},{7,5,true},{6,7,false},{4,0,true},{4,6,false},{2,6,true},{2,3,true},{2,0,false},{4,10,false},{6,8,false},{2,4,false},{9,10,true},{9,7,true},{2,7,false},{4,3,true},{1,5,false},{1,5,false},{6,1,false},{2,7,false},{9,8,true},{9,7,true},{1,2,false},{2,6,true},{2,7,false},{1,10,false},{2,2,true},{1,7,true},{2,7,false},{4,6,true},{1,3,false},{7,8,true},{2,3,true},{2,3,false},{7,7,false},{7,10,true},{2,6,true},{9,5,false},{9,5,false},{2,7,true},{9,0,true},{1,7,false},{2,7,false},{6,0,true},{2,7,false},{2,7,false},{4,7,false},{2,0,false},{2,3,true},{2,10,false},{4,10,false},{4,8,true}}}local Zc=(function(va)local i_=kb[26641][va]if i_ then return i_ end local ld=1 local function vc()local tf,Nf,ya,Bd,R,nf,md,We,Pe,Bb,Zb,ra,ob,Wa,Ad,oa,Cf,kd,Ie,He,Jf,Gb,Oe,Hd,Ta,eb,Aa,Da,wf,bb,m,w_;w_,wf={},function(qb,y,yf)w_[yf]=ib(y,2396)-ib(qb,50128)return w_[yf]end;md=w_[16208]or wf(44365,52929,16208)while md~=60003 do if md<35086 then if md<13495 then if md>=8387 then if md<11811 then if md>=9594 then if md<10414 then if md>9594 then Bb=re_(Pf('\147','\209'),va,ld);md,ld=w_[-26467]or wf(5839,55007,-26467),ld+1 else Wa=Wa+ra;Hd=Wa if Wa~=Wa then md=23189 else md=37957 end end elseif md<=10414 then ob=Hd if Ad~=Ad then md=w_[-17851]or wf(40224,86275,-17851)else md=w_[7802]or wf(54562,14375,7802)end else md,Ta=w_[26123]or wf(13794,88680,26123),nil end elseif md<8893 then if md>8387 then bb=Ta if bb==0 then md=w_[10390]or wf(52087,62650,10390)continue else md=w_[-24060]or wf(61581,37765,-24060)continue end md=w_[13196]or wf(56322,16873,13196)else Ad[3351],md=We[Ad[30239]+1],w_[1635]or wf(26002,85384,1635)end elseif md>8893 then md=w_[25489]or wf(43470,31617,25489)continue else He=re_(Pf('\175\218\167','\147'),va,ld);ld,md=ld+4,w_[-11115]or wf(47134,86846,-11115)end elseif md>=12652 then if md>=13304 then if md>=13365 then if md<=13365 then Ad[3351],md=We[Ad[60568]+1],w_[3704]or wf(9840,101742,3704)else ra,md=nil,16878 end else Ad=Hd;eb=Pc(eb,Ra(pa(Ad,127),(ra-133)*7))if(not da(Ad,128))then md=w_[30801]or wf(7663,104061,30801)continue else md=w_[-24994]or wf(50822,41292,-24994)continue end md=w_[332]or wf(56252,45690,332)end elseif md<=12652 then md,Bb=w_[-23703]or wf(34690,22473,-23703),nil else Zb=ra if Hd~=Hd then md=w_[-24810]or wf(23974,44649,-24810)else md=5092 end end elseif md<=12284 then if md<11956 then Ad[3351],md=We[Ad[11858]+1],w_[-4028]or wf(18356,76714,-4028)elseif md<=11956 then md=w_[17594]or wf(521,81524,17594)continue else ra,md=_b(Hd,336635268),55982 continue end else Hd=Wa if nf~=nf then md=w_[-868]or wf(30366,108838,-868)else md=44803 end end elseif md>3665 then if md>6793 then if md>7815 then Ie,md=nil,9611 elseif md<=7189 then Hd=Hd+Zb;ob=Hd if Hd~=Hd then md=63855 else md=w_[-12699]or wf(817,53814,-12699)end else Ad[3351],md=q(Ad[60568],0,16),w_[1605]or wf(38364,64962,1605)end elseif md<5092 then if md>4386 then md,Cf=44038,Te(nil)else Bb=Ie;Ta=Pc(Ta,Ra(pa(Bb,127),(R-77)*7))if(not da(Bb,128))then md=w_[32236]or wf(28308,42542,32236)continue else md=w_[17554]or wf(39830,28018,17554)continue end md=w_[27284]or wf(21584,43572,27284)end elseif md<=6723 then if md<=5092 then if(Ad>=0 and ra>Hd)or((Ad<0 or Ad~=Ad)and ra<Hd)then md=w_[12361]or wf(57345,9676,12361)else md=w_[22084]or wf(6070,77493,22084)end else Da=re_(Pf('\193','\131'),va,ld);ld,md=ld+1,61852 end else if(Zb>=0 and Hd>Ad)or((Zb<0 or Zb~=Zb)and Hd<Ad)then md=63855 else md=47199 end end elseif md>2239 then if md<3240 then if md<=2660 then Ie,md=_b(Bb,22),4386 continue else bb=bb+He;R=bb if bb~=bb then md=w_[-30072]or wf(33516,37584,-30072)else md=39873 end end elseif md<=3240 then if(Ta)then md=w_[-1490]or wf(45924,52774,-1490)continue else md=w_[20790]or wf(37154,77226,20790)continue end md=w_[-19018]or wf(50834,56858,-19018)else if Zb==1 then md=w_[7648]or wf(23056,46047,7648)continue elseif Zb==8 then md=w_[4372]or wf(1204,67788,4372)continue elseif Zb==0 then md=w_[-27349]or wf(64517,78722,-27349)continue elseif(Zb==4)then md=w_[14780]or wf(51909,17490,14780)continue else md=w_[12959]or wf(50884,59460,12959)continue end md=w_[3792]or wf(53699,47609,3792)end elseif md>818 then if md>1658 then md,Wa=29255,_b(nf,-434902922)continue else md,Aa=w_[-17698]or wf(50388,19371,-17698),_b(Jf,22)continue end elseif md<558 then ra=ra+Ad;Zb=ra if ra~=ra then md=w_[1582]or wf(2917,55336,1582)else md=5092 end elseif md<=558 then md=w_[-16145]or wf(62968,39204,-16145)continue else Cf=re_(Pf('=','\127'),va,ld);md,ld=30611,ld+1 end elseif md<=23120 then if md<=17401 then if md<15347 then if md>=14892 then if md<15008 then Ad[3351]=q(Ad[60568],0,1)==1;md,Ad[13687]=w_[14609]or wf(14858,102704,14609),q(Ad[60568],31,1)==1 elseif md<=15008 then md,m=w_[10455]or wf(10131,89282,10455),nf else ob=Ad[60568];Cf,Ta=Wb(ob,30),pa(Wb(ob,20),1023);Ad[3351]=We[Ta+1];Ad[55381]=Cf if Cf==2 then md=w_[10703]or wf(26479,72715,10703)continue elseif(Cf==3)then md=w_[21248]or wf(50326,46326,21248)continue else md=w_[-1168]or wf(33707,54865,-1168)continue end md=w_[-9129]or wf(29264,88398,-9129)end elseif md>13495 then Cf=ob;nf=Pc(nf,Ra(pa(Cf,127),(Zb-190)*7))if(not da(Cf,128))then md=w_[-15464]or wf(23589,52105,-15464)continue else md=w_[-13151]or wf(19767,34502,-13151)continue end md=w_[-25400]or wf(29529,47200,-25400)else Hd,md=_b(Ad,22),w_[-9917]or wf(30937,58973,-9917)continue end elseif md>16422 then if md>16878 then Ad[3351],md=We[Ad[46537]+1],w_[7223]or wf(55667,45161,7223)else Hd=re_(Pf('7B?','\v'),va,ld);ld,md=ld+4,w_[-23542]or wf(6450,66434,-23542)end elseif md<15616 then Jf,md,Pe=Aa,52469,nil elseif md>15616 then if(kd>=0 and Bd>m)or((kd<0 or kd~=kd)and Bd<m)then md=w_[-23915]or wf(6648,83499,-23915)else md=w_[634]or wf(54034,31250,634)end else md,ob=w_[2825]or wf(24584,91988,2825),fd(Cf[1],1,Cf[2])end elseif md<22214 then if md<21348 then if md>20421 then He=re_(Pf('\128','\227')..bb,va,ld);md,ld=w_[8319]or wf(41982,83820,8319),ld+bb else md,oa,ya=41959,Oe,nil end elseif md>21348 then md,ob=w_[12622]or wf(3812,55610,12622),nil else Wa=re_(Pf('\29','_'),va,ld);ld,md=ld+1,55985 end elseif md<22784 then if md>22214 then Ta=re_(Pf('\226\186','\222'),va,ld);ld,md=ld+8,w_[-27958]or wf(33247,65662,-27958)else Gb,md=nil,8893 end elseif md<=22784 then Aa,md=nil,w_[19505]or wf(22836,100022,19505)else Cf,md=Te(_b(Ta,-434902922)),15616 continue end elseif md<29019 then if md<=26025 then if md>24743 then if md>25228 then md,Ad=34156,_b(Zb,22)continue else md,We=w_[-17211]or wf(26637,63005,-17211),nil end elseif md>=23810 then if md<=23810 then bb=0;He,R,Gb,md=164,1,160,65035 else md,ob=w_[-27631]or wf(52186,56166,-27631),nil end else ra,md,Wa,nf=1,12435,116,(Nf)+115 end elseif md<=26584 then if md<=26492 then md,Gb=20847,nil else if m then md=w_[31581]or wf(53978,59358,31581)continue else md=w_[12847]or wf(7560,112885,12847)continue end md=w_[-22888]or wf(24263,67374,-22888)end else bb=pa(Wb(ob,10),1023);Ad[42234],md=We[bb+1],w_[12719]or wf(4631,96517,12719)end elseif md>30611 then if md>=32211 then if md>32211 then Zb=Ad if Zb==6 then md=w_[-12875]or wf(10449,104076,-12875)continue elseif(Zb==5)then md=w_[-14269]or wf(195,57144,-14269)continue else md=w_[-10294]or wf(19112,73823,-10294)continue end md=w_[-23206]or wf(45795,78399,-23206)else Da=Bb;bb=Pc(bb,Ra(pa(Da,127),(Ie-160)*7))if(not da(Da,128))then md=w_[25619]or wf(51632,67950,25619)continue else md=w_[18336]or wf(7071,115933,18336)continue end md=w_[6164]or wf(39814,83156,6164)end else Gb,He=pa(Wb(Hd,8),16777215),nil;He=if Gb<8388608 then Gb else Gb-16777216;bb[62326],md=He,w_[-16952]or wf(21419,38015,-16952)end elseif md<=30031 then if md>29255 then md,ya=w_[-6164]or wf(20818,90456,-6164),_b(Nf,-434902922)continue elseif md>29019 then nf=Wa;ra=ze(nf);Ad,Hd,md,Zb=(nf)+5,6,10414,1 else kd=kd+We;Wa=kd if kd~=kd then md=55239 else md=45452 end end elseif md<=30047 then if(R>=0 and Gb>He)or((R<0 or R~=R)and Gb<He)then md=w_[21943]or wf(27537,92662,21943)else md=w_[22544]or wf(14789,74461,22544)end else md,ob=w_[9860]or wf(23457,55792,9860),_b(Cf,22)continue end elseif md<=51062 then if md<43148 then if md>=39873 then if md<40843 then if md>=40512 then if md>40512 then Wa=Wa+ra;Hd=Wa if Wa~=Wa then md=w_[-10536]or wf(55,108111,-10536)else md=w_[-32715]or wf(42070,73685,-32715)end else Ad=re_(Pf('\215','\149'),va,ld);ld,md=ld+1,w_[-6577]or wf(33106,32357,-6577)end elseif md>39873 then Wa=We;Nf=Pc(Nf,Ra(pa(Wa,127),(eb-89)*7))if not da(Wa,128)then md=w_[26068]or wf(39725,36589,26068)continue end md=w_[16780]or wf(57333,48488,16780)else if(He>=0 and bb>Gb)or((He<0 or He~=He)and bb<Gb)then md=w_[-5032]or wf(18937,60709,-5032)else md=8096 end end elseif md<41658 then if md>40843 then Zb=re_(Pf('\141','\207'),va,ld);md,ld=26025,ld+1 else if Zb==4 then md=w_[22411]or wf(2217,75132,22411)continue elseif Zb==3 then md=w_[26144]or wf(56449,52865,26144)continue end md=w_[15134]or wf(31876,98520,15134)end elseif md<=41798 then if md>41658 then Hd,md=nil,40512 else We=We+nf;ra=We if We~=We then md=w_[-31415]or wf(38625,58240,-31415)else md=w_[30485]or wf(48058,74604,30485)end end else Nf=0;md,Bd,m,kd=62872,89,93,1 end elseif md<=38106 then if md>37576 then if md<=37957 then if(ra>=0 and Wa>nf)or((ra<0 or ra~=ra)and Wa<nf)then md=w_[-7253]or wf(24021,61894,-7253)else md=w_[32639]or wf(48086,88431,32639)end else ra=We if Wa~=Wa then md=w_[1666]or wf(59414,51245,1666)else md=45510 end end elseif md>=36783 then if md<=36783 then Ad=Bd[(Hd-115)];Zb=Ad[34794]if Zb==3 then md=w_[-7114]or wf(5820,72111,-7114)continue elseif Zb==6 then md=w_[-12805]or wf(20862,53183,-12805)continue elseif Zb==5 then md=w_[28672]or wf(47061,43892,28672)continue elseif(Zb==10)then md=w_[-31484]or wf(37293,30808,-31484)continue else md=w_[30120]or wf(13062,63099,30120)continue end md=w_[9565]or wf(62552,57158,9565)else tf,md,Oe=Pe,w_[13096]or wf(57443,71446,13096),nil end else ob,md=fd(Cf[1],1,Cf[2]),w_[-3847]or wf(35379,73039,-3847)end elseif md<=38927 then if md>38315 then Bd=Bd+kd;eb=Bd if Bd~=Bd then md=w_[-21303]or wf(60081,38892,-21303)else md=w_[5409]or wf(29084,64302,5409)end else md,kd=w_[-8377]or wf(13543,113883,-8377),_b(eb,-434902922)continue end else bb[46537]=pa(Wb(Hd,8),255);Gb=pa(Wb(Hd,16),65535);bb[9428]=Gb;He=nil;He=if Gb<32768 then Gb else Gb-65536;md,bb[11858]=w_[-7760]or wf(27970,45670,-7760),He end elseif md>46307 then if md>=49378 then if md<=50963 then if md>=50203 then if md>50203 then md,Cf=w_[2674]or wf(46989,93251,2674),Ta continue else md,Pe=37576,_b(tf,22)continue end else md=w_[-6194]or wf(56358,48381,-6194)continue end else md,Oe=20421,_b(oa,22)continue end elseif md>=47209 then if md>47209 then eb=kd;We=ze(eb);ra,nf,md,Wa=1,(eb)+228,w_[31830]or wf(43829,87606,31830),229 else Ta,md=_b(bb,-434902922),8518 continue end elseif md<=46692 then bb,Gb=pa(Wb(ob,10),1023),pa(Wb(ob,0),1023);Ad[42234]=We[bb+1];md,Ad[43293]=w_[31702]or wf(1186,94040,31702),We[Gb+1]else ra[(ob-5)],md=vc(),w_[-27091]or wf(45778,33867,-27091)end elseif md<45009 then if md<44354 then if md<=43148 then md,Cf=22494,nil else Ta=0;md,He,Gb,bb=w_[29141]or wf(46228,87624,29141),1,81,77 end elseif md<=44788 then if md>44354 then bb[46537]=pa(Wb(Hd,8),255);bb[30239]=pa(Wb(Hd,16),255);md,bb[7305]=w_[-23357]or wf(34084,23232,-23357),pa(Wb(Hd,24),255)else eb=0;nf,We,md,Wa=1,133,38106,137 end else if(ra>=0 and Wa>nf)or((ra<0 or ra~=ra)and Wa<nf)then md=60204 else md=w_[-19923]or wf(52374,38825,-19923)end end elseif md>45510 then if md>46287 then Cf,md=Te(Gb),35086 continue else md,Cf=10467,Te(nil)end elseif md>45452 then if(nf>=0 and We>Wa)or((nf<0 or nf~=nf)and We<Wa)then md=w_[-1682]or wf(57498,45481,-1682)else md=41798 end elseif md<=45009 then Ad[3351]=We[q(Ad[60568],0,24)+1];Ad[13687],md=q(Ad[60568],31,1)==1,w_[-31906]or wf(48648,70966,-31906)else if(We>=0 and kd>eb)or((We<0 or We~=We)and kd<eb)then md=55239 else md=w_[-14779]or wf(34549,42401,-14779)end end elseif md<=60930 then if md>55985 then if md<59344 then if md>56980 then if(Zb==2)then md=w_[9009]or wf(19195,78240,9009)continue else md=w_[21998]or wf(59851,49649,21998)continue end md=w_[-22289]or wf(242,92392,-22289)elseif md<=56696 then if md<=56324 then if(Zb==9)then md=w_[6593]or wf(24549,104829,6593)continue else md=w_[-6969]or wf(45458,86052,-6969)continue end md=w_[20349]or wf(36538,58016,20349)else m,md=false,w_[-18614]or wf(59934,37493,-18614)end else Gb,md=_b(He,336635268),w_[-19822]or wf(58679,76440,-19822)continue end elseif md>=60514 then if md<=60514 then if ob==2 then md=w_[-14455]or wf(54590,52414,-14455)continue elseif(ob==1)then md=w_[28260]or wf(873,78054,28260)continue else md=w_[-28391]or wf(39820,27736,-28391)continue end md=w_[-32399]or wf(18285,38969,-32399)else md,Gb=w_[8597]or wf(28912,90463,8597),He continue end elseif md>59344 then md,Wa=63431,nil else R=bb if Gb~=Gb then md=w_[9756]or wf(19479,58187,9756)else md=w_[20532]or wf(34749,59762,20532)end end elseif md<54658 then if md>=53764 then if md>53764 then md,nf=13408,nil else nf,md=Ta,w_[-10058]or wf(19686,49290,-10058)continue end elseif md<=51760 then md,We[(Hd-228)]=w_[-14501]or wf(5857,62455,-14501),ob else tf=re_(Pf('\184','\250'),va,ld);md,ld=50203,ld+1 end elseif md>55341 then if md>55982 then We,md=_b(Wa,22),w_[7794]or wf(50757,43063,7794)continue else Hd=ra;Ad=pa(Hd,255);Zb=kb[38102][Ad+1];ob,Cf,Ta=Zb[1],Zb[2],Zb[3];bb={[42234]=0,[13687]=0,[62326]=0,[46537]=0,[9428]=0,[20636]=nil,[5965]=Ad,[11858]=0,[7305]=0,[60568]=0,[55381]=0,[34794]=Cf,[3351]=0,[43293]=0,[30239]=0};G(Bd,bb)if(ob==9)then md=w_[-6016]or wf(43990,67955,-6016)continue else md=w_[-18491]or wf(25306,99376,-18491)continue end md=w_[28355]or wf(6168,57644,28355)end elseif md>=55239 then if md<=55239 then kd,md=nil,44354 else Ad,md=nil,w_[5476]or wf(31539,87006,5476)end else Nf=ya;Bd,m=ze(Nf),false;md,We,kd,eb=w_[-3434]or wf(27078,103177,-3434),1,193,(Nf)+192 end elseif md<=62930 then if md>=62726 then if md>62783 then if md>62872 then md=w_[-29573]or wf(56051,55504,-29573)continue else eb=Bd if m~=m then md=w_[451]or wf(24022,72201,451)else md=16422 end end elseif md<=62770 then if md<=62726 then Jf=re_(Pf('\152','\218'),va,ld);md,ld=1658,ld+1 else Gb=Gb+R;Ie=Gb if Gb~=Gb then md=w_[2411]or wf(14492,113385,2411)else md=w_[8778]or wf(23815,73066,8778)end end else Cf,md=Te'',35086 continue end elseif md<=61852 then if md>=61634 then if md<=61634 then md,ob=w_[24996]or wf(45909,78825,24996),Cf else md,Bb=32211,_b(Da,22)continue end else Wa=kd if eb~=eb then md=55239 else md=45452 end end else md,Ad[3351]=w_[-5591]or wf(28039,83381,-5591),We[Ad[62326]+1]end elseif md>64151 then if md>=64733 then if md>64733 then Ie=Gb if He~=He then md=w_[-4608]or wf(61709,57882,-4608)else md=w_[10313]or wf(10612,92511,10313)end else He=Gb;bb[60568]=He;G(Bd,{});md=w_[-27666]or wf(13979,118291,-27666)end else Ad[3351],md=We[Ad[7305]+1],w_[16463]or wf(23989,79275,16463)end elseif md<63855 then if md<=63109 then Hd=Wa if nf~=nf then md=23189 else md=37957 end else nf=0;md,Hd,Ad,ra=13144,194,1,190 end elseif md<=63855 then return{[5637]=tf,[23339]='',[37278]=Jf,[48555]=oa,[21867]=Bd,[5398]=ra}else oa=re_(Pf('\135','\197'),va,ld);ld,md=ld+1,w_[21594]or wf(61905,61483,21594)end end end local ye=vc();kb[26641][va]=ye return ye end)local rf=(function(nd,db)nd=Zc(nd)local yd=kc()local function Ed(Ac,bd)local ce=(function(...)return{...},v('#',...)end)local pc;pc=(function(Hc,Se,Af)if Se>Af then return end return Hc[Se],pc(Hc,Se+1,Af)end)local function bf(sb,F,Mc,If)local Sc,Xc,ie,Jb,kf,jd,Oa,af,n_,fb,Tb,Y,ff,L,oc,Ud,o_,mb,Ya,Re,Lf,Vb,Pd,je;fb,Pd=function(la,hf,Sd)Pd[la]=ib(hf,63177)-ib(Sd,12120)return Pd[la]end,{};Y=Pd[17085]or fb(17085,112716,23998)repeat if Y>=34478 then if Y<49867 then if Y>41910 then if Y<=47472 then if Y>=45629 then if Y>=47111 then if Y<=47315 then if Y>=47309 then if Y>47309 then if je>33 then Y=Pd[-20537]or fb(-20537,40584,26123)continue else Y=Pd[-27427]or fb(-27427,128872,40466)continue end Y=Pd[-21718]or fb(-21718,54018,3910)else Y,sb[Vb[46537]]=Pd[18513]or fb(18513,96126,42454),mb end else if(Vc(Ud)==Pf('U\26C\23D','!{'))then Y=Pd[19950]or fb(19950,8766,16874)continue else Y=Pd[-17684]or fb(-17684,122014,52444)continue end Y=Pd[-27835]or fb(-27835,41581,8841)end elseif Y>47397 then oc-=1;Y,Mc[oc]=Pd[-29144]or fb(-29144,38195,28949),{[5965]=232,[46537]=_b(Vb[46537],193),[30239]=_b(Vb[30239],11),[7305]=0}else Re=Xc if ie~=ie then Y=Pd[-16362]or fb(-16362,55047,13177)else Y=43387 end end elseif Y>=45954 then if Y<=45954 then Ya[1]=Ya[3][Ya[2]];Ya[3]=Ya;Ya[2]=1;Y,jd[n_]=Pd[-16969]or fb(-16969,128413,37849),nil else Ud,mb,Sc=ff[Pf('!4\a\n\14\28','~kn')](Ud);Y=Pd[-12513]or fb(-12513,126339,53186)end elseif Y>45629 then if je>217 then Y=Pd[13767]or fb(13767,46692,2477)continue else Y=Pd[-9871]or fb(-9871,1702,12309)continue end Y=Pd[17561]or fb(17561,38413,29775)else oc+=1;Y=Pd[25124]or fb(25124,29911,21289)end elseif Y<=43857 then if Y>43387 then if Y<=43634 then Sc,Y=nil,Pd[21267]or fb(21267,120133,19459)else sd(Ya);Lf[n_],Y=nil,Pd[25800]or fb(25800,123802,51731)end elseif Y>43142 then if(o_>=0 and Xc>ie)or((o_<0 or o_~=o_)and Xc<ie)then Y=Pd[-6622]or fb(-6622,29623,20617)else Y=6117 end elseif Y>42392 then if je>77 then Y=Pd[-23499]or fb(-23499,9889,11848)continue else Y=Pd[32493]or fb(32493,112771,53143)continue end Y=Pd[21434]or fb(21434,44653,32175)else ff,Ud,mb,Sc=Vb[3351],Vb[13687],sb[Vb[46537]],nil;Sc=zc(mb)==Pf('#3\210-9\220/','A\\\189')if((Sc and(mb==ff))~=Ud)then Y=Pd[-13141]or fb(-13141,1920,16090)continue else Y=Pd[-2014]or fb(-2014,14480,48292)continue end Y=Pd[-31020]or fb(-31020,36187,23229)end elseif Y<=45416 then if Y<=44627 then if Y<=43928 then ff,Ud,mb=_b(Vb[46537],174),_b(Vb[7305],10),_b(Vb[30239],212);Sc,n_=Ud==0 and kf-ff or Ud-1,sb[ff];Ya,Xc=ce(n_(pc(sb,ff+1,ff+Sc)))if mb==0 then Y=Pd[15591]or fb(15591,110795,65309)continue else Y=Pd[3805]or fb(3805,42827,32539)continue end Y=11651 else if je>76 then Y=Pd[17068]or fb(17068,82032,56267)continue else Y=Pd[8731]or fb(8731,50208,11627)continue end Y=Pd[28867]or fb(28867,51759,6241)end else Y,sb[Vb[46537]]=Pd[201]or fb(201,86772,33356),mb[Vb[42234]][Vb[43293]]end else Xc=Xc+o_;Re=Xc if Xc~=Xc then Y=Pd[-28639]or fb(-28639,34703,17601)else Y=Pd[-25232]or fb(-25232,100714,63856)end end elseif Y>=49164 then if Y<49464 then if Y>=49236 then if Y<=49236 then Ya=Ya+ie;o_=Ya if Ya~=Ya then Y=Pd[32053]or fb(32053,8005,30609)else Y=Pd[-4302]or fb(-4302,10000,22494)end else oc+=Vb[11858];Y=Pd[14875]or fb(14875,58642,8566)end elseif Y<=49164 then ff,Ud=nil,_b(Vb[9428],13391);ff=if Ud<32768 then Ud else Ud-65536;mb=ff;Sc=F[mb+1];n_=Sc[48555];Ya=ze(n_);sb[_b(Vb[46537],62)]=Ed(Sc,Ya);Y,o_,ie,Xc=47397,1,(n_)+83,84 else n_,Ya=Ud[42234],Vb[42234];Ya=Pf('\157}D','\248')..Ya;Xc='';o_,Re,ie,Y=(#n_-1)+26,1,26,30030 end elseif Y>49617 then if je>102 then Y=Pd[16110]or fb(16110,122131,57003)continue else Y=Pd[-26063]or fb(-26063,19268,37969)continue end Y=Pd[23649]or fb(23649,42591,26033)elseif Y<49490 then if Ya[2]>=Vb[46537]then Y=Pd[4951]or fb(4951,6379,1390)continue end Y=Pd[16551]or fb(16551,123761,62544)elseif Y>49490 then if(Re>=0 and ie>o_)or((Re<0 or Re~=Re)and ie<o_)then Y=Pd[10382]or fb(10382,22144,48411)else Y=28168 end else Ob(sb,Ud,Ud+mb-1,Vb[60568],sb[ff]);oc+=1;Y=Pd[3968]or fb(3968,59805,14079)end elseif Y<=48258 then if Y>47868 then if Y>48128 then if Sc<=Ud then Y=Pd[-1970]or fb(-1970,6913,473)continue end Y=Pd[-31704]or fb(-31704,21500,45264)else oc-=1;Y,Mc[oc]=Pd[-14827]or fb(-14827,39859,18581),{[5965]=136,[46537]=_b(Vb[46537],26),[30239]=_b(Vb[30239],100),[7305]=0}end elseif Y>=47618 then if Y<=47618 then oc-=1;Y,Mc[oc]=Pd[14186]or fb(14186,24886,48394),{[5965]=123,[46537]=_b(Vb[46537],37),[30239]=_b(Vb[30239],18),[7305]=0}else ff=Vb[3351];sb[Vb[7305]]=sb[Vb[30239]][ff];oc+=1;Y=Pd[-24631]or fb(-24631,25039,48641)end else if sb[Vb[46537]]<=sb[Vb[60568]]then Y=Pd[15890]or fb(15890,114151,22760)continue else Y=Pd[-24150]or fb(-24150,14311,1383)continue end Y=Pd[-11494]or fb(-11494,46914,5254)end elseif Y<48967 then oc+=Vb[11858];Y=Pd[-15291]or fb(-15291,17445,33383)elseif Y>48967 then if(je>74)then Y=Pd[7425]or fb(7425,96480,60209)continue else Y=Pd[-11324]or fb(-11324,125136,21819)continue end Y=Pd[-22611]or fb(-22611,10300,62992)else oc+=Vb[11858];Y=Pd[8657]or fb(8657,58440,9100)end elseif Y>=38128 then if Y<40595 then if Y>38886 then if Y>40545 then Y,Ud[43293]=Pd[25995]or fb(25995,47146,7457),n_ elseif Y>=40290 then if Y>40290 then ff,Ud=nil,_b(Vb[9428],62383);ff=if Ud<32768 then Ud else Ud-65536;mb=ff;sb[_b(Vb[46537],51)],Y=mb,Pd[-4655]or fb(-4655,23774,35634)else if(je>78)then Y=Pd[-10542]or fb(-10542,16413,2774)continue else Y=Pd[-31417]or fb(-31417,15430,3409)continue end Y=Pd[-29798]or fb(-29798,2579,55413)end else ff,Y,Ud=Mc[oc],Pd[24861]or fb(24861,117922,40165),nil end elseif Y<38639 then if Y>38128 then if(Re>=0 and ie>o_)or((Re<0 or Re~=Re)and ie<o_)then Y=Pd[-7662]or fb(-7662,84318,61652)else Y=Pd[-1882]or fb(-1882,40281,24947)end else ff,Ud,mb=Vb[3351],Vb[13687],sb[Vb[46537]]if(mb==ff)~=Ud then Y=Pd[-8807]or fb(-8807,8242,33129)continue else Y=Pd[-8752]or fb(-8752,109023,23239)continue end Y=Pd[20627]or fb(20627,23735,35721)end elseif Y<=38798 then if Y<=38639 then oc+=Vb[11858];Y=Pd[14049]or fb(14049,3563,55853)else Cb'';Y=Pd[7777]or fb(7777,12712,5790)end else sb[ff+2]=sb[ff+3];oc+=Vb[11858];Y=Pd[18824]or fb(18824,35165,22207)end elseif Y>=40913 then if Y>=41439 then if Y<41473 then sb[Vb[46537]],Y=sb[Vb[30239]],Pd[-29613]or fb(-29613,39723,18285)elseif Y>41473 then if(je>73)then Y=Pd[-1234]or fb(-1234,125363,7699)continue else Y=Pd[-18231]or fb(-18231,129690,50997)continue end Y=Pd[27844]or fb(27844,64611,11173)else if je>79 then Y=Pd[-9363]or fb(-9363,22873,31254)continue else Y=Pd[-11489]or fb(-11489,117458,45537)continue end Y=Pd[28017]or fb(28017,52538,6430)end elseif Y>40913 then ff=I(Ud)if ff~=nil and ff[Pf('\173b\143\134X\148','\242=\230')]~=nil then Y=Pd[2735]or fb(2735,93979,52885)continue elseif Vc(Ud)==Pf('?\20)\25.','Ku')then Y=Pd[20625]or fb(20625,86474,59769)continue end Y=Pd[-29234]or fb(-29234,6491,39866)else ff=I(Ud)if(ff~=nil and ff[Pf('~\139\fU\177\23','!\212e')]~=nil)then Y=Pd[28597]or fb(28597,130114,34051)continue else Y=Pd[-18343]or fb(-18343,50822,11810)continue end Y=Pd[25504]or fb(25504,129201,61736)end elseif Y>=40839 then if Y>40839 then if ff==2 then Y=Pd[13095]or fb(13095,130884,27354)continue elseif(ff==3)then Y=Pd[23360]or fb(23360,15430,13951)continue else Y=Pd[-18790]or fb(-18790,115321,4831)continue end Y=Pd[-9932]or fb(-9932,95478,42062)else oc+=1;Y=Pd[-5706]or fb(-5706,37718,28842)end elseif Y>40595 then Sc=Sc+Ya;Xc=Sc if Sc~=Sc then Y=Pd[-8491]or fb(-8491,127963,53309)else Y=20648 end else ie=ie+Re;Tb=ie if ie~=ie then Y=Pd[-21580]or fb(-21580,78679,51915)else Y=Pd[-13112]or fb(-13112,1888,29775)end end elseif Y<36251 then if Y>34920 then if Y>35825 then ff,Ud,mb,Y=Vb[55381],Mc[oc+1],nil,Pd[14050]or fb(14050,109794,20214)elseif Y<=35778 then if je>129 then Y=Pd[25820]or fb(25820,128356,17932)continue else Y=Pd[-17314]or fb(-17314,95756,64117)continue end Y=Pd[27661]or fb(27661,44317,31103)else Ud[42234],Y=Sc,Pd[7201]or fb(7201,33250,30105)end elseif Y<34650 then if Y<=34478 then mb,Sc=ff[3351],Vb[3351];Sc=Pf('\4\228\221','a')..Sc;n_='';Y,Xc,ie,Ya=Pd[-11304]or fb(-11304,14506,24130),(#mb-1)+243,1,243 else oc-=1;Mc[oc],Y={[5965]=0,[46537]=_b(Vb[46537],143),[30239]=_b(Vb[30239],94),[7305]=0},Pd[-10099]or fb(-10099,27944,47468)end elseif Y<=34818 then if Y>34650 then oc+=1;Y=Pd[12671]or fb(12671,128019,53877)else ff,Ud=nil,sb[Vb[46537]];ff=zc(Ud)==Pf('\243\254z\\\225\226{Q','\149\139\20?')if not ff then Y=Pd[-32431]or fb(-32431,36952,5852)continue end Y=49361 end else ie=H(n_)if ie==nil then Y=Pd[-31094]or fb(-31094,97542,56089)continue end Y=Pd[10922]or fb(10922,108286,60868)end elseif Y<37059 then if Y<36887 then if Y>36251 then Y,sb[Vb[30239]]=Pd[-3628]or fb(-3628,3770,56734),sb[Vb[46537]]+sb[Vb[7305]]else sb[ff+1]=ie;n_,Y=ie,Pd[5530]or fb(5530,18836,36863)end elseif Y>36887 then Ud,mb,Sc=Lf if Vc(Ud)~=Pf('\166\vc\29\180\23b\16','\192~\r~')then Y=Pd[4157]or fb(4157,9996,7852)continue end Y=Pd[26153]or fb(26153,17098,44195)else Cb'';Y=Pd[-31327]or fb(-31327,16161,35141)end elseif Y<37218 then if Y>37059 then ff,Ud,mb=Vb[46537],Vb[7305],Vb[3351];Sc=sb[Ud];sb[ff+1]=Sc;sb[ff]=Sc[mb];oc+=1;Y=Pd[-12753]or fb(-12753,53461,3895)else Ud,Y=n_,63011 continue end elseif Y>=37391 then if Y<=37391 then oc+=Vb[11858];Y=Pd[-21439]or fb(-21439,127597,53679)else Y,Ya[(Re-83)]=Pd[-7609]or fb(-7609,2209,25594),bd[Tb[30239]+1]end else if je>93 then Y=Pd[-3041]or fb(-3041,14916,15765)continue else Y=Pd[-31148]or fb(-31148,89319,33425)continue end Y=Pd[-12804]or fb(-12804,9138,57494)end elseif Y>=57528 then if Y>=62030 then if Y<63792 then if Y>=62594 then if Y<63070 then if Y>62594 then ff[3351]=Ud;Vb[5965],Y=150,Pd[13761]or fb(13761,35085,21839)else if(je>150)then Y=Pd[30506]or fb(30506,33592,8240)continue else Y=Pd[20067]or fb(20067,77852,50846)continue end Y=Pd[-13896]or fb(-13896,12557,60751)end elseif Y>=63273 then if Y<=63273 then oc+=1;Y=Pd[-9991]or fb(-9991,6348,50944)else Sc,n_=Ud[3351],Vb[3351];n_=Pf('\190^g','\219')..n_;Ya='';Y,ie,Xc,o_=Pd[-3657]or fb(-3657,106858,23016),(#Sc-1)+85,85,1 end else oc+=Vb[11858];Y=Pd[-27273]or fb(-27273,14074,38366)end elseif Y>=62317 then if Y<=62317 then sb[Vb[46537]],Y=nil,Pd[5996]or fb(5996,15009,59875)else sb[Vb[7305]]=ze(Vb[60568]);oc+=1;Y=Pd[12130]or fb(12130,6828,51680)end elseif Y<=62030 then Cb'';Y=Pd[-23646]or fb(-23646,119942,34547)else Ud,mb,Sc=jd if Vc(Ud)~=Pf('\149\213\207\160\135\201\206\173','\243\160\161\195')then Y=Pd[9453]or fb(9453,28134,23617)continue end Y=Pd[26847]or fb(26847,111410,53360)end elseif Y<64522 then if Y>=64215 then if Y>64215 then if je>126 then Y=Pd[22756]or fb(22756,21523,12450)continue else Y=Pd[-23438]or fb(-23438,117960,57196)continue end Y=Pd[14317]or fb(14317,46859,4941)else Sc,Y=Ud-1,Pd[21915]or fb(21915,12890,28960)end elseif Y<=63792 then oc-=1;Y,Mc[oc]=Pd[8118]or fb(8118,53007,6977),{[5965]=248,[46537]=_b(Vb[46537],70),[30239]=_b(Vb[30239],232),[7305]=0}else if n_>0 then Y=Pd[21133]or fb(21133,5209,53085)continue else Y=Pd[26359]or fb(26359,82035,59709)continue end Y=Pd[9500]or fb(9500,25092,41080)end elseif Y<=64847 then if Y>=64613 then if Y<=64613 then sb[Vb[46537]],Y=-sb[Vb[30239]],Pd[-19619]or fb(-19619,36744,23756)else sb[Vb[46537]],Y=#sb[Vb[30239]],Pd[-30203]or fb(-30203,9790,58386)end else if(je>136)then Y=Pd[-2472]or fb(-2472,112310,38525)continue else Y=Pd[16338]or fb(16338,102867,56731)continue end Y=Pd[8298]or fb(8298,50786,1446)end elseif Y>65040 then oc+=Vb[11858];Y=Pd[14325]or fb(14325,19166,39218)else ie=n_ if Ya~=Ya then Y=Pd[32046]or fb(32046,44339,9654)else Y=Pd[-10106]or fb(-10106,15197,31288)end end elseif Y<59767 then if Y>58458 then if Y>59609 then if(Vb[7305]==172)then Y=Pd[-19436]or fb(-19436,101415,44774)continue else Y=Pd[8019]or fb(8019,120953,30620)continue end Y=Pd[11505]or fb(11505,23185,35315)elseif Y<=58481 then oc+=Vb[11858];Y=Pd[-18784]or fb(-18784,9462,58314)else if(o_>=0 and Xc>ie)or((o_<0 or o_~=o_)and Xc<ie)then Y=Pd[-1932]or fb(-1932,106737,43632)else Y=Pd[23712]or fb(23712,95854,47177)end end elseif Y>=57587 then if Y<58101 then Re=Xc if ie~=ie then Y=Pd[-19869]or fb(-19869,90602,59723)else Y=Pd[7929]or fb(7929,90852,33804)end elseif Y<=58101 then oc+=Vb[11858];Y=Pd[27993]or fb(27993,48616,27180)else sb[Vb[30239]]=Vb[7305]==1;oc+=Vb[46537];Y=Pd[-31809]or fb(-31809,3957,56151)end elseif Y<=57528 then if(je>96)then Y=Pd[-12069]or fb(-12069,28316,254)continue else Y=Pd[32278]or fb(32278,122789,46930)continue end Y=Pd[-16644]or fb(-16644,10943,63889)else Ud,mb,Sc=h(Ud);Y=Pd[-6403]or fb(-6403,41242,12923)end elseif Y<=60665 then if Y<=59805 then if Y>=59798 then if Y>59798 then sb[Vb[7305]],Y=sb[Vb[30239]]*Vb[3351],Pd[17780]or fb(17780,53574,3770)else Y,Ya=Pd[-6508]or fb(-6508,44173,9279),Ya..lf(_b(Ec(Sc,(Re-85)+1),Ec(n_,(Re-85)%#n_+1)))end else oc+=1;Y=Pd[-17328]or fb(-17328,58962,9654)end elseif Y>60250 then Y=Pd[-2005]or fb(-2005,6648,15399)continue else Lf[Vb]=nil;oc+=1;Y=Pd[16714]or fb(16714,21307,36637)end elseif Y>61525 then if(Vb[7305]==64)then Y=Pd[7915]or fb(7915,32602,2118)continue else Y=Pd[-21382]or fb(-21382,877,31901)continue end Y=Pd[30249]or fb(30249,29376,20740)elseif Y<61374 then ff=Vb[3351];sb[Vb[30239]][ff]=sb[Vb[7305]];oc+=1;Y=Pd[14518]or fb(14518,3998,56562)elseif Y>61374 then if not(Ud<=ie)then Y=Pd[3158]or fb(3158,14954,5580)continue end Y=Pd[1880]or fb(1880,59908,14456)else if(je>10)then Y=Pd[32008]or fb(32008,114746,32193)continue else Y=Pd[-18146]or fb(-18146,36002,359)continue end Y=Pd[15233]or fb(15233,30733,42575)end elseif Y<=54338 then if Y<=53080 then if Y>=51491 then if Y<=52354 then if Y<=51648 then if Y<=51491 then if je>22 then Y=Pd[-23896]or fb(-23896,116086,62078)continue else Y=Pd[-14482]or fb(-14482,32975,7673)continue end Y=Pd[16090]or fb(16090,34207,17137)else Y,sb[Vb[30239]]=Pd[-16071]or fb(-16071,19111,39321),sb[Vb[46537]]*sb[Vb[7305]]end else if je>232 then Y=Pd[-7407]or fb(-7407,129854,46169)continue else Y=Pd[-32126]or fb(-32126,37592,14388)continue end Y=Pd[10389]or fb(10389,46389,4375)end elseif Y<=52628 then if(je>127)then Y=Pd[-28433]or fb(-28433,126545,26734)continue else Y=Pd[-1796]or fb(-1796,75181,63710)continue end Y=Pd[19223]or fb(19223,51114,1262)else ff=sb[Vb[46537]];Y,sb[Vb[7305]]=Pd[-3663]or fb(-3663,49418,7502),if ff then ff else Vb[3351]or false end elseif Y<=50184 then if Y<=50156 then if Y>49867 then Ya[1]=Ya[3][Ya[2]];Ya[3]=Ya;Ya[2]=1;Y,jd[n_]=Pd[-21011]or fb(-21011,5652,35189),nil else n_,Ya=Ud[42234],Vb[42234];Ya=Pf('\148tM','\241')..Ya;Xc='';Re,Y,ie,o_=1,Pd[-23453]or fb(-23453,37688,4331),51,(#n_-1)+51 end else Ud,mb,Sc=ff[Pf('q\154\50Z\160)','.\197[')](Ud);Y=Pd[29503]or fb(29503,1814,33876)end elseif Y>50187 then ff,Ud=Vb[55381],Vb[3351];mb=yd[Ud]or kb[28347][Ud]if(ff==1)then Y=Pd[-22498]or fb(-22498,92244,51848)continue else Y=Pd[18392]or fb(18392,103066,60356)continue end Y=63273 else Y,sb[Vb[46537]]=Pd[12626]or fb(12626,106008,24304),mb[Vb[42234]]end elseif Y<=53987 then if Y<=53602 then if Y<53538 then mb,Y=Ya,55253 continue elseif Y<=53538 then if sb[Vb[46537]]<sb[Vb[60568]]then Y=Pd[-336]or fb(-336,1301,16319)continue else Y=Pd[-19652]or fb(-19652,14798,30445)continue end Y=Pd[-30759]or fb(-30759,57596,16336)else sb[Vb[46537]],Y=Vb[3351],Pd[31374]or fb(31374,56070,1914)end elseif Y<=53795 then if(je>28)then Y=Pd[-12085]or fb(-12085,48802,4176)continue else Y=Pd[21499]or fb(21499,120668,52866)continue end Y=Pd[-31731]or fb(-31731,13625,37147)else Oa=false;oc+=1 if je>125 then Y=Pd[-30167]or fb(-30167,120430,26830)continue else Y=Pd[-14332]or fb(-14332,105946,37784)continue end Y=Pd[-11093]or fb(-11093,25886,41330)end elseif Y>54237 then oc+=Vb[11858];Y=Pd[-7462]or fb(-7462,2854,55066)elseif Y>54142 then if je>145 then Y=Pd[5728]or fb(5728,5594,9551)continue else Y=Pd[14954]or fb(14954,26349,28113)continue end Y=Pd[-19942]or fb(-19942,16273,60659)else oc+=1;Y=Pd[-9388]or fb(-9388,39154,18390)end elseif Y>=55849 then if Y<57061 then if Y>56591 then if(Ud<=Sc)then Y=Pd[-20889]or fb(-20889,84979,37260)continue else Y=Pd[10134]or fb(10134,22665,34763)continue end Y=Pd[-25572]or fb(-25572,61754,11550)elseif Y>=56223 then if Y>56223 then if je>146 then Y=Pd[-19855]or fb(-19855,41756,32624)continue else Y=Pd[25274]or fb(25274,84175,55747)continue end Y=Pd[320]or fb(320,52847,7585)else kf,Y,oc,jd,Lf,Oa=-1,1453,1,Lc({},{[Pf('~\254\24N\197\16','!\161u')]=Pf('\28\25','j')}),Lc({},{[Pf('n\186\30^\129\22','1\229s')]=Pf('ay','\n')}),false end else oc+=1;Y=Pd[-1741]or fb(-1741,33685,16631)end elseif Y>57355 then mb,Y=kf-Ud+1,Pd[4314]or fb(4314,114556,42811)elseif Y<=57287 then if Y<=57061 then oc+=1;Y=Pd[-22762]or fb(-22762,26461,42175)else oc+=Vb[11858];Y=Pd[-28979]or fb(-28979,1441,49891)end else Sc,Y=Xc,35825 continue end elseif Y<55345 then if Y<=55253 then if Y>54961 then Ud[3351]=mb if ff==2 then Y=Pd[-20774]or fb(-20774,106700,33995)continue elseif(ff==3)then Y=Pd[-21188]or fb(-21188,30235,29757)continue else Y=Pd[721]or fb(721,27678,20789)continue end Y=7274 elseif Y>54764 then n_,Y=n_..lf(_b(Ec(mb,(o_-243)+1),Ec(Sc,(o_-243)%#Sc+1))),Pd[-4179]or fb(-4179,109979,46502)else if(Vb[7305]==219)then Y=Pd[9261]or fb(9261,106637,45964)continue else Y=Pd[2160]or fb(2160,123266,48377)continue end Y=Pd[-27837]or fb(-27837,65490,11318)end else n_=n_+Xc;ie=n_ if n_~=n_ then Y=Pd[-2629]or fb(-2629,130129,38612)else Y=30772 end end elseif Y<55569 then if Y>55345 then if je>169 then Y=Pd[-12824]or fb(-12824,116690,53060)continue else Y=Pd[21223]or fb(21223,32095,3360)continue end Y=Pd[-27518]or fb(-27518,28807,45049)else Sc=(function(...)for zd,Kc,Mf,P,Za,Yb,ua,V,_c,df,za,ca,z,Dc,De,of,e_,wc,cf,Xa in...do be{zd,Kc,Mf,P,Za,Yb,ua,V,_c,df,za,ca,z,Dc,De,of,e_,wc,cf,Xa}end be(-2)end);Lf[mb],Y=Ge(Sc),Pd[-31336]or fb(-31336,96493,65493)end elseif Y>55569 then if je>19 then Y=Pd[4996]or fb(4996,8127,64783)continue else Y=Pd[-2957]or fb(-2957,35775,12254)continue end Y=Pd[6224]or fb(6224,24706,49094)else if je>174 then Y=Pd[-23274]or fb(-23274,5987,14960)continue else Y=Pd[-11586]or fb(-11586,7888,15204)continue end Y=Pd[27449]or fb(27449,12297,61003)end elseif Y<18086 then if Y<7918 then if Y>=5575 then if Y<6767 then if Y<6584 then if Y>5973 then Tb=Mc[oc];oc+=1;Jb=Tb[46537]if Jb==0 then Y=Pd[-453]or fb(-453,29370,18133)continue elseif Jb==1 then Y=Pd[25498]or fb(25498,29454,19684)continue elseif(Jb==2)then Y=Pd[11107]or fb(11107,22532,13425)continue else Y=Pd[-6374]or fb(-6374,5477,7870)continue end Y=Pd[1791]or fb(1791,124645,28990)elseif Y<5919 then Jb=o_ if Re~=Re then Y=Pd[-31679]or fb(-31679,34352,24369)else Y=Pd[9700]or fb(9700,114103,51765)end elseif Y>5919 then if(je>248)then Y=Pd[-18548]or fb(-18548,57793,15875)continue else Y=Pd[-21566]or fb(-21566,3074,9586)continue end Y=Pd[21622]or fb(21622,24735,49137)else Y,sb[Vb[30239]]=Pd[20379]or fb(20379,33399,16457),sb[Vb[46537]]-sb[Vb[7305]]end elseif Y<=6723 then if Y<=6714 then if Y<=6584 then if(sb[Vb[46537]]<sb[Vb[60568]])then Y=Pd[-21581]or fb(-21581,109363,34021)continue else Y=Pd[-25695]or fb(-25695,88501,38470)continue end Y=Pd[-24734]or fb(-24734,56258,2054)else if je>225 then Y=Pd[-24134]or fb(-24134,619,57013)continue else Y=Pd[-16878]or fb(-16878,127378,31692)continue end Y=Pd[-3993]or fb(-3993,55071,13169)end else Sc=sb[ff];n_,Xc,Ya,Y=ff+1,1,Ud,Pd[-211]or fb(-211,96805,41348)end else if je>62 then Y=Pd[-3688]or fb(-3688,114277,54225)continue else Y=Pd[15737]or fb(15737,29950,24408)continue end Y=Pd[24198]or fb(24198,27526,47354)end elseif Y>7274 then if Y>=7619 then if Y>7619 then ie,o_=sb[ff+2],nil;Re=ie;o_=zc(Re)==Pf('\222\220\197\210\204\218','\176\169\168')if(not o_)then Y=Pd[-27240]or fb(-27240,16601,39969)continue else Y=Pd[20723]or fb(20723,79154,58648)continue end Y=63931 else if(je>240)then Y=Pd[14172]or fb(14172,120444,58745)continue else Y=Pd[26465]or fb(26465,124202,30655)continue end Y=Pd[-20254]or fb(-20254,24839,48505)end elseif Y>7412 then Xc,Y=Xc..lf(_b(Ec(n_,(Tb-26)+1),Ec(Ya,(Tb-26)%#Ya+1))),Pd[-14118]or fb(-14118,103232,59822)else ff=bd[Vb[30239]+1];ff[3][ff[2]],Y=sb[Vb[46537]],Pd[-2589]or fb(-2589,22962,34454)end elseif Y>7016 then if Y>7219 then Vb[5965]=174;oc+=1;Y=Pd[29469]or fb(29469,58080,8484)else if(je>63)then Y=Pd[29801]or fb(29801,124077,31809)continue else Y=Pd[25937]or fb(25937,19541,36712)continue end Y=Pd[27665]or fb(27665,1930,50382)end elseif Y>6886 then Ob(If[2238],1,Ud,ff,sb);Y=Pd[-17413]or fb(-17413,7015,51033)elseif Y>6767 then L={[1]=sb[Tb[30239]],[2]=1};L[3]=L;Ya[(Re-83)],Y=L,Pd[-29294]or fb(-29294,4938,7397)else if(je>242)then Y=Pd[7186]or fb(7186,110399,19115)continue else Y=Pd[-32023]or fb(-32023,3037,61449)continue end Y=Pd[1915]or fb(1915,17252,40792)end elseif Y>1707 then if Y<=4329 then if Y>3590 then if Y<=3700 then Ya[(Re-83)],Y=af,Pd[17595]or fb(17595,109416,33923)else Y,Sc=Pd[-29758]or fb(-29758,103663,54099),kf-ff+1 end elseif Y<=2403 then if Y<=2234 then Ya,Xc=Ud[43293],Vb[43293];Xc=Pf('\t\233\208','l')..Xc;ie='';o_,Re,Y,Tb=247,(#Ya-1)+247,5575,1 else if(Vb[7305]==134)then Y=Pd[24526]or fb(24526,46030,3888)continue else Y=Pd[15276]or fb(15276,18415,43140)continue end Y=Pd[10309]or fb(10309,128077,54159)end else Sc,Y=Xc,13697 continue end elseif Y<=4663 then if Y>4576 then if je>34 then Y=Pd[-26406]or fb(-26406,105640,34061)continue else Y=Pd[-8022]or fb(-8022,18726,10308)continue end Y=Pd[8963]or fb(8963,34401,17827)else oc+=Vb[11858];Y=Pd[5044]or fb(5044,57157,3207)end else if(Vb[7305]==33)then Y=Pd[-28022]or fb(-28022,8539,13000)continue else Y=Pd[256]or fb(256,3672,37871)continue end Y=Pd[20542]or fb(20542,53478,4058)end elseif Y>=663 then if Y<1453 then if Y<=663 then Tb=H(ie)if(Tb==nil)then Y=Pd[-20072]or fb(-20072,119986,48444)continue else Y=Pd[11752]or fb(11752,6032,37590)continue end Y=Pd[20875]or fb(20875,27413,21833)else if Vb[7305]==36 then Y=Pd[-32503]or fb(-32503,112270,38496)continue else Y=Pd[22959]or fb(22959,130146,46098)continue end Y=Pd[-12001]or fb(-12001,12611,61061)end elseif Y<=1623 then if Y<=1453 then if(not Oa)then Y=Pd[13011]or fb(13011,32371,16247)continue else Y=Pd[9025]or fb(9025,2286,1052)continue end Y=Pd[16382]or fb(16382,128152,54)else n_,Ya=sb[ff+1],nil;Xc=n_;Ya=zc(Xc)==Pf('>\206\248\50\222\231','P\187\149')if not Ya then Y=Pd[-11029]or fb(-11029,1363,17514)continue end Y=Pd[-4519]or fb(-4519,2983,61920)end else Sc..=sb[ie];Y=Pd[31204]or fb(31204,4539,8396)end elseif Y<=644 then if Y>319 then if(je>91)then Y=Pd[-16241]or fb(-16241,94969,35872)continue else Y=Pd[-21994]or fb(-21994,3,31633)continue end Y=Pd[5706]or fb(5706,31949,43791)elseif Y<=144 then Y,n_=Pd[-5253]or fb(-5253,115757,47935),ie continue else Xc,Y=mb-1,Pd[21479]or fb(21479,9755,35863)end else if not(ie<=Ud)then Y=Pd[17460]or fb(17460,118845,57859)continue end Y=Pd[-18144]or fb(-18144,60772,14680)end elseif Y<13517 then if Y>10262 then if Y>11651 then if Y>=12296 then if Y>12296 then if(je>30)then Y=Pd[18661]or fb(18661,128228,51874)continue else Y=Pd[-23668]or fb(-23668,84838,56276)continue end Y=Pd[27220]or fb(27220,52624,6900)else n_,Ya=Ud(mb,Sc);Sc=n_ if Sc==nil then Y=60665 else Y=Pd[14578]or fb(14578,107623,34821)end end else if(Vc(Ud)==Pf('\22\172\0\161\a','b\205'))then Y=Pd[14527]or fb(14527,12062,30759)continue else Y=Pd[496]or fb(496,12134,34559)continue end Y=Pd[-31265]or fb(-31265,17115,43858)end elseif Y>=11196 then if Y<11533 then if(je>111)then Y=Pd[-5314]or fb(-5314,37810,9826)continue else Y=Pd[14644]or fb(14644,130345,20717)continue end Y=Pd[11859]or fb(11859,33832,17004)elseif Y>11533 then Ob(Ya,1,Xc,ff,sb);Y=Pd[3846]or fb(3846,57736,16076)else Cb'';Y=Pd[-13060]or fb(-13060,124328,32200)end elseif Y>10442 then if Vb[7305]==203 then Y=Pd[10193]or fb(10193,16313,22473)continue elseif(Vb[7305]==225)then Y=Pd[-3356]or fb(-3356,7637,47369)continue else Y=Pd[16020]or fb(16020,57020,9433)continue end Y=Pd[-6560]or fb(-6560,42182,25402)else oc+=Vb[11858];Y=Pd[12896]or fb(12896,46233,5115)end elseif Y<=9190 then if Y<=8715 then if Y<=8017 then if Y>7918 then oc+=Vb[11858];Y=Pd[15634]or fb(15634,34447,17857)else ff,Ud=sb[Vb[46537]],nil;Ud=zc(ff)==Pf('m\250\23\56\127\230\22\53','\v\143y[')if(not Ud)then Y=Pd[31739]or fb(31739,113240,50438)continue else Y=Pd[-10610]or fb(-10610,85361,53625)continue end Y=48535 end else L=Tb[30239];af=jd[L]if af==nil then Y=Pd[21546]or fb(21546,28924,155)continue end Y=Pd[8616]or fb(8616,17265,34844)end elseif Y>9163 then ff,Ud=Vb[46537],Vb[3351];kf=ff+6;mb,Sc=sb[ff],nil;Sc=zc(mb)==Pf('\142h\182\254\156t\183\243','\232\29\216\157')if(Sc)then Y=Pd[6020]or fb(6020,29416,11525)continue else Y=Pd[12409]or fb(12409,123524,34708)continue end Y=Pd[5844]or fb(5844,10774,63594)else sb[ff+2]=Tb;ie,Y=Tb,Pd[-4636]or fb(-4636,99795,22023)end elseif Y<9790 then if Y<=9375 then oc-=1;Mc[oc],Y={[5965]=196,[46537]=_b(Vb[46537],113),[30239]=_b(Vb[30239],222),[7305]=0},Pd[-2680]or fb(-2680,17301,33015)else Y,Sc=Pd[-27546]or fb(-27546,105912,34814),nil end elseif Y>9790 then ff=I(Ud)if(ff~=nil and ff[Pf('q!\158Z\27\133','.~\247')]~=nil)then Y=Pd[-8821]or fb(-8821,12009,15168)continue else Y=Pd[-23781]or fb(-23781,122031,23815)continue end Y=Pd[-1018]or fb(-1018,20766,20060)else Tb=ie if o_~=o_ then Y=Pd[1873]or fb(1873,128513,56730)else Y=Pd[23803]or fb(23803,125218,28994)end end elseif Y<=14997 then if Y>=14823 then if Y>=14941 then if Y>14971 then if not sb[Vb[46537]]then Y=Pd[-29267]or fb(-29267,123892,8084)continue end Y=Pd[17964]or fb(17964,46352,4468)elseif Y<=14941 then oc+=1;Y=Pd[5079]or fb(5079,11410,64502)else if(je>115)then Y=Pd[-32162]or fb(-32162,19298,2019)continue else Y=Pd[25283]or fb(25283,56262,11787)continue end Y=Pd[15372]or fb(15372,59234,9382)end elseif Y<=14823 then if je>123 then Y=Pd[26797]or fb(26797,45093,15687)continue else Y=Pd[30736]or fb(30736,25609,16205)continue end Y=Pd[31411]or fb(31411,39864,18588)else Xc=Sc if n_~=n_ then Y=Pd[-8935]or fb(-8935,47231,26193)else Y=20648 end end elseif Y<=14399 then if Y<=13697 then if Y>13517 then Ud[42234]=Sc;Y,n_=Pd[-22426]or fb(-22426,28565,49146),nil else if(je>124)then Y=Pd[-29512]or fb(-29512,5280,23340)continue else Y=Pd[23738]or fb(23738,127915,51529)continue end Y=Pd[-20017]or fb(-20017,34746,17566)end else sb[Vb[30239]],Y=sb[Vb[46537]][sb[Vb[7305]]],Pd[10623]or fb(10623,12660,60744)end else Ud,mb,Sc=jd if Vc(Ud)~=Pf('O\143\165a]\147\164l',')\250\203\2')then Y=Pd[28490]or fb(28490,5176,28348)continue end Y=Pd[-24822]or fb(-24822,10666,35819)end elseif Y>16315 then if Y<17253 then Y,ie=Pd[-22661]or fb(-22661,16323,20825),ie..lf(_b(Ec(Ya,(Jb-247)+1),Ec(Xc,(Jb-247)%#Xc+1)))elseif Y<=17253 then if je>12 then Y=Pd[16702]or fb(16702,11662,11922)continue else Y=Pd[15684]or fb(15684,77272,50187)continue end Y=Pd[5069]or fb(5069,44266,31534)else if Ya==-2 then Y=Pd[6352]or fb(6352,6801,12198)continue else Y=Pd[-9484]or fb(-9484,12233,42642)continue end Y=Pd[23970]or fb(23970,39968,19044)end elseif Y<15625 then if Y>15024 then ff=bd[Vb[30239]+1];Y,sb[Vb[46537]]=Pd[615]or fb(615,33540,24440),ff[3][ff[2]]else n_,Ya=Ud(mb,Sc);Sc=n_ if Sc==nil then Y=Pd[-7006]or fb(-7006,56753,2707)else Y=49464 end end elseif Y>16029 then sb[Vb[7305]],Y=sb[Vb[30239]]+Vb[3351],Pd[16106]or fb(16106,16870,40666)elseif Y>15625 then if(je>196)then Y=Pd[-1896]or fb(-1896,127819,18553)continue else Y=Pd[-32113]or fb(-32113,42403,10512)continue end Y=Pd[13844]or fb(13844,45746,4502)else Re={[1]=sb[ie[30239]],[2]=1};Re[3]=Re;mb[(Xc-80)],Y=Re,Pd[-22850]or fb(-22850,101501,62301)end elseif Y<25205 then if Y>=20703 then if Y>22867 then if Y>=23881 then if Y>=25131 then if Y>25131 then mb=Mc[oc+Vb[11858]]if(Lf[mb]==nil)then Y=Pd[-11448]or fb(-11448,90584,37304)continue else Y=Pd[17200]or fb(17200,9793,15785)continue end Y=Pd[-21734]or fb(-21734,82208,54538)else ff=Vb[46537];Ud,mb=sb[ff],sb[ff+1];Sc=sb[ff+2]+mb;sb[ff+2]=Sc if(mb>0)then Y=Pd[-18447]or fb(-18447,120099,18480)continue else Y=Pd[-6746]or fb(-6746,125500,4390)continue end Y=Pd[19172]or fb(19172,52095,5969)end elseif Y<=23881 then o_=Ya if Xc~=Xc then Y=Pd[-24142]or fb(-24142,23553,13661)else Y=Pd[-27262]or fb(-27262,22697,31317)end else Ud,mb,Sc=ff[Pf('\128\132b\171\190y','\223\219\v')](Ud);Y=Pd[-5707]or fb(-5707,128793,65168)end elseif Y<23617 then if Y>22937 then ff,Ud,mb=Vb[30239],Vb[46537],Vb[7305]-1 if(mb==-1)then Y=Pd[-15195]or fb(-15195,76144,53276)continue else Y=Pd[9427]or fb(9427,117034,20937)continue end Y=49490 else oc+=Vb[11858];Y=Pd[-4251]or fb(-4251,36710,23386)end elseif Y>23617 then oc+=1;Y=Pd[22274]or fb(22274,65389,11439)else if sb[Vb[46537]]==sb[Vb[60568]]then Y=Pd[-17850]or fb(-17850,23021,2170)continue else Y=Pd[8333]or fb(8333,125242,57841)continue end Y=Pd[-5147]or fb(-5147,35918,23426)end elseif Y>21707 then if Y>22169 then if(ie>=0 and Ya>Xc)or((ie<0 or ie~=ie)and Ya<Xc)then Y=Pd[-12844]or fb(-12844,21058,15504)else Y=54961 end elseif Y>=22164 then if Y<=22164 then ff=F[Vb[3351]+1];Ud=ff[48555];mb=ze(Ud);sb[Vb[46537]]=Ed(ff,mb);Ya,Y,n_,Sc=1,14885,(Ud)+80,81 else if(je>29)then Y=Pd[26337]or fb(26337,129276,54735)continue else Y=Pd[-25238]or fb(-25238,111270,23828)continue end Y=Pd[24523]or fb(24523,36597,24023)end else af={[2]=L,[3]=sb};jd[L],Y=af,Pd[17104]or fb(17104,53880,14693)end elseif Y>20748 then if Y<=20810 then oc+=Vb[11858];Y=Pd[-14137]or fb(-14137,9759,58481)else oc-=1;Y,Mc[oc]=Pd[32335]or fb(32335,42075,25533),{[5965]=77,[46537]=_b(Vb[46537],1),[30239]=_b(Vb[30239],191),[7305]=0}end elseif Y<20735 then oc-=1;Y,Mc[oc]=Pd[387]or fb(387,6568,50924),{[5965]=93,[46537]=_b(Vb[46537],185),[30239]=_b(Vb[30239],31),[7305]=0}elseif Y<=20735 then if je>172 then Y=Pd[-14000]or fb(-14000,2065,12459)continue else Y=Pd[-3447]or fb(-3447,110717,52177)continue end Y=Pd[-25618]or fb(-25618,41757,32639)else sb[Vb[7305]],Y=Sc,Pd[3595]or fb(3595,40362,19182)end elseif Y>19621 then if Y<=20218 then if Y<=19991 then if Y<=19867 then if Y<=19746 then if je>188 then Y=Pd[14907]or fb(14907,81644,58766)continue else Y=Pd[-15501]or fb(-15501,6897,40097)continue end Y=Pd[6374]or fb(6374,35247,22241)else if(je>133)then Y=Pd[18366]or fb(18366,19550,23770)continue else Y=Pd[-12587]or fb(-12587,124471,59132)continue end Y=Pd[30499]or fb(30499,50437,327)end else ff,Ud=Vb[46537],Vb[30239]-1 if Ud==-1 then Y=Pd[26406]or fb(26406,1514,41999)continue end Y=Pd[-18189]or fb(-18189,31870,16407)end elseif Y>20189 then mb[(Xc-80)],Y=bd[ie[30239]+1],Pd[-5934]or fb(-5934,113784,33626)else Xc=Xc+o_;Re=Xc if Xc~=Xc then Y=Pd[-20842]or fb(-20842,115328,19553)else Y=Pd[-30025]or fb(-30025,115977,26047)end end elseif Y>20567 then if(Ya>=0 and Sc>n_)or((Ya<0 or Ya~=Ya)and Sc<n_)then Y=Pd[-19548]or fb(-19548,7382,52010)else Y=Pd[-28234]or fb(-28234,6042,19880)end elseif Y<=20278 then Ob(Ya,1,Ud,ff+3,sb);sb[ff+2]=sb[ff+3];oc+=Vb[11858];Y=Pd[12653]or fb(12653,35382,22538)else if sb[Vb[46537]]then Y=Pd[12039]or fb(12039,102858,48537)continue end Y=Pd[-25282]or fb(-25282,41300,32424)end elseif Y>18893 then if Y<=19500 then if Y<19491 then o_=o_+Tb;Jb=o_ if o_~=o_ then Y=Pd[-20334]or fb(-20334,24212,34965)else Y=26129 end elseif Y>19491 then if(je>0)then Y=Pd[28999]or fb(28999,130570,57718)continue else Y=Pd[27673]or fb(27673,123766,971)continue end Y=Pd[22246]or fb(22246,11870,64946)else oc+=Vb[11858];Y=Pd[15913]or fb(15913,2076,54896)end else if(je>215)then Y=Pd[13179]or fb(13179,42675,6424)continue else Y=Pd[-15234]or fb(-15234,32424,11454)continue end Y=Pd[-22103]or fb(-22103,15082,59694)end elseif Y>18197 then if Y<=18266 then if(je>128)then Y=Pd[-8151]or fb(-8151,122522,46025)continue else Y=Pd[13642]or fb(13642,26,1639)continue end Y=Pd[5594]or fb(5594,35233,22243)else Y,sb[Vb[30239]]=Pd[-13691]or fb(-13691,12717,61167),sb[Vb[46537]]-Vb[3351]end elseif Y>=18131 then if Y<=18131 then n_,Ya=Ud(mb,Sc);Sc=n_ if Sc==nil then Y=Pd[-3042]or fb(-3042,101174,49878)else Y=Pd[13948]or fb(13948,125783,17732)end else if(je>137)then Y=Pd[11209]or fb(11209,114479,38532)continue else Y=Pd[14547]or fb(14547,121715,7912)continue end Y=Pd[19833]or fb(19833,6172,50800)end else oc+=Vb[11858];Y=Pd[20834]or fb(20834,15178,59534)end elseif Y<29430 then if Y<=26799 then if Y<26139 then if Y<=25987 then if Y>=25412 then if Y>25412 then oc-=1;Y,Mc[oc]=Pd[12916]or fb(12916,49096,27660),{[5965]=30,[46537]=_b(Vb[46537],238),[30239]=_b(Vb[30239],76),[7305]=0}else n_=H(Ud)if n_==nil then Y=Pd[-32375]or fb(-32375,115806,28433)continue end Y=30884 end else oc-=1;Mc[oc],Y={[5965]=29,[46537]=_b(Vb[46537],166),[30239]=_b(Vb[30239],209),[7305]=0},Pd[-20655]or fb(-20655,34666,17582)end else if(Tb>=0 and o_>Re)or((Tb<0 or Tb~=Tb)and o_<Re)then Y=Pd[-849]or fb(-849,50172,7165)else Y=16633 end end elseif Y>26249 then if Y>26572 then ff,Ud=Vb[30239],Vb[46537];mb,Sc=jf(M,sb,'',ff,Ud)if not mb then Y=Pd[8533]or fb(8533,21858,42544)continue end Y=20748 else Ud=If[36405];Y,kf=Pd[27789]or fb(27789,31744,16441),ff+Ud-1 end elseif Y>=26181 then if Y>26181 then if sb[Vb[46537]]==sb[Vb[60568]]then Y=Pd[23344]or fb(23344,9677,41734)continue else Y=Pd[23558]or fb(23558,116689,31159)continue end Y=Pd[14465]or fb(14465,34167,16713)else Ud,mb,Sc=h(Ud);Y=Pd[-8891]or fb(-8891,116330,50824)end else return pc(sb,ff,ff+Sc-1)end elseif Y>28168 then if Y>=29125 then if Y<=29125 then oc+=Vb[11858];Y=Pd[-3332]or fb(-3332,19059,38997)else Cb(Ya);Y=Pd[-19558]or fb(-19558,26658,30707)end else ff,Ud=Vb[46537],Vb[30239];mb=Ud-1 if(mb==-1)then Y=Pd[-1995]or fb(-1995,43574,25422)continue else Y=Pd[-22107]or fb(-22107,119057,601)continue end Y=Pd[-25437]or fb(-25437,11379,23495)end elseif Y<=28027 then if Y>27521 then sb[Vb[46537]],Y=not sb[Vb[30239]],Pd[-4235]or fb(-4235,47573,26167)elseif Y<=26910 then if(je>164)then Y=Pd[-23472]or fb(-23472,118554,47971)continue else Y=Pd[-4997]or fb(-4997,125647,2268)continue end Y=Pd[25570]or fb(25570,1863,50361)else n_,Ya=S(Lf[Vb],mb,sb[ff+1],sb[ff+2])if(not n_)then Y=Pd[10368]or fb(10368,962,44139)continue else Y=Pd[-10704]or fb(-10704,29723,5066)continue end Y=17984 end elseif Y>28149 then Xc,Y=Xc..lf(_b(Ec(n_,(Tb-51)+1),Ec(Ya,(Tb-51)%#Ya+1))),Pd[-29057]or fb(-29057,108029,61724)else if sb[Vb[46537]]<=sb[Vb[60568]]then Y=Pd[-31492]or fb(-31492,2926,50335)continue else Y=Pd[6535]or fb(6535,113317,49268)continue end Y=Pd[-15371]or fb(-15371,22261,46551)end elseif Y>31984 then if Y>=33504 then if Y>=33915 then if Y<=33915 then if(je>203)then Y=Pd[13253]or fb(13253,84408,64140)continue else Y=Pd[1584]or fb(1584,5118,35266)continue end Y=Pd[-13361]or fb(-13361,19833,39259)else oc+=1;Y=Pd[24208]or fb(24208,36490,24014)end elseif Y<=33504 then ff,Ud,mb=Vb[3351],Vb[13687],sb[Vb[46537]]if(mb==ff)~=Ud then Y=Pd[-19422]or fb(-19422,34585,12115)continue else Y=Pd[-29404]or fb(-29404,12568,1810)continue end Y=Pd[11044]or fb(11044,29159,44761)else if(Vb[7305]==238)then Y=Pd[17339]or fb(17339,10297,3496)continue else Y=Pd[764]or fb(764,1733,36525)continue end Y=Pd[1785]or fb(1785,57220,3320)end elseif Y>=33368 then if Y<=33368 then Ud,mb,Sc=h(Ud);Y=Pd[20386]or fb(20386,1865,60960)else if je>119 then Y=Pd[2791]or fb(2791,40670,79)continue else Y=Pd[-10242]or fb(-10242,13196,42386)continue end Y=Pd[1556]or fb(1556,49235,8117)end elseif Y<=32355 then ie=Mc[oc];oc+=1;o_=ie[46537]if o_==0 then Y=Pd[-9429]or fb(-9429,27376,28776)continue elseif(o_==2)then Y=Pd[24305]or fb(24305,39435,12944)continue else Y=Pd[-12783]or fb(-12783,22647,16215)continue end Y=Pd[27153]or fb(27153,24072,9546)else n_={mb(sb[ff+1],sb[ff+2])};Ob(n_,1,Ud,ff+3,sb)if(sb[ff+3]~=nil)then Y=Pd[4421]or fb(4421,107640,38291)continue else Y=Pd[-30654]or fb(-30654,28213,15655)continue end Y=Pd[1478]or fb(1478,18446,38466)end elseif Y<=30141 then if Y<30030 then if Y<29783 then if je>243 then Y=Pd[-3790]or fb(-3790,10477,59799)continue else Y=Pd[-12196]or fb(-12196,889,62489)continue end Y=Pd[-24036]or fb(-24036,60880,14900)elseif Y<=29783 then if(Vb[7305]==36)then Y=Pd[2454]or fb(2454,16321,19677)continue else Y=Pd[-19673]or fb(-19673,124783,12641)continue end Y=Pd[20129]or fb(20129,58247,8441)else ie=ie+Re;Tb=ie if ie~=ie then Y=Pd[32265]or fb(32265,13850,40341)else Y=Pd[-31369]or fb(-31369,5584,3600)end end elseif Y>=30034 then if Y<=30034 then oc+=1;Y=Pd[-13175]or fb(-13175,16008,60876)else Y,kf=Pd[-7368]or fb(-7368,46123,14855),ff+Xc-1 end else Tb=ie if o_~=o_ then Y=Pd[13666]or fb(13666,102349,47009)else Y=Pd[-26176]or fb(-26176,1066,29449)end end elseif Y>=30884 then if Y>30884 then ff=Vb[46537];Ud,mb=sb[ff],nil;Sc=Ud;mb=zc(Sc)==Pf('\253i%\241y:','\147\28H')if not mb then Y=Pd[-20251]or fb(-20251,22133,4640)continue end Y=1623 else sb[ff]=n_;Ud,Y=n_,Pd[-11945]or fb(-11945,34354,17916)end elseif Y>30772 then Vb=Mc[oc];je,Y=Vb[5965],Pd[-23656]or fb(-23656,3017,1349)else if(Xc>=0 and n_>Ya)or((Xc<0 or Xc~=Xc)and n_<Ya)then Y=Pd[27231]or fb(27231,4987,48126)else Y=1707 end end until Y==56242 end return function(...)local bc,Uc,na,gb,Gd,Ic,nc,se_,jb,vf,La;gb,nc=function(xa,Hb,Q)nc[xa]=ib(Q,50977)-ib(Hb,24465)return nc[xa]end,{};jb=nc[28333]or gb(28333,60086,90407)while jb~=34313 do if jb>=37897 then if jb>57974 then bc,se_,Gd=B(...),ze(Ac[37278]),{[36405]=0,[2238]={}};Ob(bc,1,Ac[5637],0,se_)if(Ac[5637]<bc[Pf('k','\5')])then jb=nc[-15912]or gb(-15912,6912,8123)continue else jb=nc[26610]or gb(26610,15102,43013)continue end jb=2485 elseif jb<42497 then La,Uc=Ac[5637]+1,bc[Pf('\190','\208')]-Ac[5637];Gd[36405]=Uc;Ob(bc,La,La+Uc-1,1,Gd[2238]);jb=nc[14908]or gb(14908,52796,23619)elseif jb>42497 then jb=nc[8114]or gb(8114,4686,5321)continue else na,Ic=La[2],nil;vf=na;Ic=zc(vf)==Pf('_\5\48E\31%',',qB')if Ic==false then jb=nc[19924]or gb(19924,16463,63451)continue end jb=6848 end elseif jb>=4380 then if jb<=4380 then na,jb=zc(na),nc[4472]or gb(4472,44473,117705)else return Cb(na,0)end elseif jb<=2485 then La,Uc=ce(jf(bf,se_,Ac[5398],Ac[21867],Gd))if(La[1])then jb=nc[29263]or gb(29263,19408,55296)continue else jb=nc[-17292]or gb(-17292,57508,107031)continue end jb=nc[7420]or gb(7420,59429,89355)else return pc(La,2,Uc)end end end end return Ed(nd,db)end)local Md;Md,ia={[0]=0},function()Md[0]=Md[0]+1 return{[3]=Md,[2]=Md[0]}end;Dd=rf return(function()local rc,ub,_f,Me;ub={[1]=Dd,[2]=1};ub[3]=ub;Me={[1]=Ke,[2]=1};Me[3]=Me;_f={[1]=gc,[2]=1};_f[3]=_f;rc={[1]=ja,[2]=1};rc[3]=rc return Dd(Id'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',{[4]=rc,[1]=ub,[3]=_f,[2]=Me})end)()(...)
+-- Build A Boat For Treasure - AutoFarm + UI
+-- Not: Oyun update alirsa stage/chest isimleri degisebilir.
+
+local Players = game:GetService("Players")
+local Teams = game:GetService("Teams")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local UserInputService = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+local HttpService = game:GetService("HttpService")
+local unpackArgs = table.unpack or unpack
+
+if not game:IsLoaded() then
+    game.Loaded:Wait()
+end
+
+local LocalPlayer = Players.LocalPlayer
+while not LocalPlayer do
+    task.wait()
+    LocalPlayer = Players.LocalPlayer
+end
+
+local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+
+task.defer(function()
+    local missing = {}
+    if typeof(fireproximityprompt) ~= "function" then
+        table.insert(missing, "fireproximityprompt")
+    end
+    if typeof(fireclickdetector) ~= "function" then
+        table.insert(missing, "fireclickdetector")
+    end
+    if typeof(firetouchinterest) ~= "function" then
+        table.insert(missing, "firetouchinterest")
+    end
+    if #missing > 0 then
+        warn("[BBFT] Executor missing functions: " .. table.concat(missing, ", "))
+    end
+end)
+
+local autoFarm = false
+local running = false
+local teamAutoSwitch = false
+local teamSwitchInProgress = false
+local boatAutoUpright = false
+local boatNoDamage = false
+local boatEngineMode = "normal"
+local boatCustomSpeed = 100
+local selectedTeamColorName = "Red"
+local isTouchDevice = UserInputService.TouchEnabled
+local localPlayerNoclip = false
+local localPlayerFly = false
+local localPlayerFlySpeed = 80
+local farmResumeAfterRespawnAt = os.clock()
+local pendingTeamResyncUntil = 0
+local farmSessionStartTime = nil
+local farmSessionElapsedBase = 0
+local farmSessionStartGold = nil
+local cachedGoldStat = nil
+local lastGoldResolveTry = 0
+local STAGE_CENTER_Y_OFFSET = -1.1
+local ROOT_ON_GROUND_OFFSET = 2.6
+local GROUND_CAST_HEIGHT = 350
+local GROUND_CAST_DEPTH = 700
+local MAX_STAGE_COUNT = 10
+local TP_DELAY = 1.5
+local RESPAWN_START_DELAY = 5
+local MIN_SAFETY_PART_DROP = 1
+local MAX_SAFETY_PART_DROP = 900 -- Clamp limiti dusuk kalirsa guvenli bolge ayni yerde takili kalir.
+local SAFETY_PART_EXTRA_DROP = 120 -- Guvenli bolgeyi (ve TP noktasini) birlikte yukariya tasir.
+local SAFETY_ROOT_EXTRA_Y_OFFSET = 0 -- Ayaklar guvenli parcanin ustune gelsin.
+local SAFETY_PART_FORWARD_Z_OFFSET = 500 -- Guvenli bolgeyi ileri almak icin +, geri almak icin -.
+local TEAM_CHECK_INTERVAL = 1
+local TEAM_COLOR_OPTIONS = {"Black", "Blue", "Green", "Magenta", "Red", "White", "Yellow"}
+local BLACK_BRIGHTNESS_THRESHOLD = 0.12
+local BOAT_UPRIGHT_COOLDOWN = 1.2
+local BOAT_UPRIGHT_TRIGGER_Y = -0.35
+local BOAT_UPRIGHT_LIFT = 3
+local BOAT_ENGINE_UPDATE_INTERVAL = 0.05
+local BOAT_DAMAGE_GUARD_INTERVAL = 0.05
+local BOAT_ENGINE_MIN_SPEED = 1
+local BOAT_ENGINE_MAX_SPEED = 500
+local BOAT_ENGINE_MIN_THROTTLE = 0.05
+local BOAT_GUARD_HEALTH_VALUE = 1000000000
+local BOAT_NO_DAMAGE_KEEP_SEAT_TOUCH = true
+local BOAT_RAM_PART_NAME = "AF_BoatRam"
+local BOAT_RAM_FORWARD_OFFSET = 8
+local BOAT_RAM_SIZE = Vector3.new(6, 4, 2)
+local BOAT_SHIELD_HEALTH_VALUE = 250000000
+local BOAT_SHIELD_TOUCH_DAMAGE = 125000
+local BOAT_SHIELD_HIT_COOLDOWN = 0.12
+local BOAT_SHIELD_SELF_DAMAGE_PER_HIT = 6000
+local BOAT_RECOIL_DELTA_THRESHOLD = 60
+local BOAT_RECOIL_KEEP_RATIO = 0.35
+local BOAT_RECOIL_MAX_UP_SPEED = 22
+local BOAT_RECOIL_MAX_DOWN_SPEED = 110
+local BOAT_RECOIL_ANGULAR_THRESHOLD = 8
+local BOAT_RECOIL_ANGULAR_DAMPING = 0.22
+local LOCAL_PLAYER_FLY_MIN_SPEED = 20
+local LOCAL_PLAYER_FLY_MAX_SPEED = 250
+local LOCAL_PLAYER_FLY_BODY_POWER = 1000000
+local LOCAL_PLAYER_FLY_BODY_GYRO_POWER = 1000000
+local LOCAL_PLAYER_FLY_ACCELERATION = 12
+local LOCAL_PLAYER_FLY_IDLE_DECEL = 10
+local LOCAL_PLAYER_FLY_BOOST_MULTIPLIER = 1.75
+local PANEL_TOGGLE_KEY = Enum.KeyCode.G
+local currentSafetyPart = nil
+local characterVersion = character and 1 or 0
+local lastBoatUprightAt = 0
+local lastBoatDamageGuardAt = 0
+local boatRecoilLastRootPart = nil
+local boatRecoilLastLinearVelocity = Vector3.new(0, 0, 0)
+local activeCustomVehicleSeat = nil
+local currentBoatRamPart = nil
+local currentBoatRamTouchConnection = nil
+local currentBoatRamOwnerModel = nil
+local localFlyBodyVelocity = nil
+local localFlyBodyGyro = nil
+local localFlyInput = {forward = 0, back = 0, left = 0, right = 0, up = 0, down = 0, boost = 0}
+local localFlyCurrentVelocity = Vector3.new(0, 0, 0)
+local lastLocalFlyUpdateAt = 0
+local panelVisible = true
+local scriptClosedPermanently = false
+local windUiLoaded = false
+local windUiWindow = nil
+local windUiToggleKeyName = "H"
+local WINDUI_PROFILE_ICON = "https://tr.rbxcdn.com/180DAY-5cc07c05652006d448479ae66212782d/768/432/Image/Webp/noFilter"
+local WINDUI_PROFILE_BACKGROUND = "rbxassetid://82503368188240"
+local windUiFarmStatParagraph = nil
+local windUiToggleKeyButton = nil
+local windUiToggleKeyCaptureConnection = nil
+local windUiToggleKeyCaptureActive = false
+local vehicleSeatDefaults = setmetatable({}, {__mode = "k"})
+local boatDamageValueDefaults = setmetatable({}, {__mode = "k"})
+local boatDamageAttributeDefaults = setmetatable({}, {__mode = "k"})
+local boatPartDefaults = setmetatable({}, {__mode = "k"})
+local noclipPartDefaults = setmetatable({}, {__mode = "k"})
+local boatShieldTouchCooldowns = setmetatable({}, {__mode = "k"})
+local SETTINGS_FILE_NAME = "BBFT_Settings.json"
+local supportsSettingsPersistence = (typeof(isfile) == "function" and typeof(readfile) == "function" and typeof(writefile) == "function")
+local applyingLoadedSettings = false
+local ZERO_VECTOR = Vector3.new(0, 0, 0)
+pcall(function()
+    if Vector3.zero then
+        ZERO_VECTOR = Vector3.zero
+    end
+end)
+localFlyCurrentVelocity = ZERO_VECTOR
+boatRecoilLastLinearVelocity = ZERO_VECTOR
+
+function isValidTeamColorOption(value)
+    local target = tostring(value or "")
+    for _, option in ipairs(TEAM_COLOR_OPTIONS) do
+        if option == target then
+            return true
+        end
+    end
+    return false
+end
+
+function normalizeKeyCodeName(value, fallback)
+    local keyName = tostring(value or "")
+    keyName = keyName:gsub("^Enum%.KeyCode%.", "")
+    keyName = keyName:gsub("%s+", "")
+    if keyName == "" then
+        return fallback
+    end
+    if Enum.KeyCode[keyName] then
+        return keyName
+    end
+    return fallback
+end
+
+function clampPersistedInteger(value, minValue, maxValue, fallback)
+    local numeric = tonumber(value)
+    if not numeric then
+        return fallback
+    end
+    return math.clamp(math.floor(numeric + 0.5), minValue, maxValue)
+end
+
+function normalizeBoatEngineMode(value)
+    local mode = tostring(value or ""):lower()
+    if mode == "custom" then
+        return "custom"
+    end
+    return "normal"
+end
+
+function buildPersistedSettingsPayload()
+    return {
+        panelToggleKey = windUiToggleKeyName,
+        selectedTeamColorName = selectedTeamColorName,
+        teamAutoSwitch = teamAutoSwitch and true or false,
+        boatAutoUpright = boatAutoUpright and true or false,
+        boatNoDamage = boatNoDamage and true or false,
+        boatEngineMode = normalizeBoatEngineMode(boatEngineMode),
+        boatCustomSpeed = clampPersistedInteger(boatCustomSpeed, BOAT_ENGINE_MIN_SPEED, BOAT_ENGINE_MAX_SPEED, 100),
+        localPlayerNoclip = localPlayerNoclip and true or false,
+        localPlayerFly = localPlayerFly and true or false,
+        localPlayerFlySpeed = clampPersistedInteger(localPlayerFlySpeed, LOCAL_PLAYER_FLY_MIN_SPEED, LOCAL_PLAYER_FLY_MAX_SPEED, 80)
+    }
+end
+
+function savePersistedSettings()
+    if applyingLoadedSettings or not supportsSettingsPersistence then
+        return false
+    end
+
+    local payload = buildPersistedSettingsPayload()
+    local okEncode, encoded = pcall(function()
+        return HttpService:JSONEncode(payload)
+    end)
+    if not okEncode or type(encoded) ~= "string" then
+        return false
+    end
+
+    local okWrite = pcall(function()
+        writefile(SETTINGS_FILE_NAME, encoded)
+    end)
+    return okWrite and true or false
+end
+
+function loadPersistedSettings()
+    if not supportsSettingsPersistence then
+        return
+    end
+
+    local okIsFile, exists = pcall(function()
+        return isfile(SETTINGS_FILE_NAME)
+    end)
+    if not okIsFile or not exists then
+        return
+    end
+
+    local okRead, content = pcall(function()
+        return readfile(SETTINGS_FILE_NAME)
+    end)
+    if not okRead or type(content) ~= "string" or content == "" then
+        return
+    end
+
+    local okDecode, decoded = pcall(function()
+        return HttpService:JSONDecode(content)
+    end)
+    if not okDecode or type(decoded) ~= "table" then
+        return
+    end
+
+    applyingLoadedSettings = true
+
+    windUiToggleKeyName = normalizeKeyCodeName(decoded.panelToggleKey, windUiToggleKeyName)
+    if isValidTeamColorOption(decoded.selectedTeamColorName) then
+        selectedTeamColorName = tostring(decoded.selectedTeamColorName)
+    end
+
+    if type(decoded.teamAutoSwitch) == "boolean" then
+        teamAutoSwitch = decoded.teamAutoSwitch
+    end
+    if type(decoded.boatAutoUpright) == "boolean" then
+        boatAutoUpright = decoded.boatAutoUpright
+    end
+    if type(decoded.boatNoDamage) == "boolean" then
+        boatNoDamage = decoded.boatNoDamage
+    end
+    if type(decoded.localPlayerNoclip) == "boolean" then
+        localPlayerNoclip = decoded.localPlayerNoclip
+    end
+    if type(decoded.localPlayerFly) == "boolean" then
+        localPlayerFly = decoded.localPlayerFly
+    end
+
+    boatEngineMode = normalizeBoatEngineMode(decoded.boatEngineMode)
+    boatCustomSpeed = clampPersistedInteger(decoded.boatCustomSpeed, BOAT_ENGINE_MIN_SPEED, BOAT_ENGINE_MAX_SPEED, boatCustomSpeed)
+    localPlayerFlySpeed = clampPersistedInteger(decoded.localPlayerFlySpeed, LOCAL_PLAYER_FLY_MIN_SPEED, LOCAL_PLAYER_FLY_MAX_SPEED, localPlayerFlySpeed)
+
+    applyingLoadedSettings = false
+end
+
+loadPersistedSettings()
+
+function getPartLinearVelocity(part)
+    if not (part and part.Parent and part:IsA("BasePart")) then
+        return ZERO_VECTOR
+    end
+
+    local velocity = ZERO_VECTOR
+    local ok = pcall(function()
+        velocity = part.AssemblyLinearVelocity
+    end)
+    if ok and typeof(velocity) == "Vector3" then
+        return velocity
+    end
+
+    pcall(function()
+        velocity = part.Velocity
+    end)
+    if typeof(velocity) == "Vector3" then
+        return velocity
+    end
+
+    return ZERO_VECTOR
+end
+
+function getPartAngularVelocity(part)
+    if not (part and part.Parent and part:IsA("BasePart")) then
+        return ZERO_VECTOR
+    end
+
+    local velocity = ZERO_VECTOR
+    local ok = pcall(function()
+        velocity = part.AssemblyAngularVelocity
+    end)
+    if ok and typeof(velocity) == "Vector3" then
+        return velocity
+    end
+
+    pcall(function()
+        velocity = part.RotVelocity
+    end)
+    if typeof(velocity) == "Vector3" then
+        return velocity
+    end
+
+    return ZERO_VECTOR
+end
+
+function setPartLinearVelocity(part, velocity)
+    if not (part and part.Parent and part:IsA("BasePart")) then
+        return false
+    end
+
+    local targetVelocity = (typeof(velocity) == "Vector3") and velocity or ZERO_VECTOR
+    local ok = pcall(function()
+        part.AssemblyLinearVelocity = targetVelocity
+    end)
+    if ok then
+        return true
+    end
+
+    ok = pcall(function()
+        part.Velocity = targetVelocity
+    end)
+    return ok
+end
+
+function setPartAngularVelocity(part, velocity)
+    if not (part and part.Parent and part:IsA("BasePart")) then
+        return false
+    end
+
+    local targetVelocity = (typeof(velocity) == "Vector3") and velocity or ZERO_VECTOR
+    local ok = pcall(function()
+        part.AssemblyAngularVelocity = targetVelocity
+    end)
+    if ok then
+        return true
+    end
+
+    ok = pcall(function()
+        part.RotVelocity = targetVelocity
+    end)
+    return ok
+end
+
+function stopPartMotion(part)
+    setPartLinearVelocity(part, ZERO_VECTOR)
+    setPartAngularVelocity(part, ZERO_VECTOR)
+end
+
+function clampPositionToBounds(targetPos, boundsCF, boundsSize)
+    if not boundsCF or not boundsSize then
+        return targetPos
+    end
+
+    local localPos = boundsCF:PointToObjectSpace(targetPos)
+    local halfX = math.max((boundsSize.X * 0.5) - 1, 0)
+    local halfZ = math.max((boundsSize.Z * 0.5) - 1, 0)
+    local clampedLocal = Vector3.new(
+        math.clamp(localPos.X, -halfX, halfX),
+        localPos.Y,
+        math.clamp(localPos.Z, -halfZ, halfZ)
+    )
+    local clampedWorld = boundsCF:PointToWorldSpace(clampedLocal)
+    return Vector3.new(clampedWorld.X, targetPos.Y, clampedWorld.Z)
+end
+
+function getRoot()
+    character = LocalPlayer.Character or character
+    if not character then return nil end
+    return character:FindFirstChild("HumanoidRootPart")
+end
+
+function getHumanoid()
+    character = LocalPlayer.Character or character
+    if not character then return nil end
+    return character:FindFirstChildOfClass("Humanoid")
+end
+
+function clampLocalPlayerFlySpeed(value)
+    return math.clamp(
+        math.floor((tonumber(value) or LOCAL_PLAYER_FLY_MIN_SPEED) + 0.5),
+        LOCAL_PLAYER_FLY_MIN_SPEED,
+        LOCAL_PLAYER_FLY_MAX_SPEED
+    )
+end
+
+function resetLocalFlyInput()
+    localFlyInput.forward = 0
+    localFlyInput.back = 0
+    localFlyInput.left = 0
+    localFlyInput.right = 0
+    localFlyInput.up = 0
+    localFlyInput.down = 0
+    localFlyInput.boost = 0
+end
+
+function setLocalFlyInputForKey(keyCode, isDown)
+    local value = isDown and 1 or 0
+    if keyCode == Enum.KeyCode.W or keyCode == Enum.KeyCode.Up then
+        localFlyInput.forward = value
+    elseif keyCode == Enum.KeyCode.S or keyCode == Enum.KeyCode.Down then
+        localFlyInput.back = value
+    elseif keyCode == Enum.KeyCode.A or keyCode == Enum.KeyCode.Left then
+        localFlyInput.left = value
+    elseif keyCode == Enum.KeyCode.D or keyCode == Enum.KeyCode.Right then
+        localFlyInput.right = value
+    elseif keyCode == Enum.KeyCode.Space then
+        localFlyInput.up = value
+    elseif keyCode == Enum.KeyCode.LeftControl
+        or keyCode == Enum.KeyCode.RightControl
+        or keyCode == Enum.KeyCode.Q then
+        localFlyInput.down = value
+    elseif keyCode == Enum.KeyCode.E then
+        localFlyInput.up = value
+    elseif keyCode == Enum.KeyCode.LeftShift or keyCode == Enum.KeyCode.RightShift then
+        localFlyInput.boost = value
+    end
+end
+
+function getFlyRootPart(char)
+    if not char then
+        return nil
+    end
+    return char:FindFirstChild("HumanoidRootPart")
+        or char:FindFirstChild("Torso")
+        or char:FindFirstChild("UpperTorso")
+end
+
+function applyCharacterNoclip()
+    local currentCharacter = LocalPlayer.Character or character
+    if not currentCharacter then
+        return false
+    end
+
+    for _, obj in ipairs(currentCharacter:GetDescendants()) do
+        if obj:IsA("BasePart") then
+            if noclipPartDefaults[obj] == nil then
+                noclipPartDefaults[obj] = obj.CanCollide
+            end
+            pcall(function()
+                obj.CanCollide = false
+            end)
+        end
+    end
+    return true
+end
+
+function restoreCharacterNoclip()
+    for part, originalCanCollide in pairs(noclipPartDefaults) do
+        if part and part.Parent and part:IsA("BasePart") then
+            pcall(function()
+                part.CanCollide = originalCanCollide
+            end)
+        end
+        noclipPartDefaults[part] = nil
+    end
+end
+
+local flyRuntimeActive = false
+local flyRuntimeConnections = {}
+local flyRuntimeObjects = {}
+local flyGamepadAxis = Vector2.new(0, 0)
+local flyControl = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+
+function clearFlyRuntimeConnections()
+    for key, conn in pairs(flyRuntimeConnections) do
+        if conn and typeof(conn.Disconnect) == "function" then
+            pcall(function()
+                conn:Disconnect()
+            end)
+        end
+        flyRuntimeConnections[key] = nil
+    end
+end
+
+function clearLocalFlyBodyMovers()
+    flyRuntimeActive = false
+    clearFlyRuntimeConnections()
+
+    pcall(function()
+        if flyRuntimeObjects.bv then
+            flyRuntimeObjects.bv:Destroy()
+        end
+        if flyRuntimeObjects.bg then
+            flyRuntimeObjects.bg:Destroy()
+        end
+    end)
+    flyRuntimeObjects = {}
+    flyGamepadAxis = Vector2.new(0, 0)
+    flyControl = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+
+    if localFlyBodyVelocity and localFlyBodyVelocity.Parent then
+        localFlyBodyVelocity:Destroy()
+    end
+    if localFlyBodyGyro and localFlyBodyGyro.Parent then
+        localFlyBodyGyro:Destroy()
+    end
+    localFlyBodyVelocity = nil
+    localFlyBodyGyro = nil
+end
+
+function ensureLocalFlyBodyMovers()
+    if flyRuntimeActive then
+        return true
+    end
+
+    local char = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+    local root = getFlyRootPart(char)
+    local humanoid = char and char:FindFirstChildOfClass("Humanoid")
+    if not root then
+        return false
+    end
+
+    flyRuntimeActive = true
+    flyControl = {F = 0, B = 0, L = 0, R = 0, Q = 0, E = 0}
+
+    if humanoid then
+        pcall(function()
+            humanoid.PlatformStand = true
+        end)
+    end
+
+    local bg = Instance.new("BodyGyro")
+    local bv = Instance.new("BodyVelocity")
+    bg.Name = "FlyBodyGyro"
+    bg.P = 9e4
+    bg.D = 1e3
+    bg.MaxTorque = Vector3.new(9e9, 9e9, 9e9)
+    bg.CFrame = root.CFrame
+    bg.Parent = root
+
+    bv.Name = "FlyBodyVelocity"
+    bv.MaxForce = Vector3.new(9e9, 9e9, 9e9)
+    bv.Velocity = ZERO_VECTOR
+    bv.Parent = root
+
+    flyRuntimeObjects.bg = bg
+    flyRuntimeObjects.bv = bv
+
+    flyRuntimeConnections.inputBegan = UserInputService.InputBegan:Connect(function(input, processed)
+        if processed or input.UserInputType ~= Enum.UserInputType.Keyboard then
+            return
+        end
+        local keyCode = input.KeyCode
+        if keyCode == Enum.KeyCode.W then flyControl.F = 1 end
+        if keyCode == Enum.KeyCode.S then flyControl.B = 1 end
+        if keyCode == Enum.KeyCode.A then flyControl.L = -1 end
+        if keyCode == Enum.KeyCode.D then flyControl.R = 1 end
+        if keyCode == Enum.KeyCode.E then flyControl.E = 1 end
+        if keyCode == Enum.KeyCode.Q then flyControl.Q = -1 end
+    end)
+
+    flyRuntimeConnections.inputEnded = UserInputService.InputEnded:Connect(function(input)
+        if input.UserInputType ~= Enum.UserInputType.Keyboard then
+            return
+        end
+        local keyCode = input.KeyCode
+        if keyCode == Enum.KeyCode.W then flyControl.F = 0 end
+        if keyCode == Enum.KeyCode.S then flyControl.B = 0 end
+        if keyCode == Enum.KeyCode.A then flyControl.L = 0 end
+        if keyCode == Enum.KeyCode.D then flyControl.R = 0 end
+        if keyCode == Enum.KeyCode.E then flyControl.E = 0 end
+        if keyCode == Enum.KeyCode.Q then flyControl.Q = 0 end
+    end)
+
+    flyRuntimeConnections.inputChanged = UserInputService.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.Gamepad1 and input.KeyCode == Enum.KeyCode.Thumbstick1 then
+            flyGamepadAxis = input.Position or Vector2.new(0, 0)
+        end
+    end)
+
+    flyRuntimeConnections.heartbeat = RunService.Heartbeat:Connect(function()
+        if not flyRuntimeActive then
+            return
+        end
+
+        if not (root and root.Parent and bv and bg and bv.Parent and bg.Parent) then
+            clearLocalFlyBodyMovers()
+            return
+        end
+
+        local speed = tonumber(localPlayerFlySpeed) or 50
+        local cam = workspace.CurrentCamera
+        local camLook = (cam and cam.CFrame.LookVector) or root.CFrame.LookVector
+
+        local camYawForward = Vector3.new(camLook.X, 0, camLook.Z)
+        if camYawForward.Magnitude <= 0.001 then
+            camYawForward = Vector3.new(root.CFrame.LookVector.X, 0, root.CFrame.LookVector.Z)
+        end
+        camYawForward = camYawForward.Unit
+        local right = Vector3.new(-camYawForward.Z, 0, camYawForward.X)
+
+        local moveVec = ZERO_VECTOR
+        if humanoid and humanoid.MoveDirection and humanoid.MoveDirection.Magnitude > 0.001 then
+            moveVec = humanoid.MoveDirection.Unit * speed
+        elseif flyGamepadAxis.Magnitude > 0.01 then
+            moveVec = (camYawForward * (-flyGamepadAxis.Y) + right * (flyGamepadAxis.X)) * speed
+        else
+            local keyboardVec = (camYawForward * (flyControl.F - flyControl.B)) + (right * (flyControl.R + flyControl.L))
+            if keyboardVec.Magnitude > 0 then
+                moveVec = keyboardVec.Unit * (speed * 0.6)
+            end
+        end
+
+        local verticalFromLook = 0
+        if moveVec.Magnitude > 0.05 then
+            local horizontalMove = Vector3.new(moveVec.X, 0, moveVec.Z)
+            local forwardDot = 0
+            if horizontalMove.Magnitude > 0.001 then
+                forwardDot = horizontalMove.Unit:Dot(camYawForward)
+            end
+            verticalFromLook = camLook.Y * speed * forwardDot
+        end
+
+        local verticalManual = 0
+        if moveVec.Magnitude > 0.05 then
+            verticalManual = (flyControl.E + flyControl.Q) * (speed * 0.5)
+        end
+
+        local finalVelocity = Vector3.new(moveVec.X, verticalFromLook + verticalManual, moveVec.Z)
+        local maxVertical = math.max(speed * 1.2, 50)
+        if finalVelocity.Y > maxVertical then
+            finalVelocity = Vector3.new(finalVelocity.X, maxVertical, finalVelocity.Z)
+        end
+        if finalVelocity.Y < -maxVertical then
+            finalVelocity = Vector3.new(finalVelocity.X, -maxVertical, finalVelocity.Z)
+        end
+
+        bv.Velocity = finalVelocity
+
+        if cam then
+            local targetPos = root.Position + camLook
+            bg.CFrame = CFrame.new(root.Position, targetPos)
+        else
+            bg.CFrame = root.CFrame
+        end
+    end)
+
+    return true
+end
+
+function disableLocalFly()
+    resetLocalFlyInput()
+    clearLocalFlyBodyMovers()
+    localFlyCurrentVelocity = ZERO_VECTOR
+    lastLocalFlyUpdateAt = 0
+    local humanoid = getHumanoid()
+    if humanoid then
+        pcall(function()
+            humanoid.PlatformStand = false
+            humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+        end)
+    end
+end
+
+function updateLocalFlyMotion()
+    if not localPlayerFly then
+        return false
+    end
+    return ensureLocalFlyBodyMovers()
+end
+
+function getCurrentSeatPart()
+    local humanoid = getHumanoid()
+    if not humanoid then
+        return nil
+    end
+    local seatPart = humanoid.SeatPart
+    if seatPart and seatPart:IsA("BasePart") and seatPart.Parent then
+        return seatPart
+    end
+    return nil
+end
+
+function getCurrentVehicleSeat()
+    local seatPart = getCurrentSeatPart()
+    if seatPart and seatPart:IsA("VehicleSeat") then
+        return seatPart
+    end
+    return nil
+end
+
+function rememberVehicleSeatDefaults(seat)
+    if not seat or not seat:IsA("VehicleSeat") then
+        return nil
+    end
+    local defaults = vehicleSeatDefaults[seat]
+    if defaults then
+        return defaults
+    end
+    defaults = {
+        maxSpeed = seat.MaxSpeed,
+        torque = seat.Torque,
+        turnSpeed = seat.TurnSpeed
+    }
+    vehicleSeatDefaults[seat] = defaults
+    return defaults
+end
+
+function clampBoatSpeedValue(value)
+    return math.clamp(
+        math.floor((tonumber(value) or BOAT_ENGINE_MIN_SPEED) + 0.5),
+        BOAT_ENGINE_MIN_SPEED,
+        BOAT_ENGINE_MAX_SPEED
+    )
+end
+
+function restoreVehicleSeatDefaults(seat)
+    if not seat or not seat.Parent or not seat:IsA("VehicleSeat") then
+        return
+    end
+    local defaults = vehicleSeatDefaults[seat]
+    if not defaults then
+        return
+    end
+    pcall(function()
+        seat.MaxSpeed = defaults.maxSpeed
+        seat.Torque = defaults.torque
+        seat.TurnSpeed = defaults.turnSpeed
+    end)
+end
+
+function applyCustomSpeedToVehicleSeat(seat)
+    if not seat or not seat.Parent or not seat:IsA("VehicleSeat") then
+        return
+    end
+
+    local defaults = rememberVehicleSeatDefaults(seat)
+    if not defaults then
+        return
+    end
+
+    local clampedSpeed = clampBoatSpeedValue(boatCustomSpeed)
+    boatCustomSpeed = clampedSpeed
+    local baseSpeed = math.max(defaults.maxSpeed or BOAT_ENGINE_MIN_SPEED, BOAT_ENGINE_MIN_SPEED)
+    local ratio = clampedSpeed / baseSpeed
+    local baseTorque = defaults.torque or seat.Torque
+    local baseTurnSpeed = defaults.turnSpeed or seat.TurnSpeed
+
+    pcall(function()
+        seat.MaxSpeed = clampedSpeed
+        seat.Torque = math.max(baseTorque, baseTorque * ratio)
+        seat.TurnSpeed = math.max(baseTurnSpeed, baseTurnSpeed * math.sqrt(math.max(1, ratio)))
+    end)
+end
+
+function applyCustomVelocityBoostToVehicleSeat(seat)
+    if not seat or not seat.Parent or not seat:IsA("VehicleSeat") then
+        return
+    end
+
+    local throttle = 0
+    pcall(function()
+        throttle = tonumber(seat.ThrottleFloat) or 0
+    end)
+    if math.abs(throttle) < BOAT_ENGINE_MIN_THROTTLE then
+        pcall(function()
+            throttle = tonumber(seat.Throttle) or throttle
+        end)
+    end
+    if math.abs(throttle) < BOAT_ENGINE_MIN_THROTTLE then
+        return
+    end
+
+    local rootPart = seat.AssemblyRootPart
+    if not (rootPart and rootPart:IsA("BasePart") and rootPart.Parent and not rootPart.Anchored) then
+        rootPart = seat
+    end
+    if not rootPart then
+        return
+    end
+
+    local look = seat.CFrame.LookVector
+    local flatLook = Vector3.new(look.X, 0, look.Z)
+    if flatLook.Magnitude < 0.001 then
+        return
+    end
+    flatLook = flatLook.Unit
+
+    local targetSpeed = clampBoatSpeedValue(boatCustomSpeed) * throttle
+    local currentVel = getPartLinearVelocity(rootPart)
+    local targetHorizontal = flatLook * targetSpeed
+
+    setPartLinearVelocity(rootPart, Vector3.new(targetHorizontal.X, currentVel.Y, targetHorizontal.Z))
+end
+
+function updateBoatEnginePowerForSeat()
+    local vehicleSeat = getCurrentVehicleSeat()
+
+    if activeCustomVehicleSeat and activeCustomVehicleSeat ~= vehicleSeat then
+        restoreVehicleSeatDefaults(activeCustomVehicleSeat)
+        activeCustomVehicleSeat = nil
+    end
+
+    if not vehicleSeat then
+        return
+    end
+
+    if boatEngineMode == "custom" then
+        applyCustomSpeedToVehicleSeat(vehicleSeat)
+        applyCustomVelocityBoostToVehicleSeat(vehicleSeat)
+        activeCustomVehicleSeat = vehicleSeat
+    else
+        restoreVehicleSeatDefaults(vehicleSeat)
+        if activeCustomVehicleSeat == vehicleSeat then
+            activeCustomVehicleSeat = nil
+        end
+    end
+end
+
+function getSeatAssemblyRootPart(seatPart)
+    if not seatPart or not seatPart.Parent then
+        return nil
+    end
+    local rootPart = seatPart.AssemblyRootPart
+    if rootPart and rootPart:IsA("BasePart") and rootPart.Parent and not rootPart.Anchored then
+        return rootPart
+    end
+    if seatPart:IsA("BasePart") and not seatPart.Anchored then
+        return seatPart
+    end
+    return nil
+end
+
+function clearBoatRamPart()
+    if currentBoatRamTouchConnection then
+        pcall(function()
+            currentBoatRamTouchConnection:Disconnect()
+        end)
+        currentBoatRamTouchConnection = nil
+    end
+    currentBoatRamOwnerModel = nil
+    for hitPart, _ in pairs(boatShieldTouchCooldowns) do
+        boatShieldTouchCooldowns[hitPart] = nil
+    end
+
+    if currentBoatRamPart and currentBoatRamPart.Parent then
+        currentBoatRamPart:Destroy()
+    end
+    currentBoatRamPart = nil
+end
+
+function ensureBoatRamPart(rootPart)
+    if not (rootPart and rootPart.Parent and rootPart:IsA("BasePart")) then
+        clearBoatRamPart()
+        return nil
+    end
+
+    local parentTarget = rootPart:FindFirstAncestorOfClass("Model") or rootPart.Parent or workspace
+    local ramPart = currentBoatRamPart
+    if not (ramPart and ramPart.Parent and ramPart:IsA("BasePart")) then
+        ramPart = Instance.new("Part")
+        ramPart.Name = BOAT_RAM_PART_NAME
+        ramPart.Size = BOAT_RAM_SIZE
+        ramPart.Transparency = 1
+        ramPart.Massless = true
+        ramPart.CanCollide = false
+        ramPart.CanTouch = true
+        ramPart.CanQuery = true
+        ramPart.CastShadow = false
+        ramPart.Material = Enum.Material.SmoothPlastic
+        ramPart.Color = Color3.fromRGB(255, 255, 255)
+        ramPart.Parent = parentTarget
+        currentBoatRamPart = ramPart
+    elseif ramPart.Parent ~= parentTarget then
+        ramPart.Parent = parentTarget
+    end
+
+    local function ensureShieldValueObject(valueName)
+        local valueObj = ramPart:FindFirstChild(valueName)
+        if not (valueObj and valueObj:IsA("NumberValue")) then
+            if valueObj and valueObj.Parent then
+                pcall(function()
+                    valueObj:Destroy()
+                end)
+            end
+            valueObj = Instance.new("NumberValue")
+            valueObj.Name = valueName
+            valueObj.Value = BOAT_SHIELD_HEALTH_VALUE
+            valueObj.Parent = ramPart
+            return
+        end
+        if tonumber(valueObj.Value) == nil then
+            pcall(function()
+                valueObj.Value = BOAT_SHIELD_HEALTH_VALUE
+            end)
+        end
+    end
+
+    ensureShieldValueObject("Health")
+    ensureShieldValueObject("Durability")
+    if type(ramPart:GetAttribute("Health")) ~= "number" then
+        pcall(function()
+            ramPart:SetAttribute("Health", BOAT_SHIELD_HEALTH_VALUE)
+        end)
+    end
+    if type(ramPart:GetAttribute("Durability")) ~= "number" then
+        pcall(function()
+            ramPart:SetAttribute("Durability", BOAT_SHIELD_HEALTH_VALUE)
+        end)
+    end
+
+    local desiredCF = rootPart.CFrame * CFrame.new(0, 0, -((rootPart.Size.Z * 0.5) + BOAT_RAM_FORWARD_OFFSET))
+    ramPart.CFrame = desiredCF
+    setPartLinearVelocity(ramPart, getPartLinearVelocity(rootPart))
+    setPartAngularVelocity(ramPart, getPartAngularVelocity(rootPart))
+
+    local weld = ramPart:FindFirstChild("AF_RamWeld")
+    if not (weld and weld:IsA("WeldConstraint")) then
+        for _, obj in ipairs(ramPart:GetChildren()) do
+            if obj:IsA("WeldConstraint") then
+                obj:Destroy()
+            end
+        end
+        weld = Instance.new("WeldConstraint")
+        weld.Name = "AF_RamWeld"
+        weld.Part0 = ramPart
+        weld.Part1 = rootPart
+        weld.Parent = ramPart
+    elseif weld.Part1 ~= rootPart or weld.Part0 ~= ramPart then
+        weld.Part0 = ramPart
+        weld.Part1 = rootPart
+    end
+
+    local ownerModel = rootPart:FindFirstAncestorOfClass("Model")
+    if not currentBoatRamTouchConnection or currentBoatRamOwnerModel ~= ownerModel then
+        if currentBoatRamTouchConnection then
+            pcall(function()
+                currentBoatRamTouchConnection:Disconnect()
+            end)
+            currentBoatRamTouchConnection = nil
+        end
+        currentBoatRamOwnerModel = ownerModel
+        currentBoatRamTouchConnection = ramPart.Touched:Connect(function(hitPart)
+            if not (hitPart and hitPart.Parent and hitPart:IsA("BasePart")) then
+                return
+            end
+            if hitPart == ramPart then
+                return
+            end
+            if ownerModel and hitPart:IsDescendantOf(ownerModel) then
+                return
+            end
+            if hitPart.Name == "AF_SafetyPart" then
+                return
+            end
+
+            local now = os.clock()
+            local lastHitAt = boatShieldTouchCooldowns[hitPart]
+            if lastHitAt and (now - lastHitAt) < BOAT_SHIELD_HIT_COOLDOWN then
+                return
+            end
+            boatShieldTouchCooldowns[hitPart] = now
+
+            local shieldHealthValueObj = ramPart:FindFirstChild("Health")
+            local shieldHealth = nil
+            if shieldHealthValueObj and (shieldHealthValueObj:IsA("IntValue") or shieldHealthValueObj:IsA("NumberValue")) then
+                shieldHealth = tonumber(shieldHealthValueObj.Value)
+            end
+            if shieldHealth == nil then
+                local attrHealth = ramPart:GetAttribute("Health")
+                if type(attrHealth) == "number" then
+                    shieldHealth = attrHealth
+                end
+            end
+            if shieldHealth ~= nil and shieldHealth <= 0 then
+                return
+            end
+
+            local function applyDamageToHealthLike(instance, damageAmount)
+                if not (instance and instance.Parent) then
+                    return 0
+                end
+
+                local changed = 0
+                local attrs = instance:GetAttributes()
+                for attrName, attrValue in pairs(attrs) do
+                    if type(attrValue) == "number" and isHealthLikeKey(attrName) then
+                        local nextValue = math.max(0, attrValue - damageAmount)
+                        if nextValue ~= attrValue then
+                            pcall(function()
+                                instance:SetAttribute(attrName, nextValue)
+                            end)
+                            changed = changed + 1
+                        end
+                    end
+                end
+
+                for _, child in ipairs(instance:GetChildren()) do
+                    if (child:IsA("IntValue") or child:IsA("NumberValue")) and isHealthLikeKey(child.Name) then
+                        local current = tonumber(child.Value)
+                        if current then
+                            local nextValue = math.max(0, current - damageAmount)
+                            if child:IsA("IntValue") then
+                                nextValue = math.floor(nextValue + 0.5)
+                            end
+                            if nextValue ~= current then
+                                pcall(function()
+                                    child.Value = nextValue
+                                end)
+                                changed = changed + 1
+                            end
+                        end
+                    end
+                end
+
+                return changed
+            end
+
+            applyDamageToHealthLike(ramPart, BOAT_SHIELD_SELF_DAMAGE_PER_HIT)
+
+            local changedCount = applyDamageToHealthLike(hitPart, BOAT_SHIELD_TOUCH_DAMAGE)
+            local hitModel = hitPart:FindFirstAncestorOfClass("Model")
+            if hitModel and (not ownerModel or not hitModel:IsDescendantOf(ownerModel)) then
+                changedCount = changedCount + applyDamageToHealthLike(hitModel, BOAT_SHIELD_TOUCH_DAMAGE)
+            end
+
+            if changedCount == 0 then
+                local assemblyRoot = hitPart.AssemblyRootPart
+                if assemblyRoot and assemblyRoot:IsA("BasePart") and assemblyRoot ~= ramPart then
+                    local push = ramPart.CFrame.LookVector * BOAT_SHIELD_TOUCH_DAMAGE * 0.0004
+                    local currentVel = getPartLinearVelocity(assemblyRoot)
+                    setPartLinearVelocity(assemblyRoot, currentVel + push)
+                end
+            end
+        end)
+    end
+
+    return ramPart
+end
+
+function isHealthLikeKey(name)
+    local key = tostring(name or ""):lower()
+    if key == "" then
+        return false
+    end
+
+    return key:find("health", 1, true)
+        or key:find("durability", 1, true)
+        or key:find("hitpoint", 1, true)
+        or key:find("hitpoints", 1, true)
+        or key:find("integrity", 1, true)
+        or key:find("strength", 1, true)
+        or key == "hp"
+end
+
+function rememberAndProtectNumericValue(valueObj)
+    if not (valueObj and valueObj.Parent and (valueObj:IsA("IntValue") or valueObj:IsA("NumberValue"))) then
+        return false
+    end
+    if not isHealthLikeKey(valueObj.Name) then
+        return false
+    end
+
+    if boatDamageValueDefaults[valueObj] == nil then
+        boatDamageValueDefaults[valueObj] = valueObj.Value
+    end
+
+    local current = tonumber(valueObj.Value) or 0
+    local target = BOAT_GUARD_HEALTH_VALUE
+    if valueObj:IsA("IntValue") then
+        target = math.floor(target + 0.5)
+    end
+
+    if current < target then
+        pcall(function()
+            valueObj.Value = target
+        end)
+    end
+
+    return true
+end
+
+function rememberAndProtectNumericAttributes(instance)
+    if not (instance and instance.Parent and (instance:IsA("BasePart") or instance:IsA("Model"))) then
+        return 0
+    end
+
+    local protectedCount = 0
+    local attrs = instance:GetAttributes()
+    for attrName, attrValue in pairs(attrs) do
+        if type(attrValue) == "number" and isHealthLikeKey(attrName) then
+            local defaults = boatDamageAttributeDefaults[instance]
+            if not defaults then
+                defaults = {}
+                boatDamageAttributeDefaults[instance] = defaults
+            end
+            if defaults[attrName] == nil then
+                defaults[attrName] = attrValue
+            end
+
+            if attrValue < BOAT_GUARD_HEALTH_VALUE then
+                pcall(function()
+                    instance:SetAttribute(attrName, BOAT_GUARD_HEALTH_VALUE)
+                end)
+            end
+            protectedCount = protectedCount + 1
+        end
+    end
+
+    return protectedCount
+end
+
+function rememberAndProtectBoatPart(part, seatPart)
+    if not (part and part.Parent and part:IsA("BasePart")) then
+        return false
+    end
+
+    if currentBoatRamPart and part == currentBoatRamPart then
+        return false
+    end
+
+    local isSeatPart = (seatPart and part == seatPart) and true or false
+
+    local defaults = boatPartDefaults[part]
+    if not defaults then
+        defaults = {
+            canTouch = part.CanTouch,
+            canQuery = part.CanQuery
+        }
+        boatPartDefaults[part] = defaults
+    end
+
+    if not (BOAT_NO_DAMAGE_KEEP_SEAT_TOUCH and isSeatPart) then
+        pcall(function()
+            part.CanTouch = false
+        end)
+        pcall(function()
+            part.CanQuery = false
+        end)
+    end
+
+    return true
+end
+
+function getBoatAssemblyRootAndModel()
+    local seatPart = getCurrentSeatPart()
+    if not seatPart then
+        return nil, nil
+    end
+
+    local rootPart = getSeatAssemblyRootPart(seatPart)
+    if not rootPart then
+        return nil, nil
+    end
+
+    local boatModel = rootPart:FindFirstAncestorOfClass("Model")
+    return rootPart, boatModel
+end
+
+function resetBoatRecoilGuard()
+    boatRecoilLastRootPart = nil
+    boatRecoilLastLinearVelocity = ZERO_VECTOR
+end
+
+function mitigateBoatRecoil(rootPart)
+    if not (rootPart and rootPart.Parent and rootPart:IsA("BasePart")) then
+        resetBoatRecoilGuard()
+        return
+    end
+
+    local currentLinear = getPartLinearVelocity(rootPart)
+    local adjustedLinear = currentLinear
+
+    if boatRecoilLastRootPart ~= rootPart then
+        boatRecoilLastRootPart = rootPart
+        boatRecoilLastLinearVelocity = currentLinear
+    else
+        local delta = currentLinear - boatRecoilLastLinearVelocity
+        if delta.Magnitude >= BOAT_RECOIL_DELTA_THRESHOLD then
+            adjustedLinear = boatRecoilLastLinearVelocity + (delta * BOAT_RECOIL_KEEP_RATIO)
+        end
+    end
+
+    local clampedY = math.clamp(adjustedLinear.Y, -BOAT_RECOIL_MAX_DOWN_SPEED, BOAT_RECOIL_MAX_UP_SPEED)
+    if clampedY ~= adjustedLinear.Y then
+        adjustedLinear = Vector3.new(adjustedLinear.X, clampedY, adjustedLinear.Z)
+    end
+
+    if (adjustedLinear - currentLinear).Magnitude > 0.05 then
+        setPartLinearVelocity(rootPart, adjustedLinear)
+    end
+
+    local currentAngular = getPartAngularVelocity(rootPart)
+    if currentAngular.Magnitude >= BOAT_RECOIL_ANGULAR_THRESHOLD then
+        local dampedAngular = currentAngular * BOAT_RECOIL_ANGULAR_DAMPING
+        setPartAngularVelocity(rootPart, dampedAngular)
+    end
+
+    boatRecoilLastRootPart = rootPart
+    boatRecoilLastLinearVelocity = adjustedLinear
+end
+
+function guardCurrentBoatAgainstDamage()
+    local rootPart, boatModel = getBoatAssemblyRootAndModel()
+    if not rootPart then
+        clearBoatRamPart()
+        resetBoatRecoilGuard()
+        return false, 0
+    end
+
+    local ramPart = ensureBoatRamPart(rootPart)
+    if ramPart then
+        local defaults = boatPartDefaults[ramPart]
+        if not defaults then
+            defaults = {
+                canTouch = ramPart.CanTouch,
+                canQuery = ramPart.CanQuery
+            }
+            boatPartDefaults[ramPart] = defaults
+        end
+        pcall(function()
+            ramPart.CanTouch = true
+            ramPart.CanQuery = true
+        end)
+    end
+
+    mitigateBoatRecoil(rootPart)
+
+    local protectedCount = 0
+    local protectedPartCount = 0
+    local seen = {}
+    local seatPart = getCurrentSeatPart()
+
+    local function processInstance(instance)
+        if not instance or seen[instance] then
+            return
+        end
+        seen[instance] = true
+
+        if currentBoatRamPart and (instance == currentBoatRamPart or instance:IsDescendantOf(currentBoatRamPart)) then
+            return
+        end
+
+        if instance:IsA("IntValue") or instance:IsA("NumberValue") then
+            if rememberAndProtectNumericValue(instance) then
+                protectedCount = protectedCount + 1
+            end
+            return
+        end
+
+        if instance:IsA("BasePart") then
+            if rememberAndProtectBoatPart(instance, seatPart) then
+                protectedPartCount = protectedPartCount + 1
+            end
+            protectedCount = protectedCount + rememberAndProtectNumericAttributes(instance)
+        elseif instance:IsA("Model") then
+            protectedCount = protectedCount + rememberAndProtectNumericAttributes(instance)
+        end
+
+        for _, desc in ipairs(instance:GetDescendants()) do
+            if not seen[desc] then
+                seen[desc] = true
+                if currentBoatRamPart and (desc == currentBoatRamPart or desc:IsDescendantOf(currentBoatRamPart)) then
+                    continue
+                end
+                if desc:IsA("IntValue") or desc:IsA("NumberValue") then
+                    if rememberAndProtectNumericValue(desc) then
+                        protectedCount = protectedCount + 1
+                    end
+                elseif desc:IsA("BasePart") then
+                    if rememberAndProtectBoatPart(desc, seatPart) then
+                        protectedPartCount = protectedPartCount + 1
+                    end
+                    protectedCount = protectedCount + rememberAndProtectNumericAttributes(desc)
+                elseif desc:IsA("Model") then
+                    protectedCount = protectedCount + rememberAndProtectNumericAttributes(desc)
+                end
+            end
+        end
+    end
+
+    processInstance(rootPart)
+    for _, part in ipairs(rootPart:GetConnectedParts(true)) do
+        processInstance(part)
+    end
+    if boatModel then
+        processInstance(boatModel)
+    end
+
+    return true, (protectedCount + protectedPartCount)
+end
+
+function restoreBoatDamageDefaults()
+    for valueObj, originalValue in pairs(boatDamageValueDefaults) do
+        if valueObj and valueObj.Parent and (valueObj:IsA("IntValue") or valueObj:IsA("NumberValue")) then
+            pcall(function()
+                valueObj.Value = originalValue
+            end)
+        end
+        boatDamageValueDefaults[valueObj] = nil
+    end
+
+    for instance, defaults in pairs(boatDamageAttributeDefaults) do
+        if instance and instance.Parent and defaults then
+            for attrName, originalValue in pairs(defaults) do
+                pcall(function()
+                    instance:SetAttribute(attrName, originalValue)
+                end)
+            end
+        end
+        boatDamageAttributeDefaults[instance] = nil
+    end
+
+    for part, defaults in pairs(boatPartDefaults) do
+        if part and part.Parent and part:IsA("BasePart") and defaults then
+            pcall(function()
+                part.CanTouch = defaults.canTouch
+            end)
+            pcall(function()
+                part.CanQuery = defaults.canQuery
+            end)
+        end
+        boatPartDefaults[part] = nil
+    end
+
+    clearBoatRamPart()
+    resetBoatRecoilGuard()
+end
+
+function tryAutoUprightBoat()
+    if not boatAutoUpright then
+        return
+    end
+
+    local seatPart = getCurrentSeatPart()
+    if not seatPart then
+        return
+    end
+
+    local rootPart = getSeatAssemblyRootPart(seatPart)
+    if not rootPart then
+        return
+    end
+
+    if rootPart.CFrame.UpVector.Y > BOAT_UPRIGHT_TRIGGER_Y then
+        return
+    end
+
+    local now = os.clock()
+    if (now - lastBoatUprightAt) < BOAT_UPRIGHT_COOLDOWN then
+        return
+    end
+    lastBoatUprightAt = now
+
+    local look = rootPart.CFrame.LookVector
+    local flatLook = Vector3.new(look.X, 0, look.Z)
+    if flatLook.Magnitude < 0.001 then
+        flatLook = Vector3.new(0, 0, -1)
+    else
+        flatLook = flatLook.Unit
+    end
+
+    local targetPos = rootPart.Position + Vector3.new(0, BOAT_UPRIGHT_LIFT, 0)
+    local uprightCF = CFrame.lookAt(targetPos, targetPos + flatLook, Vector3.new(0, 1, 0))
+
+    pcall(function()
+        stopPartMotion(rootPart)
+        rootPart.CFrame = uprightCF
+    end)
+end
+
+function clearSafetyPart()
+    if currentSafetyPart and currentSafetyPart.Parent then
+        currentSafetyPart:Destroy()
+    end
+    for _, obj in ipairs(workspace:GetChildren()) do
+        if obj:IsA("BasePart") and obj.Name == "AF_SafetyPart" then
+            obj:Destroy()
+        end
+    end
+    currentSafetyPart = nil
+end
+
+function isDoorLikeSurface(part)
+    local name = part.Name:lower()
+    if name:find("door") or name:find("gate") or name:find("portal") or name:find("entrance") or name:find("entry") or name:find("wall") then
+        return true
+    end
+
+    local width = math.max(part.Size.X, part.Size.Z)
+    local depth = math.min(part.Size.X, part.Size.Z)
+    if part.Size.Y >= 8 and depth <= 8 then
+        return true
+    end
+    if part.Size.Y >= 12 and width <= 14 then
+        return true
+    end
+
+    return false
+end
+
+function getDynamicSafetyDrop(position)
+    local params = RaycastParams.new()
+    params.FilterType = Enum.RaycastFilterType.Exclude
+    local ignore = {}
+    if character then
+        table.insert(ignore, character)
+    end
+    if currentSafetyPart and currentSafetyPart.Parent then
+        table.insert(ignore, currentSafetyPart)
+    end
+    params.FilterDescendantsInstances = ignore
+    params.IgnoreWater = true
+
+    local originY = position.Y + 32
+    local minY = position.Y - 160
+    local rayOriginY = originY
+    local bestY = nil
+    local bestScore = -math.huge
+
+    for _ = 1, 16 do
+        local castDepth = rayOriginY - minY
+        if castDepth <= 0 then break end
+
+        local result = workspace:Raycast(
+            Vector3.new(position.X, rayOriginY, position.Z),
+            Vector3.new(0, -castDepth, 0),
+            params
+        )
+        if not result then break end
+
+        local hitPart = result.Instance
+        if hitPart and hitPart:IsA("BasePart") and hitPart.CanCollide and hitPart.Name ~= "AF_SafetyPart" then
+            local name = hitPart.Name:lower()
+            local score = (hitPart.Size.X * hitPart.Size.Z) - (hitPart.Size.Y * 6)
+            if isDoorLikeSurface(hitPart) then score = score - 280 end
+            if name:find("black") or name:find("void") or name:find("kill") or name:find("lava") then
+                score = score - 500
+            end
+            local brightness = (hitPart.Color.R + hitPart.Color.G + hitPart.Color.B) / 3
+            if brightness < BLACK_BRIGHTNESS_THRESHOLD then
+                score = score - 320
+            end
+            if hitPart.Transparency > 0.75 then score = score - 120 end
+            if hitPart.Anchored then score = score + 15 end
+
+            if score > bestScore then
+                bestScore = score
+                bestY = result.Position.Y
+            end
+        end
+
+        rayOriginY = result.Position.Y - 0.25
+    end
+
+    if bestY then
+        local desiredTopY = bestY - 58
+        local dynamicDrop = position.Y - (desiredTopY - 0.5)
+        return math.clamp(dynamicDrop, MIN_SAFETY_PART_DROP, MAX_SAFETY_PART_DROP)
+    end
+
+    return MIN_SAFETY_PART_DROP
+end
+
+function createSafetyPart(position, boundsCF, boundsSize)
+    local part = currentSafetyPart
+    if not (part and part.Parent) then
+        part = Instance.new("Part")
+        part.Name = "AF_SafetyPart"
+        part.Size = Vector3.new(14, 1, 14)
+        part.Anchored = true
+        part.CanCollide = true
+        part.Transparency = 0.2
+        part.Material = Enum.Material.ForceField
+        part.Color = Color3.fromRGB(70, 160, 255)
+        part.Parent = workspace
+        currentSafetyPart = part
+    end
+
+    for _, obj in ipairs(workspace:GetChildren()) do
+        if obj ~= part and obj:IsA("BasePart") and obj.Name == "AF_SafetyPart" then
+            obj:Destroy()
+        end
+    end
+
+    local safetyDrop = getDynamicSafetyDrop(position)
+    local finalDrop = math.clamp(safetyDrop + SAFETY_PART_EXTRA_DROP, MIN_SAFETY_PART_DROP, MAX_SAFETY_PART_DROP)
+    local safetyBasePos = position + Vector3.new(0, 0, SAFETY_PART_FORWARD_Z_OFFSET)
+    safetyBasePos = clampPositionToBounds(safetyBasePos, boundsCF, boundsSize)
+    part.CFrame = CFrame.new(safetyBasePos - Vector3.new(0, finalDrop, 0))
+    return part
+end
+
+LocalPlayer.CharacterAdded:Connect(function(c)
+    character = c
+    characterVersion = characterVersion + 1
+    lastCharacterAddedAt = os.clock()
+    farmResumeAfterRespawnAt = os.clock() + RESPAWN_START_DELAY
+    clearLocalFlyBodyMovers()
+    resetLocalFlyInput()
+    localFlyCurrentVelocity = ZERO_VECTOR
+    lastLocalFlyUpdateAt = 0
+    if localPlayerFly then
+        task.defer(function()
+            if localPlayerFly and not scriptClosedPermanently then
+                ensureLocalFlyBodyMovers()
+            end
+        end)
+    end
+    if teamAutoSwitch then
+        pendingTeamResyncUntil = os.clock() + 8
+    end
+    clearSafetyPart()
+end)
+
+function tp(position, useSafetyPart, boundsCF, boundsSize)
+    local root = getRoot()
+    if not root then return end
+    if useSafetyPart == nil then
+        useSafetyPart = true
+    end
+
+    local targetPosition = position
+
+    if useSafetyPart then
+        local safetyPart = createSafetyPart(position, boundsCF, boundsSize)
+        if safetyPart then
+            local safetyTopY = safetyPart.Position.Y + (safetyPart.Size.Y * 0.5)
+            local rootHalfY = root.Size.Y * 0.5
+            targetPosition = Vector3.new(safetyPart.Position.X, safetyTopY + rootHalfY + SAFETY_ROOT_EXTRA_Y_OFFSET, safetyPart.Position.Z)
+        end
+    else
+        clearSafetyPart()
+    end
+
+    root.CFrame = CFrame.new(targetPosition)
+    stopPartMotion(root)
+end
+
+function getStageContainer()
+    local bs = workspace:FindFirstChild("BoatStages")
+    if bs and bs:FindFirstChild("NormalStages") then
+        return bs.NormalStages
+    end
+    return workspace:FindFirstChild("NormalStages")
+end
+
+function getStageBounds(stageObj)
+    if stageObj:IsA("Model") then
+        return stageObj:GetBoundingBox()
+    elseif stageObj:IsA("BasePart") then
+        return stageObj.CFrame, stageObj.Size
+    end
+    return nil, nil
+end
+
+function clampTargetToBounds(targetPos, boundsCF, boundsSize)
+    if not boundsCF or not boundsSize then
+        return targetPos
+    end
+
+    local localPos = boundsCF:PointToObjectSpace(targetPos)
+    local halfX = math.max((boundsSize.X * 0.5) - 1, 0)
+    local halfZ = math.max((boundsSize.Z * 0.5) - 1, 0)
+    local clampedLocal = Vector3.new(
+        math.clamp(localPos.X, -halfX, halfX),
+        localPos.Y,
+        math.clamp(localPos.Z, -halfZ, halfZ)
+    )
+    local clampedWorld = boundsCF:PointToWorldSpace(clampedLocal)
+    return Vector3.new(clampedWorld.X, targetPos.Y, clampedWorld.Z)
+end
+
+function isBlackHazardPart(part)
+    local name = part.Name:lower()
+    if name:find("void") or name:find("kill") or name:find("lava") then
+        return true
+    end
+
+    local brightness = (part.Color.R + part.Color.G + part.Color.B) / 3
+    local isBlackByColor = brightness <= BLACK_BRIGHTNESS_THRESHOLD
+    local isBlackByName = name:find("black") ~= nil
+    if not isBlackByColor and not isBlackByName then
+        return false
+    end
+
+    local footprint = part.Size.X * part.Size.Z
+    return footprint >= 6
+end
+
+function getBlackHazardParts(stageObj)
+    local hazards = {}
+    if stageObj:IsA("Model") then
+        for _, obj in ipairs(stageObj:GetDescendants()) do
+            if obj:IsA("BasePart") and isBlackHazardPart(obj) then
+                table.insert(hazards, obj)
+            end
+        end
+    elseif stageObj:IsA("BasePart") then
+        if isBlackHazardPart(stageObj) then
+            table.insert(hazards, stageObj)
+        end
+    end
+    return hazards
+end
+
+function getHorizontalDistanceAndAwayDir(point, part)
+    local localPoint = part.CFrame:PointToObjectSpace(point)
+    local halfX = part.Size.X * 0.5
+    local halfZ = part.Size.Z * 0.5
+
+    local nearestLocal = Vector3.new(
+        math.clamp(localPoint.X, -halfX, halfX),
+        0,
+        math.clamp(localPoint.Z, -halfZ, halfZ)
+    )
+    local nearestWorld = part.CFrame:PointToWorldSpace(nearestLocal)
+    local away = Vector3.new(point.X - nearestWorld.X, 0, point.Z - nearestWorld.Z)
+    local dist = away.Magnitude
+
+    if dist < 0.001 then
+        away = Vector3.new(point.X - part.Position.X, 0, point.Z - part.Position.Z)
+        dist = away.Magnitude
+    end
+    if dist < 0.001 then
+        away = Vector3.new(1, 0, 0)
+    end
+
+    return dist, away.Unit
+end
+
+function offsetTargetFromBlackParts(stageObj, targetPos, boundsCF, boundsSize)
+    local hazards = getBlackHazardParts(stageObj)
+    if #hazards == 0 then
+        return clampTargetToBounds(targetPos, boundsCF, boundsSize)
+    end
+
+    local adjusted = clampTargetToBounds(targetPos, boundsCF, boundsSize)
+    for _ = 1, 4 do
+        local moved = false
+        for _, hazardPart in ipairs(hazards) do
+            if hazardPart and hazardPart.Parent then
+                local dist, awayDir = getHorizontalDistanceAndAwayDir(adjusted, hazardPart)
+                if dist < BLACK_AVOID_DISTANCE then
+                    local push = (BLACK_AVOID_DISTANCE - dist) + 0.5
+                    adjusted = adjusted + (awayDir * push)
+                    adjusted = clampTargetToBounds(adjusted, boundsCF, boundsSize)
+                    moved = true
+                end
+            end
+        end
+        if not moved then
+            break
+        end
+    end
+
+    return adjusted
+end
+
+function getStageFloorPart(stageModel)
+    local modelCF = stageModel:GetBoundingBox()
+    local centerY = modelCF.Position.Y
+    local bestPart = nil
+    local bestScore = -math.huge
+
+    for _, obj in ipairs(stageModel:GetDescendants()) do
+        if obj:IsA("BasePart") then
+            if obj.Size.X >= 4 and obj.Size.Z >= 4 and obj.Size.Y <= 12 then
+                local score = (obj.Size.X * obj.Size.Z) - (obj.Size.Y * 8)
+                local name = obj.Name:lower()
+
+                if name:find("floor") or name:find("ground") or name:find("stage") or name:find("base") then
+                    score = score + 180
+                end
+                if name:find("black") or name:find("void") or name:find("kill") or name:find("lava") then
+                    score = score - 420
+                end
+                if obj.CanCollide then
+                    score = score + 20
+                end
+                if obj.Anchored then
+                    score = score + 10
+                end
+                local brightness = (obj.Color.R + obj.Color.G + obj.Color.B) / 3
+                if brightness < BLACK_BRIGHTNESS_THRESHOLD then
+                    score = score - 320
+                end
+
+                if obj.Position.Y > (centerY + 2) then
+                    score = score * 0.35
+                end
+
+                if score > bestScore then
+                    bestScore = score
+                    bestPart = obj
+                end
+            end
+        end
+    end
+
+    return bestPart
+end
+
+function getGroundYAt(stageObj, x, z, fallbackY)
+    local params = RaycastParams.new()
+    params.FilterType = Enum.RaycastFilterType.Include
+    params.FilterDescendantsInstances = {stageObj}
+    params.IgnoreWater = true
+
+    local originY = math.max((fallbackY or 0) + GROUND_CAST_HEIGHT, 300)
+    local minY = originY - GROUND_CAST_DEPTH
+    local rayOriginY = originY
+    local bestY = nil
+    local bestScore = -math.huge
+
+    for _ = 1, 16 do
+        local castDepth = rayOriginY - minY
+        if castDepth <= 0 then break end
+
+        local result = workspace:Raycast(
+            Vector3.new(x, rayOriginY, z),
+            Vector3.new(0, -castDepth, 0),
+            params
+        )
+
+        if not result then break end
+
+        local hitPart = result.Instance
+        if hitPart and hitPart:IsA("BasePart") then
+            local name = hitPart.Name:lower()
+            local score = (hitPart.Size.X * hitPart.Size.Z) - (hitPart.Size.Y * 6)
+
+            if isDoorLikeSurface(hitPart) then score = score - 280 end
+            if name:find("black") or name:find("void") or name:find("kill") or name:find("lava") then
+                score = score - 500
+            end
+
+            local brightness = (hitPart.Color.R + hitPart.Color.G + hitPart.Color.B) / 3
+            if brightness < BLACK_BRIGHTNESS_THRESHOLD then
+                score = score - 320
+            end
+
+            if not hitPart.CanCollide then score = score - 120 end
+            if hitPart.Transparency > 0.75 then score = score - 80 end
+            if hitPart.Anchored then score = score + 15 end
+
+            if score > bestScore then
+                bestScore = score
+                bestY = result.Position.Y
+            end
+        end
+
+        rayOriginY = result.Position.Y - 0.25
+    end
+
+    if bestY then
+        return bestY
+    end
+
+    return fallbackY or 0
+end
+
+function getStableGroundY(stageObj, x, z, fallbackY)
+    local rayGroundY = getGroundYAt(stageObj, x, z, fallbackY)
+    local floorTopY = nil
+    local safeFallbackY = fallbackY or 0
+
+    if stageObj:IsA("Model") then
+        local floorPart = getStageFloorPart(stageObj)
+        if floorPart then
+            floorTopY = floorPart.Position.Y + (floorPart.Size.Y * 0.5)
+        end
+    elseif stageObj:IsA("BasePart") then
+        floorTopY = stageObj.Position.Y + (stageObj.Size.Y * 0.5)
+    end
+
+    if floorTopY then
+        -- Bazi stage'lerde raycast yanlis yuzeyi secip asiri asagi dusurebiliyor.
+        if rayGroundY < (floorTopY - 10) or rayGroundY > (floorTopY + 16) then
+            return floorTopY
+        end
+    end
+
+    if rayGroundY < (safeFallbackY - 40) or rayGroundY > (safeFallbackY + 80) then
+        return floorTopY or safeFallbackY
+    end
+
+    return rayGroundY
+end
+
+function getStageDoorPart(stageModel, referencePos)
+    local bestPart = nil
+    local bestScore = -math.huge
+
+    local function scorePart(obj, nameBonus)
+        local width = math.max(obj.Size.X, obj.Size.Z)
+        local depth = math.min(obj.Size.X, obj.Size.Z)
+        local score = (obj.Size.Y * 4) + (width * 2) - depth + nameBonus
+
+        if obj.CanCollide then score = score + 15 end
+        if obj.Anchored then score = score + 10 end
+        if obj.Transparency > 0.75 then score = score - 30 end
+
+        if referencePos then
+            -- Bir onceki bolumden uzak olani secerek cikis kapisini tercih et.
+            score = score + ((obj.Position - referencePos).Magnitude * 0.12)
+        end
+
+        return score
+    end
+
+    for _, obj in ipairs(stageModel:GetDescendants()) do
+        if obj:IsA("BasePart") then
+            local name = obj.Name:lower()
+            local nameBonus = 0
+
+            if name:find("door") then nameBonus = nameBonus + 220 end
+            if name:find("gate") then nameBonus = nameBonus + 200 end
+            if name:find("entrance") or name:find("entry") then nameBonus = nameBonus + 190 end
+            if name:find("portal") then nameBonus = nameBonus + 180 end
+
+            if nameBonus > 0 then
+                local score = scorePart(obj, nameBonus)
+                if score > bestScore then
+                    bestScore = score
+                    bestPart = obj
+                end
+            end
+        end
+    end
+
+    if bestPart then
+        return bestPart
+    end
+
+    -- Isim tutmazsa: uzun ve ince dikey parcalardan kapiyi tahmin et.
+    for _, obj in ipairs(stageModel:GetDescendants()) do
+        if obj:IsA("BasePart") then
+            local width = math.max(obj.Size.X, obj.Size.Z)
+            local depth = math.min(obj.Size.X, obj.Size.Z)
+            if obj.Size.Y >= 8 and width >= 8 and depth <= 6 then
+                local score = scorePart(obj, 0)
+                if score > bestScore then
+                    bestScore = score
+                    bestPart = obj
+                end
+            end
+        end
+    end
+
+    return bestPart
+end
+
+function getStageApproachTarget(stageObj, boundsCF, boundsSize, referencePos)
+    return boundsCF.Position
+end
+
+function clampGroundYToStage(groundY, boundsCF, boundsSize)
+    local boundsCenterY = boundsCF.Position.Y
+    local boundsBottomY = boundsCenterY - (boundsSize.Y * 0.5)
+    local boundsTopY = boundsCenterY + (boundsSize.Y * 0.5)
+
+    local minAllowedY = math.max(boundsCenterY - 8, boundsBottomY + 2)
+    local maxAllowedY = boundsTopY + 8
+    return math.clamp(groundY, minAllowedY, maxAllowedY)
+end
+
+function getStagePosition(stageObj, referencePos)
+    local boundsCF, boundsSize = getStageBounds(stageObj)
+    if not boundsCF or not boundsSize then
+        return nil, nil, nil
+    end
+
+    if stageObj:IsA("Model") then
+        local target = getStageApproachTarget(stageObj, boundsCF, boundsSize, referencePos)
+        local fallbackY = boundsCF.Position.Y + (boundsSize.Y * 0.5)
+        local groundY = getStableGroundY(stageObj, target.X, target.Z, fallbackY)
+        groundY = clampGroundYToStage(groundY, boundsCF, boundsSize)
+        local y = groundY + ROOT_ON_GROUND_OFFSET + STAGE_CENTER_Y_OFFSET
+        return Vector3.new(target.X, y, target.Z), boundsCF, boundsSize
+    elseif stageObj:IsA("BasePart") then
+        local target = boundsCF.Position
+        local fallbackY = boundsCF.Position.Y + (boundsSize.Y * 0.5)
+        local groundY = getStableGroundY(stageObj, target.X, target.Z, fallbackY)
+        groundY = clampGroundYToStage(groundY, boundsCF, boundsSize)
+        local y = groundY + ROOT_ON_GROUND_OFFSET + STAGE_CENTER_Y_OFFSET
+        return Vector3.new(target.X, y, target.Z), boundsCF, boundsSize
+    end
+    return nil, nil, nil
+end
+
+function getOrderedStages()
+    local container = getStageContainer()
+    local stages = {}
+    if not container then return stages end
+
+    for _, obj in ipairs(container:GetChildren()) do
+        if obj:IsA("Model") or obj:IsA("BasePart") then
+            table.insert(stages, obj)
+        end
+    end
+
+    table.sort(stages, function(a, b)
+        local na = tonumber(a.Name:match("%d+")) or 9999
+        local nb = tonumber(b.Name:match("%d+")) or 9999
+        if na == nb then
+            return a.Name < b.Name
+        end
+        return na < nb
+    end)
+
+    return stages
+end
+
+function getModelAnchorPart(model)
+    local primary = model.PrimaryPart
+    if primary and primary:IsA("BasePart") then
+        return primary
+    end
+
+    for _, obj in ipairs(model:GetDescendants()) do
+        if obj:IsA("BasePart") then
+            return obj
+        end
+    end
+
+    return nil
+end
+
+function getChestInteractionTargets(chestPart)
+    local chestModel = chestPart and chestPart:FindFirstAncestorOfClass("Model") or nil
+    local searchRoot = chestModel or chestPart
+    local prompts = {}
+    local clickers = {}
+    local touchParts = {}
+
+    if searchRoot then
+        for _, obj in ipairs(searchRoot:GetDescendants()) do
+            if obj:IsA("ProximityPrompt") then
+                table.insert(prompts, obj)
+            elseif obj:IsA("ClickDetector") then
+                table.insert(clickers, obj)
+            elseif obj:IsA("BasePart") and obj:FindFirstChildOfClass("TouchTransmitter") then
+                table.insert(touchParts, obj)
+            end
+        end
+    end
+
+    if chestPart and #touchParts == 0 then
+        table.insert(touchParts, chestPart)
+    end
+
+    return chestModel, prompts, clickers, touchParts
+end
+
+function findChestPart()
+    local best, bestScore = nil, -math.huge
+    for _, obj in ipairs(workspace:GetDescendants()) do
+        if obj:IsA("BasePart") then
+            local name = obj.Name:lower()
+            local model = obj:FindFirstAncestorOfClass("Model")
+            local modelName = model and model.Name:lower() or ""
+            local chestLike = (name:find("chest") ~= nil) or (modelName:find("chest") ~= nil) or (modelName:find("treasure") ~= nil) or (modelName:find("reward") ~= nil)
+            local hasPrompt = model and (model:FindFirstChildWhichIsA("ProximityPrompt", true) ~= nil)
+            local hasClick = model and (model:FindFirstChildWhichIsA("ClickDetector", true) ~= nil)
+            local hasTouch = obj:FindFirstChildOfClass("TouchTransmitter") ~= nil
+
+            if chestLike then
+                local score = obj.Position.Magnitude
+                if chestLike then score = score + 300 end
+                if hasPrompt then score = score + 160 end
+                if hasClick then score = score + 120 end
+                if hasTouch then score = score + 80 end
+
+                if score > bestScore then
+                    bestScore = score
+                    best = obj
+                end
+            end
+        end
+    end
+    return best
+end
+
+function moveRootNearPart(root, part)
+    if not root or not part or not part.Parent then return end
+    local lift = (part.Size.Y * 0.5) + (root.Size.Y * 0.5) + 1.2
+    local target = part.Position + (part.CFrame.UpVector * lift)
+    root.CFrame = CFrame.new(target)
+    stopPartMotion(root)
+end
+
+function openChest(chestPart)
+    if not chestPart or not chestPart.Parent then return false end
+
+    local root = getRoot()
+    if not root then return false end
+
+    local chestModel, prompts, clickers, touchParts = getChestInteractionTargets(chestPart)
+    local anchorPart = chestPart
+    if chestModel then
+        local modelAnchor = getModelAnchorPart(chestModel)
+        if modelAnchor then
+            anchorPart = modelAnchor
+        end
+    end
+
+    for _ = 1, 6 do
+        if not autoFarm then break end
+        if not chestPart.Parent then return true end
+
+        tp(anchorPart.Position + Vector3.new(0, 3, 0), true)
+        task.wait(0.2)
+
+        root = getRoot()
+        if not root then return false end
+
+        for _, prompt in ipairs(prompts) do
+            if prompt and prompt.Parent then
+                local holder = prompt.Parent
+                if holder:IsA("BasePart") then
+                    moveRootNearPart(root, holder)
+                end
+
+                pcall(function()
+                    if fireproximityprompt then
+                        fireproximityprompt(prompt, 1, true)
+                    else
+                        prompt:InputHoldBegin()
+                        task.wait((prompt.HoldDuration or 0) + 0.1)
+                        prompt:InputHoldEnd()
+                    end
+                end)
+                task.wait(0.08)
+            end
+        end
+
+        for _, clicker in ipairs(clickers) do
+            if clicker and clicker.Parent and fireclickdetector then
+                local holder = clicker.Parent
+                if holder:IsA("BasePart") then
+                    moveRootNearPart(root, holder)
+                end
+                pcall(function()
+                    fireclickdetector(clicker, 1)
+                end)
+                task.wait(0.08)
+            end
+        end
+
+        if firetouchinterest then
+            for _, touchPart in ipairs(touchParts) do
+                if touchPart and touchPart.Parent then
+                    moveRootNearPart(root, touchPart)
+                    pcall(function()
+                        firetouchinterest(root, touchPart, 0)
+                        task.wait()
+                        firetouchinterest(root, touchPart, 1)
+                    end)
+                    task.wait(0.05)
+                end
+            end
+        else
+            for _, touchPart in ipairs(touchParts) do
+                if touchPart and touchPart.Parent then
+                    moveRootNearPart(root, touchPart)
+                    task.wait(0.08)
+                end
+            end
+        end
+
+        task.wait(0.35)
+    end
+
+    return chestPart.Parent == nil
+end
+
+local TEAM_SWATCH = {
+    Black = Color3.fromRGB(35, 35, 35),
+    Blue = Color3.fromRGB(57, 112, 255),
+    Green = Color3.fromRGB(64, 178, 97),
+    Magenta = Color3.fromRGB(210, 78, 218),
+    Red = Color3.fromRGB(220, 64, 84),
+    White = Color3.fromRGB(230, 230, 230),
+    Yellow = Color3.fromRGB(232, 198, 77)
+}
+
+local LIGHT_TEAM_TEXT = {
+    White = true,
+    Yellow = true
+}
+
+local cachedTeamRemotes = nil
+local lastTeamRemoteScanAt = 0
+
+function normalizeKey(value)
+    local s = tostring(value or ""):lower()
+    s = s:gsub("%s+", "")
+    s = s:gsub("_", "")
+    s = s:gsub("%-", "")
+    return s
+end
+
+function findTeamByColorName(colorName)
+    local target = normalizeKey(colorName)
+    local bestTeam = nil
+    local bestScore = -math.huge
+
+    for _, team in ipairs(Teams:GetTeams()) do
+        local teamName = normalizeKey(team.Name)
+        local teamColorName = normalizeKey(team.TeamColor and team.TeamColor.Name or "")
+        local score = 0
+
+        if teamColorName == target then score = score + 220 end
+        if teamName == target then score = score + 180 end
+        if teamColorName:find(target, 1, true) then score = score + 100 end
+        if teamName:find(target, 1, true) then score = score + 80 end
+
+        if score > bestScore then
+            bestScore = score
+            bestTeam = team
+        end
+    end
+
+    return bestTeam
+end
+
+function getOccupiedCount(team)
+    if not team then return 0 end
+    local count = 0
+    for _, player in ipairs(team:GetPlayers()) do
+        if player ~= LocalPlayer then
+            count = count + 1
+        end
+    end
+    return count
+end
+
+function getTeamRemotes()
+    if cachedTeamRemotes and #cachedTeamRemotes > 0 then
+        return cachedTeamRemotes
+    end
+    if cachedTeamRemotes and (os.clock() - lastTeamRemoteScanAt) < 2 then
+        return cachedTeamRemotes
+    end
+
+    lastTeamRemoteScanAt = os.clock()
+    cachedTeamRemotes = {}
+
+    local function scoreTextForTeamRemote(text)
+        local s = 0
+        local t = normalizeKey(text)
+        if t == "" then return s end
+
+        if t:find("team", 1, true) then s = s + 10 end
+        if t:find("color", 1, true) then s = s + 6 end
+        if t:find("change", 1, true) then s = s + 7 end
+        if t:find("switch", 1, true) then s = s + 7 end
+        if t:find("select", 1, true) then s = s + 7 end
+        if t:find("join", 1, true) then s = s + 6 end
+        if t:find("choose", 1, true) then s = s + 6 end
+        if t:find("set", 1, true) then s = s + 4 end
+        if t:find("pick", 1, true) then s = s + 4 end
+        if t:find("spawn", 1, true) then s = s + 3 end
+        if t:find("lobby", 1, true) then s = s + 2 end
+        if t:find("remote", 1, true) then s = s + 2 end
+
+        for _, colorName in ipairs(TEAM_COLOR_OPTIONS) do
+            if t:find(normalizeKey(colorName), 1, true) then
+                s = s + 5
+            end
+        end
+
+        return s
+    end
+
+    local scored = {}
+    for _, obj in ipairs(game:GetDescendants()) do
+        if obj:IsA("RemoteEvent") or obj:IsA("RemoteFunction") then
+            local score = 0
+            score = score + scoreTextForTeamRemote(obj.Name)
+            if obj.Parent then
+                score = score + scoreTextForTeamRemote(obj.Parent.Name)
+                if obj.Parent.Parent then
+                    score = score + scoreTextForTeamRemote(obj.Parent.Parent.Name)
+                end
+            end
+            if obj:IsDescendantOf(ReplicatedStorage) then
+                score = score + 3
+            end
+
+            if score >= 13 then
+                table.insert(scored, {remote = obj, score = score})
+            end
+        end
+    end
+
+    table.sort(scored, function(a, b)
+        if a.score == b.score then
+            return a.remote:GetFullName() < b.remote:GetFullName()
+        end
+        return a.score > b.score
+    end)
+
+    for _, item in ipairs(scored) do
+        table.insert(cachedTeamRemotes, item.remote)
+    end
+
+    return cachedTeamRemotes
+end
+
+function trySwitchTeamWithRemotes(targetTeam, colorName, remotes)
+    remotes = remotes or getTeamRemotes()
+    if #remotes == 0 then
+        return false
+    end
+
+    local argSets = {
+        {targetTeam},
+        {targetTeam and targetTeam.Name or colorName},
+        {targetTeam and targetTeam.TeamColor or nil},
+        {targetTeam and targetTeam.TeamColor and targetTeam.TeamColor.Name or colorName},
+        {targetTeam and targetTeam.TeamColor and targetTeam.TeamColor.Number or nil},
+        {{Team = targetTeam, TeamColor = targetTeam and targetTeam.TeamColor or nil}},
+        {colorName},
+        {string.lower(colorName or "")},
+        {string.upper(colorName or "")}
+    }
+    local brickColorArg = nil
+    pcall(function()
+        brickColorArg = BrickColor.new(colorName)
+    end)
+    if brickColorArg then
+        table.insert(argSets, {brickColorArg})
+        table.insert(argSets, {brickColorArg.Number})
+        table.insert(argSets, {brickColorArg.Name})
+    end
+
+    for _, remote in ipairs(remotes) do
+        for _, args in ipairs(argSets) do
+            pcall(function()
+                if remote:IsA("RemoteEvent") then
+                    remote:FireServer(unpackArgs(args))
+                else
+                    remote:InvokeServer(unpackArgs(args))
+                end
+            end)
+            task.wait(0.1)
+            if LocalPlayer.Team == targetTeam then
+                return true
+            end
+        end
+    end
+
+    return LocalPlayer.Team == targetTeam
+end
+
+function attemptSwitchToSelectedTeam()
+    local targetTeam = findTeamByColorName(selectedTeamColorName)
+    if not targetTeam then
+        return false, "Selected team not found"
+    end
+
+    if LocalPlayer.Team == targetTeam then
+        return true, "On " .. targetTeam.Name
+    end
+
+    local occupiedCount = getOccupiedCount(targetTeam)
+    if occupiedCount > 0 then
+        return false, string.format("Waiting: %s (%d)", targetTeam.Name, occupiedCount)
+    end
+
+    local remotes = getTeamRemotes()
+    if trySwitchTeamWithRemotes(targetTeam, selectedTeamColorName, remotes) then
+        return true, "Switched to " .. targetTeam.Name
+    end
+
+    if #remotes == 0 then
+        return false, "No team-change remote candidate found"
+    end
+    return false, string.format("Switch request sent (%d candidates)", #remotes)
+end
+
+-- WindUI only (legacy custom panel removed)
+local farmStatText = "00.00.00 = 0 gold"
+local teamStatusText = "Idle"
+local boatEngineStatusText = "Status: Waiting for a VehicleSeat."
+local boatNoDamageHintText = "Seat required"
+local localPlayerFlyStatusText = "Fly V3: Off"
+
+function getWindUiToggleKeyCode(value)
+    local keyName = normalizeKeyCodeName(value, nil)
+    if not keyName then
+        return nil, nil
+    end
+
+    local keyCode = Enum.KeyCode[keyName]
+    if not keyCode then
+        return nil, nil
+    end
+    return keyName, keyCode
+end
+
+function updateWindUiToggleKeyButtonText()
+    if not windUiToggleKeyButton then
+        return
+    end
+
+    local titleText = windUiToggleKeyCaptureActive and "Panel Toggle Key: NONE" or ("Panel Toggle Key: " .. windUiToggleKeyName)
+    pcall(function()
+        windUiToggleKeyButton:SetTitle(titleText)
+    end)
+end
+
+function applyWindUiToggleKey(value, targetWindow)
+    local keyName, keyCode = getWindUiToggleKeyCode(value)
+    if not keyName or not keyCode then
+        return false
+    end
+
+    windUiToggleKeyName = keyName
+    local window = targetWindow or windUiWindow
+    if window then
+        pcall(function()
+            window:SetToggleKey(keyCode)
+        end)
+    end
+    updateWindUiToggleKeyButtonText()
+    savePersistedSettings()
+    return true
+end
+
+function stopWindUiToggleKeyCapture()
+    windUiToggleKeyCaptureActive = false
+    if windUiToggleKeyCaptureConnection then
+        pcall(function()
+            windUiToggleKeyCaptureConnection:Disconnect()
+        end)
+        windUiToggleKeyCaptureConnection = nil
+    end
+    updateWindUiToggleKeyButtonText()
+end
+
+function syncWindUiFarmStatText()
+    if not windUiFarmStatParagraph then
+        return
+    end
+    pcall(function()
+        windUiFarmStatParagraph:SetDesc(farmStatText)
+    end)
+end
+
+function setPanelVisibleState(_visible)
+    panelVisible = _visible and true or false
+end
+
+function refreshTeamColorButtons()
+end
+
+function setTeamToggleState(_enabled)
+end
+
+function getBoatSeatStatusText()
+    local seatPart = getCurrentSeatPart()
+    if not seatPart then
+        return "Seat: Not seated"
+    end
+    if seatPart:IsA("VehicleSeat") then
+        return "Seat: VehicleSeat (" .. seatPart.Name .. ")"
+    end
+    return "Seat: Seat (" .. seatPart.Name .. ")"
+end
+
+function setBoatUprightToggleState(_enabled)
+end
+
+function setBoatNoDamageToggleState(enabled, hintText)
+    if hintText then
+        boatNoDamageHintText = hintText
+    elseif enabled then
+        if getCurrentSeatPart() then
+            boatNoDamageHintText = "Guarding current boat"
+        else
+            boatNoDamageHintText = "Enabled (sit on boat)"
+        end
+    else
+        boatNoDamageHintText = "Seat required"
+    end
+end
+
+function setLocalPlayerNoclipToggleState(_enabled)
+end
+
+function setLocalPlayerFlyToggleState(enabled, statusText)
+    if enabled then
+        localPlayerFlyStatusText = statusText or "Fly V3: On"
+    else
+        localPlayerFlyStatusText = statusText or "Fly V3: Off"
+    end
+end
+
+function getLocalPlayerFlySpeedRatioFromValue(speedValue)
+    local range = LOCAL_PLAYER_FLY_MAX_SPEED - LOCAL_PLAYER_FLY_MIN_SPEED
+    if range <= 0 then
+        return 0
+    end
+    local clamped = clampLocalPlayerFlySpeed(speedValue)
+    return (clamped - LOCAL_PLAYER_FLY_MIN_SPEED) / range
+end
+
+function updateLocalPlayerFlySpeedSliderVisual()
+    localPlayerFlySpeed = clampLocalPlayerFlySpeed(localPlayerFlySpeed)
+end
+
+function setLocalPlayerFlySpeedFromRatio(ratio)
+    ratio = math.clamp(tonumber(ratio) or 0, 0, 1)
+    local range = LOCAL_PLAYER_FLY_MAX_SPEED - LOCAL_PLAYER_FLY_MIN_SPEED
+    local speed = LOCAL_PLAYER_FLY_MIN_SPEED + (range * ratio)
+    localPlayerFlySpeed = clampLocalPlayerFlySpeed(speed)
+    updateLocalPlayerFlySpeedSliderVisual()
+    savePersistedSettings()
+end
+
+function getBoatSpeedRatioFromValue(speedValue)
+    local range = BOAT_ENGINE_MAX_SPEED - BOAT_ENGINE_MIN_SPEED
+    if range <= 0 then
+        return 0
+    end
+    local clamped = clampBoatSpeedValue(speedValue)
+    return (clamped - BOAT_ENGINE_MIN_SPEED) / range
+end
+
+function updateBoatSpeedSliderVisual()
+    boatCustomSpeed = clampBoatSpeedValue(boatCustomSpeed)
+end
+
+function setBoatSpeedFromRatio(ratio)
+    ratio = math.clamp(tonumber(ratio) or 0, 0, 1)
+    local range = BOAT_ENGINE_MAX_SPEED - BOAT_ENGINE_MIN_SPEED
+    local speed = BOAT_ENGINE_MIN_SPEED + (range * ratio)
+    boatCustomSpeed = clampBoatSpeedValue(speed)
+    updateBoatSpeedSliderVisual()
+    savePersistedSettings()
+
+    if boatEngineMode == "custom" then
+        updateBoatEnginePowerForSeat()
+    end
+end
+
+function refreshBoatEngineUi(statusText)
+    updateBoatSpeedSliderVisual()
+    if statusText then
+        boatEngineStatusText = statusText
+    end
+end
+
+function applyCurrentCustomBoatSpeed()
+    boatCustomSpeed = clampBoatSpeedValue(boatCustomSpeed)
+    boatEngineMode = "custom"
+    updateBoatEnginePowerForSeat()
+    savePersistedSettings()
+
+    local vehicleSeat = getCurrentVehicleSeat()
+    if vehicleSeat then
+        refreshBoatEngineUi(string.format("Status: Custom speed %d applied to %s.", boatCustomSpeed, vehicleSeat.Name))
+    else
+        refreshBoatEngineUi(string.format("Status: Custom speed %d ready. Sit on a VehicleSeat to apply.", boatCustomSpeed))
+    end
+end
+
+task.spawn(function()
+    while not scriptClosedPermanently do
+        local waitTime = TEAM_CHECK_INTERVAL
+        if teamAutoSwitch and not teamSwitchInProgress then
+            teamSwitchInProgress = true
+            local ok, message = attemptSwitchToSelectedTeam()
+            teamStatusText = message
+            if ok then
+                pendingTeamResyncUntil = 0
+            end
+            teamSwitchInProgress = false
+            if os.clock() < pendingTeamResyncUntil then
+                waitTime = 0.35
+            end
+        end
+        task.wait(waitTime)
+    end
+end)
+
+task.spawn(function()
+    while not scriptClosedPermanently do
+        local now = os.clock()
+        updateBoatEnginePowerForSeat()
+        tryAutoUprightBoat()
+
+        if localPlayerNoclip then
+            applyCharacterNoclip()
+        end
+
+        if localPlayerFly then
+            local canFlyNow = updateLocalFlyMotion()
+            if canFlyNow then
+                localPlayerFlyStatusText = string.format("Fly V3: On (%d)", clampLocalPlayerFlySpeed(localPlayerFlySpeed))
+            else
+                localPlayerFlyStatusText = string.format("Fly V3: On (%d) - waiting character", clampLocalPlayerFlySpeed(localPlayerFlySpeed))
+            end
+        end
+
+        if boatNoDamage and (now - lastBoatDamageGuardAt) >= BOAT_DAMAGE_GUARD_INTERVAL then
+            local hasBoat, protectedCount = guardCurrentBoatAgainstDamage()
+            if hasBoat then
+                boatNoDamageHintText = string.format("Guarding current boat (%d)", protectedCount)
+            else
+                boatNoDamageHintText = "Enabled (sit on boat)"
+            end
+            lastBoatDamageGuardAt = now
+        end
+
+        task.wait(BOAT_ENGINE_UPDATE_INTERVAL)
+    end
+
+    if activeCustomVehicleSeat then
+        restoreVehicleSeatDefaults(activeCustomVehicleSeat)
+        activeCustomVehicleSeat = nil
+    end
+    disableLocalFly()
+    restoreCharacterNoclip()
+    restoreBoatDamageDefaults()
+end)
+
+UserInputService.InputBegan:Connect(function(input, gameProcessed)
+    if input.UserInputType ~= Enum.UserInputType.Keyboard then
+        return
+    end
+    if gameProcessed or UserInputService:GetFocusedTextBox() then
+        return
+    end
+    if scriptClosedPermanently then
+        return
+    end
+
+    if localPlayerFly then
+        setLocalFlyInputForKey(input.KeyCode, true)
+    end
+end)
+
+UserInputService.InputEnded:Connect(function(input)
+    if input.UserInputType == Enum.UserInputType.Keyboard then
+        setLocalFlyInputForKey(input.KeyCode, false)
+    end
+end)
+
+function formatSessionClock(secondsElapsed)
+    local total = math.max(0, math.floor(secondsElapsed or 0))
+    local h = math.floor(total / 3600)
+    local m = math.floor((total % 3600) / 60)
+    local s = total % 60
+    return string.format("%02d.%02d.%02d", h, m, s)
+end
+
+function resolveGoldStat()
+    if cachedGoldStat and cachedGoldStat.Parent and (cachedGoldStat:IsA("IntValue") or cachedGoldStat:IsA("NumberValue")) then
+        return cachedGoldStat
+    end
+    if (os.clock() - lastGoldResolveTry) < 3 then
+        return nil
+    end
+    lastGoldResolveTry = os.clock()
+
+    local function hasGoldLikeName(valueObj)
+        local name = valueObj.Name:lower()
+        return name:find("gold") or name:find("coin") or name:find("cash") or name:find("money") or name:find("altin")
+    end
+
+    local leaderstats = LocalPlayer:FindFirstChild("leaderstats")
+    if leaderstats then
+        for _, obj in ipairs(leaderstats:GetChildren()) do
+            if (obj:IsA("IntValue") or obj:IsA("NumberValue")) and hasGoldLikeName(obj) then
+                cachedGoldStat = obj
+                return cachedGoldStat
+            end
+        end
+    end
+
+    for _, obj in ipairs(LocalPlayer:GetDescendants()) do
+        if (obj:IsA("IntValue") or obj:IsA("NumberValue")) and hasGoldLikeName(obj) then
+            cachedGoldStat = obj
+            return cachedGoldStat
+        end
+    end
+
+    return nil
+end
+
+function getCurrentGold()
+    local goldStat = resolveGoldStat()
+    if not goldStat then
+        return nil
+    end
+    local value = tonumber(goldStat.Value)
+    if not value then
+        return nil
+    end
+    return math.floor(value + 0.5)
+end
+
+function refreshFarmStatLabel()
+    local elapsedSeconds = farmSessionElapsedBase
+    if farmSessionStartTime then
+        elapsedSeconds = elapsedSeconds + (os.clock() - farmSessionStartTime)
+    end
+
+    if autoFarm and farmSessionStartGold == nil then
+        farmSessionStartGold = getCurrentGold()
+    end
+
+    local gainedGold = 0
+    if farmSessionStartGold ~= nil then
+        local currentGold = getCurrentGold()
+        if currentGold ~= nil then
+            gainedGold = math.max(0, currentGold - farmSessionStartGold)
+        end
+    end
+
+    farmStatText = string.format("%s = %d gold", formatSessionClock(elapsedSeconds), gainedGold)
+    syncWindUiFarmStatText()
+end
+
+task.spawn(function()
+    while not scriptClosedPermanently do
+        refreshFarmStatLabel()
+        task.wait(1)
+    end
+end)
+
+function setButtonState(enabled)
+    return enabled and true or false
+end
+
+function closeScriptPermanently()
+    if scriptClosedPermanently then
+        return
+    end
+    scriptClosedPermanently = true
+
+    autoFarm = false
+    running = false
+    teamAutoSwitch = false
+    teamSwitchInProgress = false
+    boatAutoUpright = false
+    boatNoDamage = false
+    boatEngineMode = "normal"
+    localPlayerNoclip = false
+    localPlayerFly = false
+    panelVisible = false
+
+    if farmSessionStartTime then
+        farmSessionElapsedBase = farmSessionElapsedBase + (os.clock() - farmSessionStartTime)
+        farmSessionStartTime = nil
+    end
+
+    clearSafetyPart()
+    disableLocalFly()
+    restoreCharacterNoclip()
+    restoreBoatDamageDefaults()
+
+    if activeCustomVehicleSeat then
+        restoreVehicleSeatDefaults(activeCustomVehicleSeat)
+        activeCustomVehicleSeat = nil
+    end
+
+    setButtonState(false)
+    setTeamToggleState(false)
+    setBoatUprightToggleState(false)
+    setBoatNoDamageToggleState(false, "Disabled")
+    setLocalPlayerNoclipToggleState(false)
+    setLocalPlayerFlyToggleState(false, "Fly V3: Off")
+    refreshBoatEngineUi("Status: Disabled")
+    teamStatusText = "Disabled"
+    boatEngineStatusText = "Status: Disabled"
+    farmStatText = "00.00.00 = 0 gold"
+    stopWindUiToggleKeyCapture()
+    windUiToggleKeyButton = nil
+    windUiFarmStatParagraph = nil
+
+    if windUiWindow then
+        pcall(function()
+            windUiWindow:Destroy()
+        end)
+        windUiWindow = nil
+    end
+end
+
+setButtonState(false)
+refreshFarmStatLabel()
+function runAutoFarm()
+    if running then return end
+    running = true
+
+    while autoFarm do
+        local waitLeft = (farmResumeAfterRespawnAt or 0) - os.clock()
+        if waitLeft > 0 then
+            task.wait(waitLeft)
+        end
+        local routeStartCharacterVersion = characterVersion
+        local stages = getOrderedStages()
+        local stageCount = math.min(#stages, MAX_STAGE_COUNT)
+        local reachedStageTen = false
+        local routeInterrupted = false
+        local root = getRoot()
+        while autoFarm and not root do
+            task.wait(0.1)
+            root = getRoot()
+        end
+        if not autoFarm then break end
+        if stageCount == 0 then
+            task.wait(1)
+            continue
+        end
+        local lastTargetPos = root and root.Position or nil
+
+        for i = 1, stageCount do
+            if not autoFarm then break end
+            if characterVersion ~= routeStartCharacterVersion then
+                routeInterrupted = true
+                break
+            end
+            local stage = stages[i]
+            local pos, boundsCF, boundsSize = getStagePosition(stage, lastTargetPos)
+            if pos then
+                local isStageTen = (i == MAX_STAGE_COUNT)
+                if isStageTen then
+                    reachedStageTen = true
+                end
+                tp(pos, true, boundsCF, boundsSize)
+                lastTargetPos = pos
+            end
+            task.wait(TP_DELAY)
+        end
+
+        if not autoFarm then break end
+        if routeInterrupted then
+            task.wait(0.25)
+            continue
+        end
+
+        if reachedStageTen then
+            local chest = nil
+            for _ = 1, 20 do
+                chest = findChestPart()
+                if chest then
+                    break
+                end
+                task.wait(0.15)
+            end
+
+            if chest then
+                openChest(chest)
+            end
+        end
+
+        if not reachedStageTen then
+            clearSafetyPart()
+        end
+        local completedCharacterVersion = characterVersion
+        while autoFarm and characterVersion == completedCharacterVersion do
+            task.wait(0.25)
+        end
+    end
+
+    clearSafetyPart()
+    running = false
+end
+
+function setAutoFarmEnabled(enabled)
+    if scriptClosedPermanently then
+        return
+    end
+
+    local desired = enabled and true or false
+    if autoFarm == desired then
+        return
+    end
+
+    autoFarm = desired
+    setButtonState(autoFarm)
+    if autoFarm then
+        farmSessionElapsedBase = 0
+        farmSessionStartTime = os.clock()
+        farmSessionStartGold = getCurrentGold()
+        refreshFarmStatLabel()
+        task.spawn(runAutoFarm)
+    else
+        if farmSessionStartTime then
+            farmSessionElapsedBase = farmSessionElapsedBase + (os.clock() - farmSessionStartTime)
+            farmSessionStartTime = nil
+        end
+        refreshFarmStatLabel()
+        clearSafetyPart()
+    end
+end
+
+function initWindUIPanel()
+    if scriptClosedPermanently or windUiLoaded then
+        return
+    end
+
+    if scriptClosedPermanently then
+        return
+    end
+
+    local okLoader, WindUI = pcall(function()
+        return loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+    end)
+    if not okLoader or not WindUI then
+        warn("[BBFT] WindUI load failed.")
+        return
+    end
+
+    pcall(function()
+        WindUI:AddTheme({
+            Name = "Lunar Abyss",
+            Accent = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(13, 13, 26), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(26, 26, 51), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(46, 46, 92), Transparency = 0}
+            }, {Rotation = 90}),
+            Dialog = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(16, 16, 38), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(26, 26, 61), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(51, 51, 102), Transparency = 0}
+            }, {Rotation = 90}),
+            Outline = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(46, 46, 92), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(64, 64, 128), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(80, 80, 160), Transparency = 0}
+            }, {Rotation = 90}),
+            Text = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(160, 160, 255), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(192, 192, 255), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(224, 224, 255), Transparency = 0}
+            }, {Rotation = 90}),
+            Placeholder = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(96, 96, 160), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(128, 128, 192), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(160, 160, 224), Transparency = 0}
+            }, {Rotation = 90}),
+            Background = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(10, 10, 26), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(26, 26, 51), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(46, 46, 92), Transparency = 0}
+            }, {Rotation = 90}),
+            Button = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(64, 64, 128), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(80, 80, 160), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(96, 96, 192), Transparency = 0}
+            }, {Rotation = 90}),
+            Icon = WindUI:Gradient({
+                ["0"] = {Color = Color3.fromRGB(96, 96, 192), Transparency = 0},
+                ["50"] = {Color = Color3.fromRGB(128, 128, 224), Transparency = 0},
+                ["100"] = {Color = Color3.fromRGB(160, 160, 255), Transparency = 0}
+            }, {Rotation = 90})
+        })
+    end)
+
+    local function gradientText(text, c1, c2)
+        local len = #text
+        if len <= 1 then
+            return string.format(
+                '<font color="rgb(%d,%d,%d)">%s</font>',
+                math.floor(c1.R * 255),
+                math.floor(c1.G * 255),
+                math.floor(c1.B * 255),
+                text
+            )
+        end
+        local result = ""
+        local denom = len - 1
+        for i = 1, len do
+            local t = (i - 1) / denom
+            local r = math.floor(c1.R * 255 + ((c2.R * 255 - c1.R * 255) * t))
+            local g = math.floor(c1.G * 255 + ((c2.G * 255 - c1.G * 255) * t))
+            local b = math.floor(c1.B * 255 + ((c2.B * 255 - c1.B * 255) * t))
+            result = result .. string.format('<font color="rgb(%d,%d,%d)">%s</font>', r, g, b, text:sub(i, i))
+        end
+        return result
+    end
+
+    local okWindow, window = pcall(function()
+        return WindUI:CreateWindow({
+            Title = gradientText("Foxname - Build A Boat For Treasure", Color3.fromRGB(255, 30, 0), Color3.fromRGB(0, 175, 255)),
+            Author = "discord.gg/v8ZPq4y2nD",
+            Theme = "Rose",
+            Size = UDim2.fromOffset(520, 420),
+            Folder = "Foxname_BBFT",
+            SideBarWidth = 200,
+            Enabled = true,
+            Draggable = true,
+            OnlyMobile = false,
+            ScrollBarEnabled = true,
+            Icon = WINDUI_PROFILE_ICON,
+            Background = WINDUI_PROFILE_BACKGROUND,
+            BackgroundImageTransparency = 0.6,
+            OpenButton = {
+                Title = "Open Script",
+                CornerRadius = UDim.new(1, 0),
+                StrokeThickness = 2,
+                Enabled = true,
+                Draggable = true,
+                OnlyMobile = false
+            }
+        })
+    end)
+    if not okWindow or not window then
+        warn("[BBFT] WindUI window creation failed.")
+        return
+    end
+
+    windUiLoaded = true
+    windUiWindow = window
+    setPanelVisibleState(false)
+
+    if not applyWindUiToggleKey(windUiToggleKeyName, window) then
+        applyWindUiToggleKey("H", window)
+    end
+
+    local infoWindTab = nil
+    local okInfoSection, infoSection = pcall(function()
+        return window:Section({
+            Title = "Info",
+            Opened = false,
+            Icon = "info",
+            Box = true,
+            BoxBorder = true,
+            IconColor = Color3.fromRGB(100, 100, 255)
+        })
+    end)
+    if okInfoSection and infoSection and infoSection.Tab then
+        local okInfoTab, sectionInfoTab = pcall(function()
+            return infoSection:Tab({Title = "Changelog", Icon = "list", Locked = false})
+        end)
+        if okInfoTab and sectionInfoTab then
+            infoWindTab = sectionInfoTab
+        end
+    end
+    if not infoWindTab then
+        infoWindTab = window:Tab({Title = "Info", Icon = "info"})
+    end
+    pcall(function()
+        window:Tag({
+            Title = "v1.2",
+            Icon = "rocket",
+            Color = Color3.fromRGB(255, 13, 49)
+        })
+    end)
+
+    local farmWindTab = window:Tab({Title = "Farm", Icon = "coins"})
+    local teamWindTab = window:Tab({Title = "Team Shift", Icon = "users"})
+    local boatWindTab = window:Tab({Title = "Boat", Icon = "ship"})
+    local localWindTab = window:Tab({Title = "Local Player", Icon = "user"})
+    local settingsWindTab = window:Tab({Title = "Settings", Icon = "settings"})
+
+    farmWindTab:Toggle({
+        Title = "Enable AutoFarm",
+        Default = autoFarm,
+        Callback = function(v)
+            setAutoFarmEnabled(v)
+        end
+    })
+    farmWindTab:Button({
+        Title = "Reset Session Stats",
+        Callback = function()
+            farmSessionElapsedBase = 0
+            farmSessionStartTime = autoFarm and os.clock() or nil
+            farmSessionStartGold = getCurrentGold()
+            refreshFarmStatLabel()
+        end
+    })
+    windUiFarmStatParagraph = farmWindTab:Paragraph({
+        Title = "Session Stats",
+        Desc = farmStatText
+    })
+    syncWindUiFarmStatText()
+
+    teamWindTab:Dropdown({
+        Title = "Target Team Color",
+        Values = TEAM_COLOR_OPTIONS,
+        Value = selectedTeamColorName,
+        Callback = function(option)
+            selectedTeamColorName = tostring(option)
+            teamStatusText = "Selected: " .. selectedTeamColorName
+            refreshTeamColorButtons()
+            savePersistedSettings()
+        end
+    })
+    teamWindTab:Toggle({
+        Title = "Auto Team Switch",
+        Default = teamAutoSwitch,
+        Callback = function(v)
+            teamAutoSwitch = v and true or false
+            setTeamToggleState(teamAutoSwitch)
+            if teamAutoSwitch then
+                pendingTeamResyncUntil = os.clock() + 8
+                teamStatusText = "Watching " .. selectedTeamColorName .. "..."
+            else
+                pendingTeamResyncUntil = 0
+                teamStatusText = "Idle"
+            end
+            savePersistedSettings()
+        end
+    })
+    teamWindTab:Button({
+        Title = "Try Switch Now",
+        Callback = function()
+            local ok, message = attemptSwitchToSelectedTeam()
+            teamStatusText = message
+        end
+    })
+
+    boatWindTab:Toggle({
+        Title = "Auto Upright",
+        Default = boatAutoUpright,
+        Callback = function(v)
+            boatAutoUpright = v and true or false
+            setBoatUprightToggleState(boatAutoUpright)
+            savePersistedSettings()
+        end
+    })
+    boatWindTab:Toggle({
+        Title = "No Boat Damage",
+        Default = boatNoDamage,
+        Callback = function(v)
+            boatNoDamage = v and true or false
+            if boatNoDamage then
+                lastBoatDamageGuardAt = 0
+                local hasBoat, protectedCount = guardCurrentBoatAgainstDamage()
+                if hasBoat then
+                    setBoatNoDamageToggleState(true, string.format("Guarding current boat (%d)", protectedCount))
+                else
+                    setBoatNoDamageToggleState(true, "Enabled (sit on boat)")
+                end
+            else
+                restoreBoatDamageDefaults()
+                setBoatNoDamageToggleState(false, "Seat required")
+            end
+            savePersistedSettings()
+        end
+    })
+    boatWindTab:Dropdown({
+        Title = "Engine Mode",
+        Values = {"Normal", "Custom"},
+        Value = (boatEngineMode == "custom" and "Custom" or "Normal"),
+        Callback = function(mode)
+            if tostring(mode) == "Custom" then
+                applyCurrentCustomBoatSpeed()
+            else
+                boatEngineMode = "normal"
+                updateBoatEnginePowerForSeat()
+                refreshBoatEngineUi("Status: Normal seat speed restored.")
+                savePersistedSettings()
+            end
+        end
+    })
+    boatWindTab:Slider({
+        Title = "Custom Boat Speed",
+        Value = {Min = BOAT_ENGINE_MIN_SPEED, Max = BOAT_ENGINE_MAX_SPEED, Default = boatCustomSpeed},
+        Step = 1,
+        Callback = function(v)
+            boatCustomSpeed = clampBoatSpeedValue(v)
+            updateBoatSpeedSliderVisual()
+            if boatEngineMode == "custom" then
+                updateBoatEnginePowerForSeat()
+            end
+            savePersistedSettings()
+        end
+    })
+    boatWindTab:Button({
+        Title = "Apply Custom Speed",
+        Callback = function()
+            applyCurrentCustomBoatSpeed()
+        end
+    })
+
+    localWindTab:Toggle({
+        Title = "Noclip",
+        Default = localPlayerNoclip,
+        Callback = function(v)
+            localPlayerNoclip = v and true or false
+            if localPlayerNoclip then
+                applyCharacterNoclip()
+            else
+                restoreCharacterNoclip()
+            end
+            setLocalPlayerNoclipToggleState(localPlayerNoclip)
+            savePersistedSettings()
+        end
+    })
+    localWindTab:Toggle({
+        Title = "Fly V3",
+        Default = localPlayerFly,
+        Callback = function(v)
+            localPlayerFly = v and true or false
+            if localPlayerFly then
+                localPlayerFlySpeed = clampLocalPlayerFlySpeed(localPlayerFlySpeed)
+                if ensureLocalFlyBodyMovers() then
+                    setLocalPlayerFlyToggleState(true, string.format("Fly V3: On (%d)", localPlayerFlySpeed))
+                else
+                    setLocalPlayerFlyToggleState(true, string.format("Fly V3: On (%d) - waiting character", localPlayerFlySpeed))
+                end
+            else
+                disableLocalFly()
+                setLocalPlayerFlyToggleState(false, "Fly V3: Off")
+            end
+            savePersistedSettings()
+        end
+    })
+    localWindTab:Slider({
+        Title = "Fly Speed",
+        Value = {Min = LOCAL_PLAYER_FLY_MIN_SPEED, Max = LOCAL_PLAYER_FLY_MAX_SPEED, Default = localPlayerFlySpeed},
+        Step = 1,
+        Callback = function(v)
+            localPlayerFlySpeed = clampLocalPlayerFlySpeed(v)
+            updateLocalPlayerFlySpeedSliderVisual()
+            savePersistedSettings()
+        end
+    })
+
+    infoWindTab:Paragraph({Title = "v1.2 Update Notes", Desc = "Click this Changelog tab to view the latest v1.2 changes."})
+    infoWindTab:Paragraph({Title = "v1.2", Desc = "+ Replaced legacy UI with WindUI-only flow."})
+    infoWindTab:Paragraph({Title = "v1.2", Desc = "+ Added panel toggle key capture in Settings (NONE -> press key)." })
+    infoWindTab:Paragraph({Title = "v1.2", Desc = "+ Restored live session stats (time and gained gold) in Farm tab."})
+    infoWindTab:Paragraph({Title = "v1.2", Desc = "+ Improved startup so panel opens without extra wait delay."})
+
+    windUiToggleKeyButton = settingsWindTab:Button({
+        Title = "Panel Toggle Key: " .. windUiToggleKeyName,
+        Callback = function()
+            windUiToggleKeyCaptureActive = true
+            updateWindUiToggleKeyButtonText()
+            pcall(function()
+                WindUI:Notify({
+                    Title = "Toggle Key",
+                    Content = "Press any keyboard key...",
+                    Duration = 1.5
+                })
+            end)
+        end
+    })
+    settingsWindTab:Paragraph({
+        Title = "Toggle Key Help",
+        Desc = "Click button above, text becomes NONE, then press your key."
+    })
+    updateWindUiToggleKeyButtonText()
+
+    stopWindUiToggleKeyCapture()
+    windUiToggleKeyCaptureConnection = UserInputService.InputBegan:Connect(function(input, gameProcessed)
+        if not windUiToggleKeyCaptureActive then
+            return
+        end
+        if gameProcessed or UserInputService:GetFocusedTextBox() then
+            return
+        end
+        if input.UserInputType ~= Enum.UserInputType.Keyboard then
+            return
+        end
+        if not input.KeyCode or input.KeyCode == Enum.KeyCode.Unknown then
+            return
+        end
+
+        windUiToggleKeyCaptureActive = false
+        applyWindUiToggleKey(input.KeyCode.Name, window)
+        pcall(function()
+            WindUI:Notify({
+                Title = "Toggle Key",
+                Content = "Panel key set to " .. windUiToggleKeyName,
+                Duration = 1.5
+            })
+        end)
+    end)
+
+    settingsWindTab:Button({
+        Title = "Close Script (Permanent)",
+        Callback = function()
+            closeScriptPermanently()
+        end
+    })
+end
+
+initWindUIPanel()
+
+
